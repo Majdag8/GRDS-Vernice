@@ -6,6 +6,7 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -62,25 +63,246 @@
 
     <div id="Booking-Experience">
         <p>Book Your Experience</p>
-        <p>
+        <p id="booking-description">
             Celebrate your special moments in an artistic setting at Vernice. Book your spot in one of our art workshops to get creative or reserve a table to enjoy delicious food and inspiring vibes!
         </p>
 
         <div class="booking-images">
-            <div class="image-container">
-                <img src="This Is The Secret to Making Your Next Dinner Party Unforgettable 2.png" alt="">
-                <p class="event-label">Special Events</p>
+            <div class="booking-image-container">
+                <img src="Home-Page-Images/Special Events booking.png" alt="">
+                <p class="event-label">Special Event</p>
+                <button>Book Now</button>
+                <div id="leftbookingline"></div>
             </div>
-            <div class="image-container">
-                <img src="IMG_4516 3.png" alt="">
+            <div class="booking-image-container">
+                <img src="Home-Page-Images/Table booking.png" alt="">
+                <p class="event-label">Table</p>
+                <button>Book Now</button>
             </div>
-            <div class="image-container">
-                <img src="IMG_4514.png" alt="">
-                <p class="event-label">Workshops</p>
+            <div class="booking-image-container">
+                <img src="Home-Page-Images/Workshop booking.png" alt="">
+                <p class="event-label">Workshop</p>
+                <button>Book Now</button>
+                <div id="rightbookingline"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="quotesec">
+        <p>
+            <span>"Vernice: </span>
+            <span>Where creativity comes to life, flavors inspire, and every moment becomes a masterpiece."</span>
+        </p>
+        <img src="Home-Page-Images/Quote Vector.png" alt="">
+    </div>
+
+    <div id="homedeco">
+        <div id="homedecotitle">
+            <p>Home Deco Pieces</p>
+            <hr id="homedeco-text-hr">
+            <p id="homedeco-description">Transform your space with art that tells your story where creativity meets comfort.</p>
+            <button>Shop Now</button>
+        </div>
+        <div id="leftdecoline"></div>
+        <div id="rightdecoline"></div>
+        
+        <div id="alldeco">
+
+            <div class="deco-item">
+                <div class="deco-box">
+                    <div id="decobox-text">
+                        <p class="deco-name">Olive Aura Vase</p>
+                        <p class="deco-price">$31</p>
+                    </div>
+                </div>
+                <img src="Home-Page-Images/small vase.png" alt="" id="deco-image1">
+                <button class="add-to-cart">Add to Cart</button>
+                <div id="counter">
+                    <button class="decopm-button" id="decrement">-</button>
+                    <span id="counterValue">1</span>
+                    <button class="decopm-button" id="increment">+</button>
+                </div>
+            </div>
+
+            <div class="deco-item">
+                <div class="deco-box">
+                    <div id="decobox-text">
+                        <p class="deco-name">Retro Vase</p>
+                        <p class="deco-price">$31</p>
+                    </div>
+                </div>
+                <img src="Home-Page-Images/deco phone.png" alt="" id="deco-image2">
+                <button class="add-to-cart">Add to Cart</button>
+                <div id="counter">
+                    <button class="decopm-button" id="decrement">-</button>
+                    <span id="counterValue">1</span>
+                    <button class="decopm-button" id="increment">+</button>
+                </div>
+            </div>
+
+            <div class="deco-item">
+                <div class="deco-box">
+                    <div id="decobox-text">
+                        <p class="deco-name">Profile Vase</p>
+                        <p class="deco-price">$31</p>
+                    </div>
+                </div>
+                <img src="Home-Page-Images/deco flowers.png" alt="" id="deco-image3">
+                <button class="add-to-cart">Add to Cart</button>
+                <div id="counter">
+                    <button class="decopm-button" id="decrement">-</button>
+                    <span id="counterValue">1</span>
+                    <button class="decopm-button" id="increment">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="callingartist">
+        <img src="Home-Page-Images/callingartist image.png" alt="">
+        <div>
+            <p id="callingartist-title">Calling All Artists!</p>
+            <hr id="callingartist-text-hr">
+            <p id="callingartist-description">Looking for a creative space to bring your workshop ideas to life? Rent Vernice's art space and inspire others in a vibrant, artistic environment. Let’s make art together!"</p>
+            <button>Reserve</button>
+        </div>
+        <div id="leftartistline"></div>
+    </div>
+
+    <div id="loyaltyClub">
+        <p id="loyaltyTitle">Loyalty Club</p>
+        <hr>
+        <p id="loyaltydescription">Enjoy a free drink with every menu purchase, 10% off your next home decor item, and a free workshop booking after every 3 reservations on our website!"</p>
+        <div id="loyaltyform">
+            <input type="text" id="loyaltyusername" placeholder="Username/email">
+            <input type="text" id="loyaltypass" placeholder="Password">
+            <a href="">Forget Password?</a>
+            <button id="loyaltybtn"> Sign in</button>
+        </div>
+        <p><span>New Vernice fan?</span> <span><a href="">Create an account</a>
+        </span></p>
+        <img src="Home-Page-Images/loyalty vector.png" alt="">
+    </div>
+
+    <div id="blogs">
+        <p><span>Play Our </span><span>Blogs</span></p>
+        <div class="blogs-images">
+            <div class="blogs-right-images">
+                <img src="Home-Page-Images/small blog 1.png" alt="" class="blogvid">
+                <img src="Home-Page-Images/small blog 2.png" alt="" class="blogvid">
+                <img src="Home-Page-Images/small blog 3.png" alt="" class="blogvid">
+            </div>
+            <div>
+                <img src="Home-Page-Images/Big blog vid.png" alt="" id="bigblogvid">
+            </div>
+            <div class="blogs-right-images">
+                <img src="Home-Page-Images/small blog 1.png" alt="" class="blogvid">
+                <img src="Home-Page-Images/small blog 2.png" alt="" class="blogvid">
+                <img src="Home-Page-Images/small blog 3.png" alt="" class="blogvid">
+            </div>
+        </div>
+        <img src="Home-Page-Images/blog vector.png" alt="" id="blogvector">
+    </div>
+
+    <footer id="footer">
+        <div id="footer-content">
+            <div id="logoSocialMedia">
+                <img src="Images/footer logo.png" alt="">
+                <div id="socialmedia">
+                    <img src="Images/facebook.png" alt="" id="facebook">
+                    <img src="Images/facebook.png" alt="" id="instagram">
+                    <img src="Images/tiktok.png" alt="" id="tiktok">
+                </div>
+            </div>
+    
+            <div id="divider"></div>
+    
+            <div id="navbar">
+                <ul class="footer-nav">
+                    <li><a href="" style="font-weight: 700;">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Shop</a></li>
+                </ul>
+                <ul class="footer-nav">
+                    <li><a href="">Booking</a></li>
+                    <li><a href="">Blogs</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div id="divider"></div>
+    
+            <div id="updates">
+                <p id="updates-title">Get Updates</p>
+                <p id="updates-description">Get Updates on Workshops, New Dishes, and Exciting Events!</p>
+                <input type="text" placeholder="Email" id="email-input">
             </div>
         </div>
 
-    </div>
+
+        <div id="ipadfooter">
+            <div id="topfooterip">
+                <div id="logoSocialMedia">
+                    <img src="vernicelogowithoutbackground.png" alt="">
+                    <div id="socialmedia">
+                        <img src="facebook.png" alt="" id="facebook">
+                        <img src="instagram.png" alt="" id="instagram">
+                        <img src="tiktok.png" alt="" id="tiktok">
+                    </div>
+                </div>
+        
+                <div id="navbar">
+                    <ul class="footer-nav">
+                        <li><a href="" style="font-weight: 700;">Home</a></li>
+                        <li><a href="">Menu</a></li>
+                        <li><a href="">Shop</a></li>
+                    </ul>
+                    <ul class="footer-nav">
+                        <li><a href="">Booking</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div id="updates">
+                <p id="updates-title">Get Updates</p>
+                <p id="updates-description">Get Updates on Workshops, New Dishes, and Exciting Events!</p>
+                <input type="text" placeholder="Email" id="email-input">
+            </div>
+        </div>
+
+        <div id="mobilefooter">
+            <div id="logoSocialMedia">
+                <img src="vernicelogowithoutbackground.png" alt="">
+                <div id="socialmedia">
+                    <img src="facebook.png" alt="" id="facebook">
+                    <img src="instagram.png" alt="" id="instagram">
+                    <img src="tiktok.png" alt="" id="tiktok">
+                </div>
+            </div>
+            <hr>
+            <div id="navbar">
+                <ul class="footer-nav">
+                    <li><a href="" style="font-weight: 700;">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Shop</a></li>
+                </ul>
+                <ul class="footer-nav">
+                    <li><a href="">Booking</a></li>
+                    <li><a href="">Blogs</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div id="updates">
+                <p id="updates-title">Get Updates</p>
+                <p id="updates-description">Get Updates on Workshops, New Dishes, and Exciting Events!</p>
+                <input type="text" placeholder="Email" id="email-input">
+            </div>
+        </div>
+        <p id="footer-rights">All rights reserved. 2024. by Vernice.</p>
+    </footer>
 
 </body>
 </html>

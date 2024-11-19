@@ -45,8 +45,7 @@
 }
 
 #header-hr{
-    height: 1.4px;
-    background-color: rgba(123, 183, 202, 1);
+    border: 1.48px solid rgba(233, 176, 52, 1);
     width: 93%;
     margin-left: 70px;
 }
