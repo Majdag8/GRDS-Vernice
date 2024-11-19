@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#landing{
+    position: relative;
+}
+
+#landing-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 136px;
+    margin-top: 140px;
+    margin-bottom: 110px;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    width: 133.95px;
+    height: 40.19px;
+    gap: 10px;
+    border: 0;
+    border-radius: 16.74px;
+    padding: 6.7px 17.86px 6.7px 17.86px;
+    color: rgba(241, 255, 251, 1);
+    font-family: Poppins;
+    font-size: 14.51px;
+    font-weight: 400;
+    line-height: 21.77px;
+    background-color: rgba(128, 182, 204, 1);
+}
+
+#landing p{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(92, 87, 87, 1);
+    margin: 0;
+}
+
+#landing p:nth-child(1){
+    /* font-family: Albert Sans; */
+    font-size: 27.72px;
+    font-weight: 400;
+}
+
+#landing p:nth-child(2){
+    font-family: Albert Sans;
+    font-size: 73.92px;
+    font-weight: 700;
+}
+
+#landing p:nth-child(5){
+    font-size: 22.54px;
+    font-weight: 600;
+}
+
+#landing p:nth-child(3){
+    width: 420px;
+}
+
+#landing hr{
+    height: 1.4px;
+    background-color: rgba(233, 176, 52, 1);
+    width: 390px;
+    margin: 0;
+}
+
+#landing p:nth-child(3), #landing p:nth-child(6) {
+    font-family: Poppins;
+    font-size: 21.13px;
+    font-weight: 300;
+}
+
+
+#Landing-Image{
+    position: absolute;
+    top: -100px;
+    width: 830.01px;
+    height: 740.51px;
+    left: 704px;
+}
+
+#afterlanding-hr{
+    height: 71px;
+    background-color: rgba(233, 176, 52, 1);
+}
+
+#food{
+    position: relative;
+    margin-top: 205px;
+    margin-left: 755px;
+    margin-bottom: 185px;
+}
+
+#Food-Image {
+    position: absolute;
+    top: -386px;
+    left: -1186px;
+}
+
+#food-text{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 25px;
+}
+
+#food p:first-child{
+    margin: 0;
+    color: rgba(83, 82, 79, 1);
+    width: 400px;
+}
+
+
+#food p span:nth-child(1), #food p span:nth-child(4){
+    font-family: Albert Sans;
+    font-size: 67.4px;
+    font-weight: 400;
+}
+
+#food p span:nth-child(2), #food p span:nth-child(3){
+    font-family: Albert Sans;
+    font-size: 67.4px;
+    font-weight: 700;
+}
+
+#food-text-hr{
+    height: 1.4px;
+    background-color: rgba(233, 176, 52, 1);
+    width: 390px;
+    margin: 0;
+}
+
+#food-description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20.01px;
+    font-weight: 300;
+    line-height: 20px;
+    width: 600px;
+    color: rgba(92, 87, 87, 1);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#Booking-Experience{
+    background-color: rgba(255, 248, 244, 1);
+    width: 100%;
+    height: 816px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Booking-Experience p{
+    margin: 0;
+}
+
+#Booking-Experience p:nth-child(1){
+    font-family: Albert Sans;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(83, 82, 79, 1);
+}
+
+#Booking-Experience p:nth-child(2){
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 300;
+    text-align: center;
+    color: rgba(92, 87, 87, 1);
+}
