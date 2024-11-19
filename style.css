@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 #landing{
@@ -542,6 +543,7 @@ button{
 }
 
 #loyaltyform a {
+    font-family: 'Poppins', sans-serif;
     margin-left: auto;
     text-decoration: none;
     color: white;
@@ -562,6 +564,7 @@ button{
 }
 
 #loyaltyClub span:nth-child(2) a{
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     font-size: 18.35px;
     font-weight: 400;
