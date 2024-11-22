@@ -1,0 +1,54 @@
+{
+    "home-deco": {
+      "products": [
+        {
+          "image": "Home-Deco-Images/Olive Aura Vase.png",
+          "name": "Olive Aura Vase",
+          "price": 31,
+          "quantity": 3
+        },
+        {
+          "image": "Home-Deco-Images/Retro Vase.png",
+          "name": "Retro Vase",
+          "price": 23,
+          "quantity": 3
+        },
+        {
+          "image": "Home-Deco-Images/Profile Vase.png",
+          "name": "Profile Vase",
+          "price": 17,
+          "quantity": 3
+        },
+        {
+          "image": "Home-Deco-Images/Flora Vase.png",
+          "name": "Flora Vase",
+          "price": 33,
+          "quantity": 3
+        },
+        {
+          "image": "Home-Deco-Images/Lady Aura.png",
+          "name": "Lady Aura",
+          "price": 21,
+          "quantity": 3
+        },
+        {
+          "image": "Home-Deco-Images/Balloon dog.png",
+          "name": "Balloon Dog",
+          "price": 23,
+          "quantity": 3
+        },
+        {
+          "image": "Home-Deco-Images/Red Lampo.png",
+          "name": "Red Lampo",
+          "price": 43,
+          "quantity": 3
+        },
+        {
+          "image": "Home-Deco-Images/Tissue Tsho.png",
+          "name": "Tissuee Tsho",
+          "price": 33,
+          "quantity": 3
+        }
+      ]
+    }
+  }

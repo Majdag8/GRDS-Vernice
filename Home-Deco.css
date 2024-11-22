@@ -1,0 +1,100 @@
+#all-deco { 
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.deco-item {
+    position: relative;
+    width: 233.35px;
+}
+
+.deco-box {
+    width: 233.35px;
+    height: 298.85px;
+    border-radius: 29.48px;
+    background-color: rgba(123, 183, 201, 1);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#decobox-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+
+.deco-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16.38px;
+    font-weight: 700;
+    line-height: 24.56px;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+.deco-price{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19.65px;
+    font-weight: 400;
+    line-height: 29.48px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+#deco-image {
+    position: absolute;
+    bottom: 59px;
+    left: -21px;
+}
+
+.add-to-cart {
+    position: absolute;
+    bottom: -60px;
+    left: 54px;
+    width: 120px;
+    height: 35px;
+    padding: 6.11px 16.3px 6.11px 16.3px;
+    gap: 10.19px;
+    border-radius: 15.28px;
+    border: 1.02px solid rgba(233, 176, 52, 1);
+    color: rgba(233, 176, 52, 1);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#counter {
+    position: absolute;
+    left: 71px;
+    bottom: -13px;
+    display: flex;
+    align-items: center;
+    width: 71.23px;
+    height: 25.38px;
+    border-radius: 16.3px;
+    background-color: rgba(233, 176, 52, 1);
+}
+
+.decopm-button {
+    padding: 10px 15px;
+    font-size: 13.1px;
+    border: none; 
+    color: white;
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#counterValue {
+    font-size: 13.1px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
