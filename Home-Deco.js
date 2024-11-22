@@ -1,4 +1,4 @@
-// $(document).ready(function () {
+$(document).ready(function () {
     fetch("home-deco-workshop.json")
         .then(response => response.json())
         .then(data => {
@@ -34,4 +34,4 @@
                 all_deco.appendChild(groupDiv);
             }
         })
-// });
+});

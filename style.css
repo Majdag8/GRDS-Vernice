@@ -229,9 +229,9 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 225px;
+    padding-top: 204px;
     position: relative;
-    margin-bottom: 302px;
+    margin-bottom: 215px;
 }
 
 #quotesec p{
@@ -254,6 +254,7 @@ button{
 
 #quotesec img{
     position: absolute;
+    z-index: 100;
 }
 
 
@@ -521,7 +522,7 @@ button{
     border: 1px solid rgba(255, 255, 255, 1)
 }
 
-#loyaltyform {
+.loyaltyform {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -529,7 +530,7 @@ button{
     align-items: center;
 }
 
-#loyaltyform input{
+.loyaltyform input{
     width: 507px;
     height: 56.21px;
     border-radius: 11.47px;
@@ -538,17 +539,30 @@ button{
     padding-left: 13px;
     color: white;
 }
-#loyaltyform input::placeholder{
+.loyaltyform input::placeholder{
     color: white;
 }
 
-#loyaltyform a {
+.loyaltyform a {
     font-family: 'Poppins', sans-serif;
     margin-left: auto;
     text-decoration: none;
     color: white;
     font-size: 17.21px;
     font-weight: 400;
+}
+
+#create-account-form{
+    display: none;
+}
+
+#create-account-form button {
+    width: 155px;
+}
+
+#create-account-form div{
+    display: flex;
+    gap: 15px;
 }
 
 #loyaltybtn {
