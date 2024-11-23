@@ -4,11 +4,11 @@ body {
     overflow-x: hidden;
 }
 
-#landing{
+#landing {
     position: relative;
 }
 
-#landing-text{
+#landing-text {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -17,7 +17,7 @@ body {
     margin-bottom: 110px;
 }
 
-button{
+button {
     font-family: 'Poppins', sans-serif;
     width: 133.95px;
     height: 40.19px;
@@ -33,47 +33,48 @@ button{
     background-color: rgba(128, 182, 204, 1);
 }
 
-#landing p{
+#landing p {
     font-family: 'Poppins', sans-serif;
     color: rgba(92, 87, 87, 1);
     margin: 0;
 }
 
-#landing p:nth-child(1){
+#landing p:nth-child(1) {
     /* font-family: Albert Sans; */
     font-size: 27.72px;
     font-weight: 400;
 }
 
-#landing p:nth-child(2){
+#landing p:nth-child(2) {
     font-family: Albert Sans;
     font-size: 73.92px;
     font-weight: 700;
 }
 
-#landing p:nth-child(5){
+#landing p:nth-child(5) {
     font-size: 22.54px;
     font-weight: 600;
 }
 
-#landing p:nth-child(3){
+#landing p:nth-child(3) {
     width: 420px;
 }
 
-#landing hr{
+#landing hr {
     border: 1.48px solid rgba(233, 176, 52, 1);
     width: 390px;
     margin: 0;
 }
 
-#landing p:nth-child(3), #landing p:nth-child(6) {
+#landing p:nth-child(3),
+#landing p:nth-child(6) {
     font-family: Poppins;
     font-size: 21.13px;
     font-weight: 300;
 }
 
 
-#Landing-Image{
+#Landing-Image {
     position: absolute;
     top: -100px;
     width: 830.01px;
@@ -81,12 +82,12 @@ button{
     left: 704px;
 }
 
-#afterlanding-hr{
+#afterlanding-hr {
     height: 71px;
     background-color: rgba(233, 176, 52, 1);
 }
 
-#food{
+#food {
     position: relative;
     margin-top: 205px;
     margin-left: 755px;
@@ -99,39 +100,41 @@ button{
     left: -1186px;
 }
 
-#food-text{
+#food-text {
     display: flex;
     flex-direction: column;
     width: 600px;
     gap: 25px;
 }
 
-#food p:first-child{
+#food p:first-child {
     margin: 0;
     color: rgba(83, 82, 79, 1);
     width: 400px;
 }
 
 
-#food p span:nth-child(1), #food p span:nth-child(4){
+#food p span:nth-child(1),
+#food p span:nth-child(4) {
     font-family: Albert Sans;
     font-size: 67.4px;
     font-weight: 400;
 }
 
-#food p span:nth-child(2), #food p span:nth-child(3){
+#food p span:nth-child(2),
+#food p span:nth-child(3) {
     font-family: Albert Sans;
     font-size: 67.4px;
     font-weight: 700;
 }
 
-#food-text-hr{
+#food-text-hr {
     border: 1.48px solid rgba(233, 176, 52, 1);
     width: 390px;
     margin: 0;
 }
 
-#food-description{
+#food-description {
     font-family: 'Poppins', sans-serif;
     font-size: 20.01px;
     font-weight: 300;
@@ -142,7 +145,7 @@ button{
     margin-bottom: 20px;
 }
 
-#Booking-Experience{
+#Booking-Experience {
     background-color: rgba(255, 248, 244, 1);
     width: 100%;
     height: 816px;
@@ -153,11 +156,11 @@ button{
     gap: 20px;
 }
 
-#Booking-Experience p{
+#Booking-Experience p {
     margin: 0;
 }
 
-#Booking-Experience p:nth-child(1){
+#Booking-Experience p:nth-child(1) {
     font-family: Albert Sans;
     font-size: 48px;
     font-weight: 700;
@@ -198,14 +201,14 @@ button{
 }
 
 
-.booking-images button{
+.booking-images button {
     position: absolute;
     bottom: 20px;
     left: 128px;
     background-color: rgba(233, 176, 52, 1);
 }
 
-#leftbookingline{
+#leftbookingline {
     position: absolute;
     width: 217px;
     height: 35px;
@@ -215,7 +218,7 @@ button{
     left: -131px;
 }
 
-#rightbookingline{
+#rightbookingline {
     position: absolute;
     width: 132px;
     height: 35px;
@@ -234,12 +237,12 @@ button{
     margin-bottom: 215px;
 }
 
-#quotesec p{
+#quotesec p {
     width: 600px;
     text-align: center;
 }
 
-#quotesec p span{
+#quotesec p span {
     font-family: Albert Sans;
     font-size: 40px;
     font-weight: 700;
@@ -248,11 +251,11 @@ button{
     color: rgba(233, 176, 52, 1);
 }
 
-#quotesec p span:nth-child(2){
+#quotesec p span:nth-child(2) {
     font-weight: 400;
 }
 
-#quotesec img{
+#quotesec img {
     position: absolute;
     z-index: 100;
 }
@@ -266,19 +269,19 @@ button{
     align-items: center;
 }
 
-#homedecotitle p{
+#homedecotitle p {
     color: rgba(83, 82, 79, 1);
     margin: 0;
 }
 
-#homedecotitle{
+#homedecotitle {
     display: flex;
     flex-direction: column;
     gap: 17px;
     margin-left: 67px;
 }
 
-#homedecotitle p:first-child{
+#homedecotitle p:first-child {
     font-family: Albert Sans;
     font-size: 67px;
     font-weight: 700;
@@ -338,7 +341,7 @@ button{
     align-items: flex-end;
 }
 
-#decobox-text{
+#decobox-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -357,7 +360,7 @@ button{
     color: white;
 }
 
-.deco-price{
+.deco-price {
     font-family: 'Poppins', sans-serif;
     font-size: 24.44px;
     font-weight: 400;
@@ -367,22 +370,12 @@ button{
     margin: 0;
 }
 
-#deco-image1 {
+.deco-image {
     position: absolute;
     bottom: 87px;
-    left: 81px;
-}
-
-#deco-image2 {
-    position: absolute;
-    bottom: 64px;
-    left: 63px;
-}
-
-#deco-image3 {
-    position: absolute;
-    bottom: 88px;
-    left: 29px;
+    left: -38px;
+    width: 360px;
+    height: 384px;
 }
 
 .add-to-cart {
@@ -414,7 +407,7 @@ button{
 .decopm-button {
     padding: 10px 15px;
     font-size: 20px;
-    border: none; 
+    border: none;
     color: white;
     cursor: pointer;
     background-color: rgba(240, 248, 255, 0);
@@ -437,24 +430,24 @@ button{
     position: relative;
 }
 
-#callingartist div{
+#callingartist div {
     display: flex;
     flex-direction: column;
     gap: 17px;
 }
 
-#callingartist p{
+#callingartist p {
     color: rgba(83, 82, 79, 1);
     margin: 0;
 }
 
-#callingartist-title{
+#callingartist-title {
     display: flex;
     flex-direction: column;
     gap: 17px;
 }
 
-#callingartist p:first-child{
+#callingartist p:first-child {
     font-family: Albert Sans;
     font-size: 67px;
     font-weight: 700;
@@ -516,7 +509,7 @@ button{
 }
 
 
-#loyaltyClub hr{
+#loyaltyClub hr {
     width: 475px;
     height: 0px;
     border: 1px solid rgba(255, 255, 255, 1)
@@ -530,7 +523,7 @@ button{
     align-items: center;
 }
 
-.loyaltyform input{
+.loyaltyform input {
     width: 507px;
     height: 56.21px;
     border-radius: 11.47px;
@@ -539,7 +532,8 @@ button{
     padding-left: 13px;
     color: white;
 }
-.loyaltyform input::placeholder{
+
+.loyaltyform input::placeholder {
     color: white;
 }
 
@@ -552,7 +546,7 @@ button{
     font-weight: 400;
 }
 
-#create-account-form{
+#create-account-form {
     display: none;
 }
 
@@ -560,7 +554,7 @@ button{
     width: 155px;
 }
 
-#create-account-form div{
+#create-account-form div {
     display: flex;
     gap: 15px;
 }
@@ -570,14 +564,14 @@ button{
     background-color: white;
 }
 
-#loyaltyClub span:nth-child(1){
+#loyaltyClub span:nth-child(1) {
     font-family: 'Poppins', sans-serif;
     font-size: 18.35px;
     font-weight: 300;
     color: rgba(83, 82, 79, 1);
 }
 
-#loyaltyClub span:nth-child(2) a{
+#loyaltyClub span:nth-child(2) a {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     font-size: 18.35px;
@@ -631,4 +625,506 @@ button{
     position: absolute;
     left: 0;
     top: 677px;
+}
+
+
+@media (max-width: 768px) {
+    #landing-text {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        margin-left: 58px;
+        margin-top: 46px;
+        margin-bottom: 18px;
+    }
+
+    #landing p:nth-child(1) {
+        /* font-family: Albert Sans; */
+        font-size: 16.72px;
+        font-weight: 400;
+    }
+
+    #landing p:nth-child(2) {
+        font-family: Albert Sans;
+        font-size: 37.92px;
+        font-weight: 700;
+        margin-top: -11px;
+    }
+
+    #landing p:nth-child(3) {
+        width: 355px;
+        font-family: Poppins;
+        font-weight: 300;
+    }
+
+    #landing hr {
+        border: 1.48px solid rgba(233, 176, 52, 1);
+        width: 339px;
+        margin: 0;
+    }
+
+    #landing p:nth-child(5) {
+        font-size: 18.54px;
+        font-weight: 600;
+    }
+
+    #landing p:nth-child(3),
+    #landing p:nth-child(6) {
+        font-family: Poppins;
+        font-size: 16.13px;
+        font-weight: 300;
+    }
+
+    button {
+        font-family: 'Poppins', sans-serif;
+        width: 112.95px;
+        height: 33.19px;
+        gap: 10px;
+        border: 0;
+        border-radius: 16.74px;
+        padding: 6.7px 17.86px 6.7px 17.86px;
+        color: rgba(241, 255, 251, 1);
+        font-family: Poppins;
+        font-size: 14.51px;
+        font-weight: 400;
+        line-height: 21.77px;
+        background-color: rgba(128, 182, 204, 1);
+    }
+
+    #Landing-Image {
+        position: absolute;
+        top: -35px;
+        width: 410px;
+        height: 348px;
+        left: 378px;
+    }
+
+    #afterlanding-hr {
+        height: 49px;
+        background-color: rgba(233, 176, 52, 1);
+    }
+
+    #food {
+        position: relative;
+        margin-top: 57px;
+        margin-left: 309px;
+        margin-bottom: 60px;
+    }
+
+    #food-text {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        gap: 9px;
+    }
+
+    #food p:first-child {
+        margin: 0;
+        color: rgba(83, 82, 79, 1);
+        width: 292px;
+    }
+
+    #food p span:nth-child(1),
+    #food p span:nth-child(4) {
+        font-family: Albert Sans;
+        font-size: 42.4px;
+        font-weight: 400;
+    }
+
+    #food p span:nth-child(2),
+    #food p span:nth-child(3) {
+        font-family: Albert Sans;
+        font-size: 42.4px;
+        font-weight: 700;
+    }
+
+    #food-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 13.01px;
+        font-weight: 300;
+        line-height: 20px;
+        width: 431px;
+        color: rgba(92, 87, 87, 1);
+        margin: 0;
+        margin-bottom: 0px;
+    }
+
+    #Food-Image {
+        position: absolute;
+        top: -121px;
+        left: -466px;
+        width: 393px;
+    }
+
+    #Booking-Experience {
+        background-color: rgba(255, 248, 244, 1);
+        width: 100%;
+        height: 490px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #Booking-Experience p:nth-child(1) {
+        font-family: Albert Sans;
+        font-size: 29px;
+        font-weight: 700;
+        color: rgba(83, 82, 79, 1);
+        margin-bottom: -10px;
+    }
+
+    #booking-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: rgba(92, 87, 87, 1);
+        width: 85%;
+    }
+
+    .booking-images {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 22px;
+    }
+
+    .booking-image-container img {
+        width: 227px;
+        height: 268px;
+    }
+
+    .event-label {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+        color: white;
+        position: absolute;
+        top: 8px;
+        left: 14px;
+    }
+
+    .booking-images button {
+        position: absolute;
+        bottom: 14px;
+        left: 60px;
+        background-color: rgba(233, 176, 52, 1);
+    }
+
+    #leftbookingline {
+        position: absolute;
+        width: 168px;
+        height: 25px;
+        z-index: 100;
+        background-color: rgba(233, 176, 52, 1);
+        bottom: 20px;
+        left: -131px;
+    }
+
+    #rightbookingline {
+        position: absolute;
+        width: 132px;
+        height: 25px;
+        z-index: 0;
+        background-color: rgba(233, 176, 52, 1);
+        top: 10px;
+        right: -131px;
+    }
+
+    #quotesec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 133px;
+        position: relative;
+        margin-bottom: 112px;
+    }
+
+    #quotesec p span {
+        font-family: Albert Sans;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+        color: rgba(233, 176, 52, 1);
+    }
+
+    #quotesec img {
+        position: absolute;
+        z-index: 100;
+        width: 720px;
+    }
+
+    #homedeco {
+        align-items: normal;
+        justify-content: center;
+        text-align: center;
+        padding-top: 70px;
+        height: 522px;
+    }
+
+    #homedecotitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 9px;
+        margin-left: 0;
+    }
+
+    #homedecotitle p:first-child {
+        font-family: Albert Sans;
+        font-size: 35px;
+        font-weight: 700;
+        width: 283px;
+    }
+
+    #homedeco-text-hr {
+        border: 1.48px solid rgba(233, 176, 52, 1);
+        width: 240px;
+        margin: 0;
+    }
+
+    #homedeco-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 21.37px;
+        width: 456px;
+    }
+
+    #alldeco {
+        display: flex;
+        gap: 19px;
+        left: 111px;
+        top: 279px;
+    }
+
+    .deco-box {
+        width: 172.28px;
+        height: 207.77px;
+        border-radius: 36.67px;
+        background-color: rgba(123, 183, 201, 1);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .deco-image {
+        position: absolute;
+        bottom: 75px;
+        left: -14px;
+        width: 196px;
+        height: 210px;
+    }
+
+    .add-to-cart {
+        position: absolute;
+        bottom: -60px;
+        left: 24px;
+        width: 120px;
+        height: 35px;
+        padding: 6.11px 16.3px 6.11px 16.3px;
+        gap: 10.19px;
+        border-radius: 15.28px;
+        border: 1.02px solid rgba(233, 176, 52, 1);
+        color: rgba(233, 176, 52, 1);
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    #counter {
+        position: absolute;
+        left: 43px;
+        bottom: -13px;
+        display: flex;
+        align-items: center;
+        width: 88.61px;
+        height: 31.57px;
+        border-radius: 16.3px;
+        background-color: rgba(233, 176, 52, 1);
+    }
+
+    .deco-name {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18.37px;
+        font-weight: 700;
+        line-height: 30.56px;
+        text-align: center;
+        margin: 0;
+        color: white;
+    }
+
+    .deco-price {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24.44px;
+        font-weight: 400;
+        line-height: 29.67px;
+        text-align: center;
+        color: white;
+        margin: 0;
+    }
+
+    #leftdecoline {
+        width: 539px;
+        height: 34px;
+        position: absolute;
+        top: 433px;
+        background-color: rgba(233, 176, 52, 1);
+    }
+
+    #rightdecoline {
+        width: 115px;
+        height: 35px;
+        position: absolute;
+        top: 310px;
+        right: 0;
+        background-color: rgba(233, 176, 52, 1);
+    }
+
+    #callingartist {
+        display: flex;
+        align-items: center;
+        padding-top: 83px;
+        gap: 47px;
+        padding-bottom: 78px;
+        padding-left: 31px;
+        position: relative;
+    }
+
+    #callingartist img {
+        width: 350px;
+        height: 210px;
+    }
+
+    #callingartist div {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    #callingartist p:first-child {
+        font-family: Albert Sans;
+        font-size: 38px;
+        font-weight: 700;
+        width: 394px;
+    }
+
+    #callingartist-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 18.37px;
+        width: 361px;
+    }
+
+    #leftartistline {
+        position: absolute;
+        background-color: rgba(233, 176, 52, 1);
+        top: 95px;
+        width: 115px;
+        height: 25px;
+        left: -41px;
+    }
+
+    #loyaltyClub {
+        height: 447px;
+        background-color: rgba(233, 176, 52, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap: 9px;
+        position: relative;
+        margin-bottom: 116px;
+    }
+
+    #loyaltyTitle {
+        font-size: 43px;
+        font-weight: 700;
+    }
+
+    #loyaltyClub hr {
+        width: 333px;
+        height: 0px;
+        border: 1px solid rgba(255, 255, 255, 1);
+    }
+
+    #loyaltydescription {
+        font-family: 'Poppins', sans-serif;
+        font-size: 19px;
+        font-weight: 300;
+        text-align: center;
+        width: 749px;
+        line-height: 25px;
+    }
+
+    #create-account-form input {
+        width: 330px;
+        height: 39.21px;
+        border-radius: 11.47px;
+        border: 1.15px solid rgba(255, 255, 255, 1);
+        background-color: rgba(240, 248, 255, 0);
+        padding-left: 13px;
+        color: white;
+    }
+
+    #loyaltyClub img {
+        position: absolute;
+        right: 0;
+        top: 347px;
+        width: 100px;
+    }
+
+    #blogs {
+        height: 556px;
+        background-color: rgba(255, 248, 244, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 19px;
+        position: relative;
+    }
+
+    #blogs p span:nth-child(1) {
+        font-size: 50px;
+        font-weight: 400;
+        color: rgba(83, 82, 79, 1);
+    }
+
+    #blogs p span:nth-child(2) {
+        font-size: 50px;
+        font-weight: 700;
+        color: rgba(83, 82, 79, 1);
+    }
+
+    .blogs-images {
+        display: flex;
+        gap: 12px;
+    }
+
+    #bigblogvid {
+        width: 450px;
+    }
+
+    .blogs-right-images {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .blogvid {
+        width: 129px;
+    }
+
+    #blogvector {
+        position: absolute;
+        left: 0;
+        top: 479px;
+        width: 100px;
+    }
 }
