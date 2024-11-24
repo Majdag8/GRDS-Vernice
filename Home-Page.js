@@ -4,7 +4,7 @@ $(document).ready(function() {
     });
 
     $('#booking-table-button').on('click', function(){
-        $('#booking-form').show();
+        $('#booking-form').css('display','flex')
     })
     
     $('#create-account').on('click', function(event) {

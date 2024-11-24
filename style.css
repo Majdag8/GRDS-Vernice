@@ -233,7 +233,7 @@ button {
 }
 
 #booking-form {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -933,7 +933,7 @@ label {
 
     #Booking-Experience p:nth-child(1) {
         font-family: Albert Sans;
-        font-size: 29px;
+        font-size: 35px;
         font-weight: 700;
         color: rgba(83, 82, 79, 1);
         margin-bottom: -10px;
@@ -1203,7 +1203,7 @@ label {
         color: white;
         gap: 9px;
         position: relative;
-        margin-bottom: 116px;
+        margin-bottom: 43px;
     }
 
     #loyaltyTitle {
@@ -1241,6 +1241,7 @@ label {
         right: 0;
         top: 347px;
         width: 100px;
+        z-index: 100;
     }
 
     #blogs {
