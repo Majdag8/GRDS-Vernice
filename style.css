@@ -208,6 +208,10 @@ button {
     background-color: rgba(233, 176, 52, 1);
 }
 
+#booking-table-button {
+    cursor: pointer;
+}
+
 #leftbookingline {
     position: absolute;
     width: 217px;
@@ -226,6 +230,166 @@ button {
     background-color: rgba(233, 176, 52, 1);
     top: 10px;
     right: -131px;
+}
+
+#booking-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 1000px;
+    height: 569px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    z-index: 1000;
+}
+
+#back-form {
+    display: flex;
+    width: 90%;
+}
+
+#back-form img {
+    cursor: pointer;
+}
+
+#form-title{
+    font-family: Albert Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin: 0;
+    margin-bottom: 30px;
+    color: rgba(83, 82, 79, 1);
+    margin-top: -15px;
+}
+
+.booking-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+
+.booking-inputs input{
+    width: 254px;
+    height: 49px;
+    border-radius: 10px;
+    border: 1px solid rgba(83, 82, 79, 1);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#booking-inputs3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+    margin-top: -12px;
+}
+
+#booking-inputs3 p{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+
+#booking-counter {
+    display: flex;
+    align-items: center;
+    width: 116px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid rgba(83, 82, 79, 1);
+    background-color: rgba(233, 176, 52, 0);
+}
+
+.bookingpm-button {
+    padding: 6px 0px;
+    font-size: 20px;
+    border: none;
+    color: rgba(83, 82, 79, 1);
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#bookingcounterValue {
+    text-align: center;
+    color: rgba(83, 82, 79, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#radio-sec-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    border: 2px solid rgba(233, 176, 52, 1);
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-right: 10px;
+}
+
+input[type="radio"]:checked {
+    background-color: rgba(233, 176, 52, 1)
+}
+
+input[type="radio"]:not(:checked) {
+    background-color: white;
+}
+
+label {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: -10px;
+}
+
+#bookNow{
+    width: 120px;
+    height: 36px;
+    top: 376px;
+    left: 418px;
+    padding: 6px 16px 6px 16px;
+    gap: 10px;
+    border-radius: 15px;
+    background-color: rgba(233, 176, 52, 1);
+    color: white;
+}
+
+#bookingform-info {
+    display: flex;
+    width: 61%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    margin-left: 30px;
+}
+
+#bookingform-info span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: rgba(83, 82, 79, 1);
 }
 
 #quotesec {
@@ -405,7 +569,7 @@ button {
 }
 
 .decopm-button {
-    padding: 10px 15px;
+    padding: 7px 15px;
     font-size: 20px;
     border: none;
     color: white;
