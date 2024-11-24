@@ -1128,3 +1128,559 @@ button {
         width: 100px;
     }
 }
+
+@media (max-width: 431px) {
+    #landing-text {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-left: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #landing p:nth-child(1) {
+        /* font-family: Albert Sans; */
+        font-size: 10.72px;
+        font-weight: 400;
+    }
+
+    #landing p:nth-child(2) {
+        font-family: Albert Sans;
+        font-size: 23.92px;
+        font-weight: 700;
+        margin-top: -8px;
+    }
+
+    #landing p:nth-child(3) {
+        width: 157px;
+    }
+
+    #landing p:nth-child(3),
+    #landing p:nth-child(6) {
+        font-family: Poppins;
+        font-size: 8.13px;
+        font-weight: 300;
+    }
+
+    #landing hr {
+        border: 1.48px solid rgba(233, 176, 52, 1);
+        width: 170px;
+        margin: 0;
+    }
+
+    #landing p:nth-child(5) {
+        font-size: 11.54px;
+        font-weight: 600;
+    }
+
+    button {
+        font-family: 'Poppins', sans-serif;
+        width: 71.95px;
+        height: 23.19px;
+        gap: 10px;
+        border: 0;
+        border-radius: 16.74px;
+        padding: 6.7px 10.86px 6.7px 10.86px;
+        color: rgba(241, 255, 251, 1);
+        font-family: Poppins;
+        font-size: 9.51px;
+        font-weight: 400;
+        line-height: 6.77px;
+        background-color: rgba(128, 182, 204, 1);
+    }
+
+    #Landing-Image {
+        position: absolute;
+        top: -12px;
+        width: 246px;
+        height: 198px;
+        left: 176px;
+    }
+
+    #afterlanding-hr {
+        height: 27px;
+        background-color: rgba(233, 176, 52, 1);
+    }
+
+    #food {
+        position: relative;
+        margin-top: 39px;
+        margin-left: 209px;
+        margin-bottom: 39px;
+    }
+
+    #food-text {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        gap: 3px;
+    }
+
+    #food p span:nth-child(1),
+    #food p span:nth-child(4) {
+        font-family: Albert Sans;
+        font-size: 22.4px;
+        font-weight: 400;
+    }
+
+    #food p span:nth-child(2),
+    #food p span:nth-child(3) {
+        font-family: Albert Sans;
+        font-size: 22.4px;
+        font-weight: 700;
+    }
+
+    #food p:first-child {
+        margin: 0;
+        color: rgba(83, 82, 79, 1);
+        width: 148px;
+    }
+
+    #food-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 7.01px;
+        font-weight: 300;
+        line-height: 11px;
+        width: 178px;
+        color: rgba(92, 87, 87, 1);
+        margin: 0;
+        margin-bottom: 0px;
+    }
+
+    #food-text-hr {
+        border: 1.48px solid rgba(233, 176, 52, 1);
+        width: 180px;
+        margin: 0;
+    }
+
+    #Food-Image {
+        position: absolute;
+        top: -82px;
+        left: -319px;
+        width: 266px;
+    }
+
+    #Booking-Experience p:nth-child(1) {
+        font-family: Albert Sans;
+        font-size: 16px;
+        font-weight: 700;
+        color: rgba(83, 82, 79, 1);
+        margin-bottom: -10px;
+    }
+
+    #booking-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 8px;
+        font-weight: 400;
+        text-align: center;
+        color: rgba(92, 87, 87, 1);
+        width: 91%;
+    }
+
+    .booking-image-container img {
+        width: 113px;
+        height: 153px;
+    }
+
+    .event-label {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+        color: white;
+        position: absolute;
+        top: 8px;
+        left: 8px;
+    }
+
+    .booking-images button {
+        position: absolute;
+        bottom: 14px;
+        left: 23px;
+        background-color: rgba(233, 176, 52, 1);
+    }
+
+    #leftbookingline {
+        position: absolute;
+        width: 168px;
+        height: 15px;
+        z-index: 100;
+        background-color: rgba(233, 176, 52, 1);
+        bottom: 20px;
+        left: -153px;
+    }
+
+    #rightbookingline {
+        position: absolute;
+        width: 132px;
+        height: 15px;
+        z-index: 0;
+        background-color: rgba(233, 176, 52, 1);
+        top: 10px;
+        right: -131px;
+    }
+
+    #Booking-Experience {
+        background-color: rgba(255, 248, 244, 1);
+        width: 100%;
+        height: 267px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 17px;
+    }
+
+    #quotesec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 69px;
+        position: relative;
+        margin-bottom: 65px;
+    }
+
+    #quotesec p {
+        width: 300px;
+        text-align: center;
+    }
+
+    #quotesec p span {
+        font-family: Albert Sans;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 15px;
+        text-align: center;
+        color: rgba(233, 176, 52, 1);
+    }
+
+    #quotesec img {
+        position: absolute;
+        z-index: 100;
+        width: 406px;
+    }
+
+    #homedeco {
+        align-items: normal;
+        justify-content: center;
+        text-align: center;
+        padding-top: 24px;
+        height: 332px;
+    }
+
+    #homedecotitle p:first-child {
+        font-family: Albert Sans;
+        font-size: 16px;
+        font-weight: 700;
+        width: 283px;
+    }
+
+    #homedeco-text-hr {
+        border: 1.48px solid rgba(233, 176, 52, 1);
+        width: 159px;
+        margin: 0;
+    }
+
+    #homedeco-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 8.37px;
+        width: 329px;
+    }
+
+    #leftdecoline {
+        width: 539px;
+        height: 25px;
+        position: absolute;
+        top: 238px;
+        background-color: rgba(233, 176, 52, 1);
+    }
+
+    #rightdecoline {
+        width: 115px;
+        height: 24px;
+        position: absolute;
+        top: 159px;
+        right: 0;
+        background-color: rgba(233, 176, 52, 1);
+    }
+
+    #alldeco {
+        display: flex;
+        gap: 10px;
+        left: 23px;
+        top: 137px;
+    }
+
+    .deco-box {
+        width: 116.28px;
+        height: 145.77px;
+        border-radius: 26.67px;
+        background-color: rgba(123, 183, 201, 1);
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .deco-image {
+        position: absolute;
+        bottom: 43px;
+        left: -4px;
+        width: 126px;
+        height: 140px;
+    }
+
+    .deco-name {
+        font-family: 'Poppins', sans-serif;
+        font-size: 9.37px;
+        font-weight: 700;
+        line-height: 28.56px;
+        text-align: center;
+        margin: 0;
+        color: white;
+    }
+
+    .deco-price {
+        font-family: 'Poppins', sans-serif;
+        font-size: 11.44px;
+        font-weight: 400;
+        line-height: 0.67px;
+        text-align: center;
+        color: white;
+        margin: 0;
+    }
+
+    #counter {
+        position: absolute;
+        left: 30px;
+        bottom: -8px;
+        display: flex;
+        align-items: center;
+        width: 58.61px;
+        height: 20.57px;
+        border-radius: 16.3px;
+        background-color: rgba(233, 176, 52, 1);
+    }
+
+    .decopm-button {
+        padding: 0;
+        font-size: 11px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        background-color: rgba(240, 248, 255, 0);
+    }
+
+    #counterValue {
+        font-size: 13.3px;
+        font-weight: 400;
+        text-align: center;
+        color: white;
+    }
+
+    .add-to-cart {
+        position: absolute;
+        bottom: -45px;
+        left: 9px;
+        width: 95px;
+        height: 27px;
+        padding: 6.11px 16.3px 6.11px 16.3px;
+        gap: 10.19px;
+        border-radius: 15.28px;
+        border: 1.02px solid rgba(233, 176, 52, 1);
+        color: rgba(233, 176, 52, 1);
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    #callingartist {
+        display: flex;
+        align-items: center;
+        padding-top: 24px;
+        gap: 21px;
+        padding-bottom: 24px;
+        padding-left: 11px;
+        position: relative;
+    }
+
+    #callingartist img {
+        width: 170px;
+        height: 130px;
+    }
+
+    #callingartist div {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    #callingartist p:first-child {
+        font-family: Albert Sans;
+        font-size: 17px;
+        font-weight: 700;
+        width: 394px;
+    }
+
+    #callingartist-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 8px;
+        font-weight: 300;
+        line-height: 9.37px;
+        width: 212px;
+    }
+
+    #callingartist-text-hr {
+        border: 1.48px solid rgba(233, 176, 52, 1);
+        width: 203px;
+        margin: 0;
+    }
+
+    #leftartistline {
+        position: absolute;
+        background-color: rgba(233, 176, 52, 1);
+        top: 36px;
+        width: 115px;
+        height: 15px;
+        left: -72px;
+    }
+
+    #loyaltyClub {
+        height: 250px;
+        background-color: rgba(233, 176, 52, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap: 0px;
+        position: relative;
+        margin-bottom: 29px;
+    }
+
+    #loyaltyTitle {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    #loyaltyClub hr {
+        width: 165px;
+        height: 0px;
+        border: 1px solid rgba(255, 255, 255, 1);
+    }
+
+    #loyaltydescription {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        text-align: center;
+        width: 396px;
+        line-height: 15px;
+    }
+
+    .loyaltyform {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .loyaltyform input {
+        width: 339px;
+        height: 28.21px;
+        border-radius: 11.47px;
+        border: 1.15px solid rgba(255, 255, 255, 1);
+        background-color: rgba(240, 248, 255, 0);
+        padding-left: 13px;
+        color: white;
+    }
+
+    .loyaltyform a {
+        font-family: 'Poppins', sans-serif;
+        margin-left: auto;
+        text-decoration: none;
+        color: white;
+        font-size: 10.21px;
+        font-weight: 400;
+    }
+
+    #loyaltyClub span:nth-child(1) {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10.35px;
+        font-weight: 300;
+        color: rgba(83, 82, 79, 1);
+    }
+
+    #loyaltyClub span:nth-child(2) a {
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-size: 10.35px;
+        font-weight: 400;
+        color: rgba(83, 82, 79, 1);
+        border-bottom: 1.15px solid rgba(241, 255, 251, 1);
+        margin-left: 5px;
+    }
+
+    #create-account-form input {
+        font-size: 10px;
+        width: 171px;
+        height: 27.21px;
+        border-radius: 11.47px;
+        border: 1.15px solid rgba(255, 255, 255, 1);
+        background-color: rgba(240, 248, 255, 0);
+        padding-left: 13px;
+        color: white;
+    }
+
+    #create-account-form button {
+        margin-top: 5px;
+        width: 114px;
+    }
+
+    #create-account-form div {
+        display: flex;
+        gap: 5px;
+    }#loyaltyClub img {
+        position: absolute;
+        right: 0;
+        top: 208px;
+        width: 46px;
+        z-index: 100;
+    }#blogs p span:nth-child(1) {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(83, 82, 79, 1);
+    }#blogs p span:nth-child(2) {
+        font-size: 16px;
+        font-weight: 700;
+        color: rgba(83, 82, 79, 1);
+    }#bigblogvid {
+        width: 200px;
+    }.blogvid {
+        width: 58px;
+    }.blogs-right-images {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }.blogs-images {
+        display: flex;
+        gap: 7px;
+    }#blogs {
+        height: 256px;
+        background-color: rgba(255, 248, 244, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        position: relative;
+    }#blogvector {
+        position: absolute;
+        left: 0;
+        top: 220px;
+        width: 50px;
+    }
+}
