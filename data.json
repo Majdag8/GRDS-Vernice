@@ -1,0 +1,52 @@
+{
+    "workshops": [
+        {
+            "image": "workshopImages/img1.png",
+            "name": "Pottery workshop",
+            "seats": "5 Seats Left",
+            "day": "TUES",
+            "dayNumer": 8,
+            "month": "Nov"
+        },
+        {
+            "image": "workshopImages/img2.png",
+            "name": "Glazing Workshop",
+            "seats": "8 Seats Left",
+            "day": "THU",
+            "dayNumer": 10,
+            "month": "Nov"
+        },
+        {
+            "image": "workshopImages/img3.png",
+            "name": "Sculpting Workshop",
+            "seats": "7 Seats Left",
+            "day": "MON",
+            "dayNumer": 21,
+            "month": "Nov"
+        },
+        {
+            "image": "workshopImages/img4.png",
+            "name": "Water Color Mosaic",
+            "seats": "11 Seats Left",
+            "day": "TUES",
+            "dayNumer": 3,
+            "month": "Dec"
+        },
+        {
+            "image": "workshopImages/img5.png",
+            "name": "Painting Class",
+            "seats": "15 Seats Left",
+            "day": "TUES",
+            "dayNumer": 12,
+            "month": "Dec"
+        },
+        {
+            "image": "workshopImages/img6.png",
+            "name": "Clay Workshop",
+            "seats": "7 Seats Left",
+            "day": "SUN",
+            "dayNumer": 21,
+            "month": "Dec"
+        }
+    ]
+}
