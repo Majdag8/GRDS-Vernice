@@ -41,16 +41,25 @@ $(document).ready(function () {
                 .addClass('book-now')
                 .text('Book Now')
                 .on('click', function () {
-                    console.log(workshop.name);
-                    
+                    $('#modal-info').empty();
+
+                    // $("#imgContainer").append($("<div>").css({
+                    //     "width": "255.35px",
+                    //     "height": "27.25px",
+                    //     "background": "#E9B034",
+                    //     "position": "absolute",
+                    // }))
+
                     $('#modal-image').attr('src', workshop.image);
                     $('#modal-seats').text(workshop.seats);
-                    $('#modal-name').text(workshop.name);
+                    $('#modal-name').text(workshop.name)
+
                     if (workshop.name === "Pottery workshop") {
+
                         if (!$("#modal-info #price").length) {
                             $("#modal-info").append($("<span id='price'>").text("$45"));
-
                         }
+
                         if (!$("#modal-info #essentials").length) {
                             $("#modal-info").append
                                 ($("<span id = 'essentials'>").text("Essentials for the Pottery"));
@@ -72,14 +81,54 @@ $(document).ready(function () {
 
                             const descriptionContainer = $("<div id='descriptionContainer'>");
                             descriptionContainer.append(
-                                $("<span id = 'description'>").text("Description"),
-                                $('<i class="fa-solid fa-arrow-down" id="arrowDown"></i>')
+                                $("<div id = 'descriptionarrow'>").css(({
+                                    "width": "100%",
+                                    "display": "flex",
+                                    "justify-content": "space-between",
+                                    "align-items": "center"
+                                })).append(
+                                    $("<span id = 'description'>").text("Description"),
+                                    $('<i class="fa-solid fa-arrow-down" id="arrowDown"></i>')
+                                )
                             )
+                            const descriptionText = $("<p>").text(
+                                "Join our 2-hour pottery workshop at Vernice and create your own unique piece with expert guidance and provided materials."
+                            ).css({
+                                "display": "none",
+                                "margin-top": "4.7px",
+                                "width": "370px",
+                                "height": "34px",
+                                "font-size": "11px",
+                                "font-family": "'Poppins', sans-serif",
+                                "color": "#53524F",
+                                "font-weight": "300",
+                                "line-height": "16.5px"
+                            });
+
+                            descriptionContainer.append(descriptionText);
+
+                            $(document).on("click", "#descriptionContainer i", function () {
+
+                                const descriptionText = $(this).closest("#descriptionContainer").find("p");
+                                descriptionText.slideToggle();
+
+                                const arrowIcon = $(this);
+
+                                if (arrowIcon.hasClass("fa-arrow-down")) {
+                                    arrowIcon.removeClass("fa-arrow-down").addClass("fa-arrow-up");
+                                } else {
+                                    arrowIcon.removeClass("fa-arrow-up").addClass("fa-arrow-down");
+                                }
+                            });
+
+
                             $("#modal-info").append(descriptionContainer);
 
                             $("#modal-info").append(
                                 $("<div class='popupLine'>")
                             );
+
+
 
                             const detailsContainer = $("<div id='detailsContainer'>");
                             detailsContainer.append(
@@ -101,6 +150,7 @@ $(document).ready(function () {
 
 
                             const reserveContainer = $("<div id='reserveContainer'>");
+
 
                             reserveContainer.append(
                                 $("<span>").text("seats").css({
@@ -194,6 +244,9 @@ $(document).ready(function () {
                             $("#modal-info").append(reserveContainer);
 
                         }
+                    }
+                    else {
+                        console.log(workshop.name);
                     }
 
                     $('#modal').show();
