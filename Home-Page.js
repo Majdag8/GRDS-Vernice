@@ -1,15 +1,17 @@
 $(document).ready(function() {
-    $('#back-form img').on('click', function() {
-        $('#modal-overlay').hide();
-        $('#booking-form').hide();
-    });
-
-    $('#booking-table-button').on('click', function(){
+    $('#booking-table-button').click(() => {
         $('#booking-form').css('display','flex');
         $('#modal-overlay').show();
+        $('body').css('overflow', 'hidden');
     })
+
+    $('#back-form img').click(() => {
+        $('#modal-overlay').hide();
+        $('#booking-form').hide();
+        $('body').css('overflow', 'auto');
+    });
     
-    $('#create-account').on('click', function(event) {
+    $('#create-account').click(() => {
         event.preventDefault();
         $('#loyalty-form').hide();
         $('#create-account-form').css('display','flex');
@@ -18,6 +20,4 @@ $(document).ready(function() {
     $("#homedocopage").click(() => {
         window.location.href = 'Home-Deco.html';
     })
-
-
 });

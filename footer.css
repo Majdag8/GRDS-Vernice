@@ -18,14 +18,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    gap: 111px;
+    height: 197px;
+    gap: 60px;
 }
 
 #logoSocialMedia {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 5px;
     justify-content: center;
     align-items: center;
 }
@@ -45,21 +45,40 @@ footer {
 
 #navbar {
     display: flex;
-    gap: 94px;
+    gap: 70px;
 }
 
 .footer-nav {
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 17px;
     list-style-type: none;
+    padding: 0;
+    white-space: nowrap;
 }
 
 #navbar ul li a {
     text-decoration: none;
     color: white;
-    font-size: 24px;
     margin: 0;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29.86px;
+}
+
+.footer-nav p {
+    color: white;
+    margin: 0;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29.86px;
+}
+
+.footer-nav p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 300;
 }
 
 #updates {
@@ -95,7 +114,6 @@ footer {
 #footer-rights {
     text-align: center;
     justify-self: center;
-    margin-top: 16px;
     color: white;
 }
 

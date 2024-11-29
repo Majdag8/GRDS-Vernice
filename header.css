@@ -1,3 +1,12 @@
+#fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(255, 248, 244, 1);
+}
+
 #header {
     display: flex;
     justify-self: center;
@@ -6,6 +15,10 @@
     margin-top: 22px;
     font-family: 'Poppins', sans-serif;
     width: 92%;
+}
+
+#logo {
+    margin-right: -40px;
 }
 
 #header ul {
@@ -41,12 +54,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 #header-hr {
-    border: 1.48px solid rgba(233, 176, 52, 1);
-    width: 93%;
-    margin-left: 70px;
+    border: 1.48px solid rgba(123, 183, 202, 1);
+    width: 100%;
+    margin-top: 14px;
 }
 
 #hamburger {
