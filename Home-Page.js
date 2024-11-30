@@ -11,7 +11,7 @@ $(document).ready(function() {
         $('body').css('overflow', 'auto');
     });
     
-    $('#create-account').click(() => {
+    $('#create-account').click((event) => {
         event.preventDefault();
         $('#loyalty-form').hide();
         $('#create-account-form').css('display','flex');
