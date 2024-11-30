@@ -106,7 +106,7 @@ button:hover {
 }
 
 .book-now {
-    background-color: #7BB7C9;
+    background-color: #E9B034;
     color: white;
     font-family: 'Poppins', sans-serif;
     border: none;
@@ -120,13 +120,13 @@ button:hover {
     font-size: 14.51px;
     font-weight: 400;
     line-height: 21.77px;
-    transition: .5s;
+    transition: .5s linear;
 }
 
 .book-now:hover {
     background-color: #FFFFFF;
-    color: #7BB7C9;
-    border: 2px solid #7BB7C9;
+    color: #E9B034;
+    border: 2px solid #E9B034;
 }
 
 .line {
@@ -469,6 +469,20 @@ button:hover {
         justify-content: space-between;
     }
 
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: -10000;
+        left: 50%;
+        top: 38%;
+        transform: translate(-50%, -50%);
+        width: 997.27px;
+        height: 569.09px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .details {
         width: 50%;
     }
@@ -495,7 +509,7 @@ button:hover {
     }
 
     .book-now {
-        background-color: #7BB7C9;
+        background-color: #E9B034;
         color: white;
         font-family: 'Poppins', sans-serif;
         border: none;
@@ -777,7 +791,7 @@ button:hover {
     }
 
     .book-now {
-        background-color: #7BB7C9;
+        background-color: #E9B034;
         color: white;
         font-family: 'Poppins', sans-serif;
         border: none;
