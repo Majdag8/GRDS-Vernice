@@ -43,13 +43,6 @@ $(document).ready(function () {
                 .on('click', function () {
                     $('#modal-info').empty();
 
-                    // $("#imgContainer").append($("<div>").css({
-                    //     "width": "255.35px",
-                    //     "height": "27.25px",
-                    //     "background": "#E9B034",
-                    //     "position": "absolute",
-                    // }))
-
                     $('#modal-image').attr('src', workshop.image);
                     $('#modal-seats').text(workshop.seats);
                     $('#modal-name').text(workshop.name)
@@ -91,19 +84,10 @@ $(document).ready(function () {
                                     $('<i class="fa-solid fa-arrow-down" id="arrowDown"></i>')
                                 )
                             )
-                            const descriptionText = $("<p>").text(
-                                "Join our 2-hour pottery workshop at Vernice and create your own unique piece with expert guidance and provided materials."
-                            ).css({
-                                "display": "none",
-                                "margin-top": "4.7px",
-                                "width": "370px",
-                                "height": "34px",
-                                "font-size": "11px",
-                                "font-family": "'Poppins', sans-serif",
-                                "color": "#53524F",
-                                "font-weight": "300",
-                                "line-height": "16.5px"
-                            });
+                            const descriptionText = $("<p id = 'descriptionPotterry'>").
+                                text(
+                                    "Join our 2-hour pottery workshop at Vernice and create your own unique piece with expert guidance and provided materials."
+                                )
 
                             descriptionContainer.append(descriptionText);
 
@@ -215,30 +199,11 @@ $(document).ready(function () {
                                     })
                                 ),
 
-                                $("<span>").text("Total: $45").css({
-                                    "width": "80px",
-                                    "height": "23px",
-                                    "font-family": "'Poppins', sans-serif",
-                                    "font-weight": "700",
-                                    "font-size": "15.57px",
-                                    "line-height": "23.36px",
-                                    "text-align": "center"
+                                $("<span id = 'totalPrice'>").text("Total: $45").css({
+
                                 }),
 
-                                $("<button>").text("Proceed").css({
-                                    "width": "93.42px",
-                                    "height": "28.03px",
-                                    "border-radius": "11.68px",
-                                    "background-color": "#80B6CC",
-                                    "font-size": "12.46px",
-                                    "font-weight": "400",
-                                    "font-family": "'Poppins', sans-serif",
-                                    "line-height": "18.68px",
-                                    "color": "#fff",
-                                    "padding": "5px 17.86px",
-                                    "border": "0",
-                                    "outline": "none"
-                                })
+                                $("<button id = 'proceed'>").text("Proceed")
                             );
 
                             $("#modal-info").append(reserveContainer);
