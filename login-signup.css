@@ -30,7 +30,7 @@
     gap: 28px;
 }
 
-#login-signup input{
+#login-signup input {
     width: 394px;
     height: 49px;
     border-radius: 10px;
@@ -47,7 +47,8 @@
     margin-top: -4px;
 }
 
-#signup input[type="password"], #signupemail {
+#signup input[type="password"],
+#signupemail {
     margin-top: -12px;
 }
 
@@ -55,8 +56,8 @@
     margin: 0;
 }
 
-#logsign-newspan{
-    margin-top: -15px!important;
+#logsign-newspan {
+    margin-top: -15px !important;
 }
 
 button {
@@ -105,11 +106,11 @@ button {
 
 #forgetpass-login {
     font-family: 'Poppins', sans-serif;
-    margin-left: auto!important;
+    margin-left: auto !important;
     text-decoration: none;
     color: rgba(83, 82, 79, 0.55);
     font-size: 17.21px;
-    margin-top: -19px!important;
+    margin-top: -19px !important;
     font-weight: 400;
     cursor: pointer;
 }
@@ -118,11 +119,11 @@ button {
     margin-top: -19px;
 }
 
-#login-signup button{
+#login-signup button {
     background-color: rgba(233, 176, 52, 1);
 }
 
-#signup button{
+#signup button {
     margin-top: -10px;
 }
 
@@ -132,7 +133,7 @@ button {
     font-size: 19.05px;
     font-weight: 400;
     line-height: 22.86px;
-    margin-top: -12px!important;
+    margin-top: -12px !important;
 }
 
 .google-facebook {
@@ -143,7 +144,7 @@ button {
     margin-top: -15px;
 }
 
-.login-signup-title{
+.login-signup-title {
     color: rgba(83, 82, 79, 1);
     font-family: 'Poppins', sans-serif;
     font-size: 24px;

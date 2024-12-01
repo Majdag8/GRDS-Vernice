@@ -138,7 +138,7 @@ $(document).ready(function () {
 
                             reserveContainer.append(
                                 $("<span id = 'modalReserve-seats'>").text("seats").css({
-                                    
+
                                 }),
 
                                 $("<div id='input'>").css({
