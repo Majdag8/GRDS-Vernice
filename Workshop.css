@@ -55,10 +55,15 @@
     flex-wrap: wrap;
     position: relative;
     padding: 10px 0;
+    overflow: hidden;
 }
 
 .workshop {
     text-align: center;
+}
+
+.workshop-card {
+    overflow: hidden;
 }
 
 .workshop-card img {
@@ -319,7 +324,7 @@ button:hover {
 #essentalsBtn button {
     border-radius: 14.01px;
     color: #53524F;
-    height: 32.7px;
+    height: 35.7px;
     outline: none;
     border: 1px solid #53524F;
     font-size: 12.46px;
@@ -428,7 +433,7 @@ button:hover {
     text-align: center;
 }
 
-#reserveContainer button{
+#reserveContainer button {
     background-color: #fff;
     color: #53524F;
 }
