@@ -152,19 +152,19 @@ $(document).ready(function () {
                                     "border-radius": "14.01px"
                                 }).append(
                                     $("<button>").text("-").css({
-                                        "width": "6px",
+                                        "width": "9px",
                                         "height": "23px",
                                         "font-weight": "400",
-                                        "font-size": "15.57px",
-                                        "line-height": "23.36px",
+                                        "font-size": "17px",
+                                        "line-height": "13px",
                                         "text-align": "center",
                                         "border": "0",
-                                        "outline": "none"
+                                        "outline": "none",
                                     }).on('click', function () {
                                         let counter = $('#counter');
                                         let currentValue = parseInt(counter.text());
                                         if (currentValue > 1) {
-                                            counter.text(currentValue - 1); // Decrease the value
+                                            counter.text(currentValue - 1);
                                         }
                                     }),
 
@@ -174,22 +174,23 @@ $(document).ready(function () {
                                         "font-weight": "400",
                                         "font-size": "15.57px",
                                         "text-align": "center",
-                                        "line-height": "23.36px"
+                                        "line-height": "23.36px",
+                                        "padding-left": "7px"
                                     }),
 
                                     $("<button>").text("+").css({
                                         "width": "9px",
                                         "height": "23px",
                                         "font-weight": "400",
-                                        "font-size": "15.57px",
-                                        "line-height": "23.36px",
+                                        "font-size": "17px",
+                                        "line-height": "13px",
                                         "text-align": "center",
                                         "border": "0",
-                                        "outline": "none"
+                                        "outline": "none",
                                     }).on('click', function () {
                                         let counter = $('#counter');
                                         let currentValue = parseInt(counter.text());
-                                        counter.text(currentValue + 1); // Increase the value
+                                        counter.text(currentValue + 1);
                                     })
                                 ),
 

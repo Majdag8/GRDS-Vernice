@@ -356,7 +356,7 @@ button:hover {
 #descriptionPotterry {
     display: none;
     margin-top: 4.7px;
-    width: 370px;
+    width: 397px;
     height: 34px;
     font-size: 11px;
     font-family: 'Poppins', sans-serif;
@@ -406,7 +406,7 @@ button:hover {
 }
 
 .popupLine {
-    width: 360px;
+    width: 400px;
     height: 1.5px;
     background-color: #C6BCBC;
 }
@@ -428,6 +428,11 @@ button:hover {
     text-align: center;
 }
 
+#reserveContainer button{
+    background-color: #fff;
+    color: #53524F;
+}
+
 #totalPrice {
     width: 80px;
     height: 23px;
@@ -438,7 +443,7 @@ button:hover {
     text-align: center;
 }
 
-#proceed {
+#reserveContainer #proceed {
     width: 93.42px;
     height: 28.03px;
     border-radius: 11.68px;
@@ -678,7 +683,7 @@ button:hover {
     #descriptionPotterry {
         display: none;
         margin-top: 4.7px;
-        width: 295px;
+        width: 300px;
         height: 34px;
         font-size: 9.32px;
         font-family: 'Poppins', sans-serif;
