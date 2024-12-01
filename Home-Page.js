@@ -10,12 +10,6 @@ $(document).ready(function() {
         $('#booking-form').hide();
         $('body').css('overflow', 'auto');
     });
-    
-    $('#create-account').click((event) => {
-        event.preventDefault();
-        $('#loyalty-form').hide();
-        $('#create-account-form').css('display','flex');
-    });
 
     $("#homedocopage").click(() => {
         window.location.href = 'Home-Deco.html';

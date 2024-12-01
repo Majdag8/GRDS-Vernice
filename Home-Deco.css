@@ -7,9 +7,13 @@ body {
     position: relative;
 }
 
+hr{
+    margin: 0;
+}
+
 #Landing-vector {
     position: absolute;
-    top: -110px;
+    top: 69px;
     left: 0;
 }
 
@@ -17,9 +21,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-left: 166px;
-    margin-top: 33px;
-    margin-bottom: 57px;
+    padding-left: 166px;
+    padding-top: 210px;
+    padding-bottom: 57px;
+    background-color: rgba(255, 248, 244, 1);
 }
 
 #landing p {
@@ -51,7 +56,7 @@ body {
 
 #Landing-Image {
     position: absolute;
-    top: -191px;
+    top: 27px;
     width: 608px;
     height: 609px;
     right: 172px;
