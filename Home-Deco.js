@@ -2,7 +2,7 @@ $(document).ready(function () {
     fetch("home-deco-workshop.json")
         .then(response => response.json())
         .then(data => {
-            const products = data["home-deco"].products; 
+            const products = data["home-deco"].products;
             const all_deco = document.getElementById("all-deco");
             all_deco.innerHTML = '';
 
@@ -26,5 +26,19 @@ $(document).ready(function () {
                     </div>
                 `;
             }
+
+            $(document).on('click', '#decrement', function () {
+                const counterValue = $(this).siblings('#counterValue');
+                let count = parseInt(counterValue.text());
+                if (count > 1) {
+                    counterValue.text(count - 1);
+                }
+            });
+
+            $(document).on('click', '#increment', function () {
+                const counterValue = $(this).siblings('#counterValue');
+                let count = parseInt(counterValue.text());
+                counterValue.text(count + 1);
+            });
         })
 });

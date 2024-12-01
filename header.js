@@ -25,7 +25,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#landing button").click(function(){
+    $("#landing button").click(function () {
         window.location.href = "Workshop.html";
     })
 
@@ -44,16 +44,16 @@ $(document).ready(function () {
     })
 
     $("#counter #decrement").on('click', function (event) {
-        let counter = event.target.nextElementSibling; 
-        let currentValue = parseInt(counter.textContent); 
+        let counter = event.target.nextElementSibling;
+        let currentValue = parseInt(counter.textContent);
         if (currentValue > 1) {
-            counter.textContent = currentValue - 1; 
+            counter.textContent = currentValue - 1;
         }
     })
 
     $("#counter #increment").on('click', function (event) {
-        let counter = event.target.previousElementSibling; 
-        let currentValue = parseInt(counter.textContent); 
-        counter.textContent = currentValue + 1; 
+        let counter = event.target.previousElementSibling;
+        let currentValue = parseInt(counter.textContent);
+        counter.textContent = currentValue + 1;
     })
 });
