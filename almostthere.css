@@ -1,5 +1,5 @@
 #almostthere-form {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -23,23 +23,23 @@
     left: 64px;
 }
 
-#back-almostthere  img {
+#back-almostthere img {
     cursor: pointer;
 }
 
 #almostthere-title {
     font-family: Albert Sans;
-font-size: 52.92px;
-font-weight: 400;
-line-height: 63.51px;
+    font-size: 52.92px;
+    font-weight: 400;
+    line-height: 63.51px;
 }
 
 #almosttheretext {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center; 
-    flex-direction: column; 
+    align-items: center;
+    flex-direction: column;
     gap: 1px;
     color: rgba(83, 82, 79, 1);
 }
@@ -48,21 +48,21 @@ line-height: 63.51px;
     margin: 0;
 }
 
-#almostthere-des span:nth-child(1){
+#almostthere-des span:nth-child(1) {
     font-family: 'Poppins', sans-serif;
     font-size: 19.85px;
     font-weight: 400;
     line-height: 29.77px;
 }
 
-#almostthere-des span:nth-child(2){
+#almostthere-des span:nth-child(2) {
     font-family: 'Poppins', sans-serif;
     font-size: 19.85px;
     font-weight: 700;
     line-height: 29.77px;
 }
 
-#progress{
+#progress {
     display: flex;
     justify-content: center;
     gap: 76px;
@@ -70,7 +70,7 @@ line-height: 63.51px;
     position: relative;
 }
 
-#progresshr{
+#progresshr {
     border: 4px solid rgba(233, 176, 52, 1);
     width: 521px;
     border-radius: 4px;
@@ -84,12 +84,12 @@ line-height: 63.51px;
     justify-content: center;
     align-items: center;
     width: 62px;
-height: 62px;
-border-radius: 50%;
+    height: 62px;
+    border-radius: 50%;
     background-color: rgba(233, 176, 52, 1);
 }
 
-#progress  div {
+#progress div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,14 +97,13 @@ border-radius: 50%;
     gap: 9px;
 }
 
-#progress  div p {
+#progress div p {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-
-font-size: 15px;
-font-weight: 400;
-line-height: 22.5px;
-color: rgba(83, 82, 79, 1);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: rgba(83, 82, 79, 1);
 }
 
 #almostthere-btn {
@@ -114,7 +113,7 @@ color: rgba(83, 82, 79, 1);
     gap: 37px;
 }
 
-#almostthere-btn button{
+#almostthere-btn button {
     font-family: 'Poppins', sans-serif;
     width: 120px;
     height: 36px;
@@ -124,7 +123,7 @@ color: rgba(83, 82, 79, 1);
     padding: 6.7px 17.86px 6.7px 17.86px;
     color: rgba(241, 255, 251, 1);
     font-family: Poppins;
-    font-size: 14.51px;
+    font-size: 12.6px;
     font-weight: 400;
     line-height: 21.77px;
     background-color: rgba(233, 176, 52, 1);
