@@ -5,7 +5,7 @@ $(document).ready(function () {
         $('body').css('overflow', 'hidden');
     })
 
-    $('#forgetpass-login').click(() => {
+    $('#create-account').click(() => {
         $('#login').css('display', 'none');
         $('#signup').css('display', 'flex');
     })
