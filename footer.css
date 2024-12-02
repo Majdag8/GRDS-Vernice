@@ -1,4 +1,4 @@
-footer {
+ffooter {
     background: #7BB7C9;
     margin-top: 66px;
     padding-bottom: 2px;
@@ -20,6 +20,7 @@ footer {
     align-items: center;
     height: 197px;
     gap: 60px;
+    background-color: #7BB7C9;
 }
 
 #logoSocialMedia {

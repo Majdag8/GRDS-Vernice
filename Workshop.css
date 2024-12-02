@@ -361,9 +361,9 @@ button:hover {
 #descriptionPotterry {
     display: none;
     margin-top: 4.7px;
-    width: 397px;
+    width: 401px;
     height: 34px;
-    font-size: 11px;
+    font-size: 12px;
     font-family: 'Poppins', sans-serif;
     color: #53524F;
     font-weight: 300;
@@ -419,15 +419,17 @@ button:hover {
 #reserveContainer {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
+    gap: 14px;
+    margin: 0 auto;
 }
 
 #modalReserve-seats {
     width: 39px;
     height: 23px;
     color: #53524F;
-    font-size: 15.57px;
+    font-size: 18.57px;
     line-height: 23.36px;
     font-weight: 400;
     text-align: center;
@@ -449,18 +451,18 @@ button:hover {
 }
 
 #reserveContainer #proceed {
-    width: 93.42px;
-    height: 28.03px;
+    width: 105.42px;
+    height: 31px;
     border-radius: 11.68px;
     background-color: #80B6CC;
-    font-size: 12.46px;
+    font-size: 15px;
     font-weight: 400;
     font-family: "Poppins', sans-serif";
     line-height: 18.68px;
     color: #fff;
     padding: 5px 17.86px;
     border: 0;
-    outline: none
+    outline: none;
 }
 
 @media (max-width: 768px) {
