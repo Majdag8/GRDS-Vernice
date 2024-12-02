@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
@@ -22,8 +25,8 @@ hr {
     flex-direction: column;
     gap: 10px;
     padding-left: 166px;
-    padding-top: 210px;
-    padding-bottom: 57px;
+    padding-top: 185px;
+    padding-bottom: 72px;
     background-color: rgba(255, 248, 244, 1);
 }
 
@@ -34,7 +37,7 @@ hr {
 }
 
 #landing p:nth-child(1) {
-    font-family: Albert Sans;
+    font-family: 'Albert Sans';
     font-size: 73.92px;
     font-weight: 700;
     width: 410px;
@@ -42,7 +45,7 @@ hr {
 
 #landing p:nth-child(3) {
     width: 391px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 300;
 }
@@ -56,7 +59,7 @@ hr {
 
 #Landing-Image {
     position: absolute;
-    top: 27px;
+    top: 40px;
     width: 608px;
     height: 609px;
     right: 172px;
@@ -159,19 +162,18 @@ hr {
 
 #counter {
     position: absolute;
-    left: 81px;
-    bottom: -13px;
+    left: 72px;
+    bottom: -16px;
     display: flex;
     align-items: center;
-    width: 71.23px;
-    height: 25.38px;
+    width: 87px;
+    height: 36px;
     border-radius: 16.3px;
     background-color: rgba(233, 176, 52, 1);
 }
-
 .decopm-button {
     padding: 10px 15px;
-    font-size: 13.1px;
+    font-size: 20px;
     border: none;
     color: white;
     cursor: pointer;
@@ -179,7 +181,7 @@ hr {
 }
 
 #counterValue {
-    font-size: 13.1px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
     color: white;
