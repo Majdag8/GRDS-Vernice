@@ -4,7 +4,7 @@
 #profile {
     display: none;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     width: 1000px;
     height: 669px;
@@ -22,10 +22,6 @@
     justify-content: center;
     align-items: center;
     gap: 41px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background-color: rgb(255, 255, 255);
 }
 
@@ -163,4 +159,25 @@ button {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1000;
+}
+
+#profiledropdowns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#profiledropdowns p{
+    font-family: 'Albert Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: rgba(83, 82, 79, 1);
+}
+
+#profiledropdowns div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
