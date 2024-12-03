@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap');
+
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 41px;
+    width: 1000px;
+    height: 669px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    z-index: 10000;
+}
+
+p{
+    margin: 0;
+}
+
+#profileinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+#profileinfo p {
+    font-family: 'Albert Sans';
+    color: rgba(83, 82, 79, 1);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    margin-right: auto;
+}
+
+#profileinfo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#profileinfo div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#profileinfo div div input {
+    width: 208px;
+    height: 49px;
+    border-radius: 10px;
+    border: 1px solid rgba(83, 82, 79, 1);
+}
+
+#profileinfo div input {
+    width: 425px;
+    height: 49px;
+    border-radius: 10px;
+    border: 1px solid rgba(83, 82, 79, 1);
+}
+
+#profileinfo button{
+    margin-top: 30px;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+
+}
