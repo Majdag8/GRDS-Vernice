@@ -35,19 +35,21 @@
     height: 420px;
 }
 
-#changepimg {
+.change-btn {
     font-family: 'Poppins', sans-serif;
-    width: 129px;
-    height: 36px;
+    
     border: 0;
     border-radius: 16.74px;
     padding: 6.7px 17.86px 6.7px 17.86px;
     color: rgba(241, 255, 251, 1);
-    font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
     line-height: 16.5px;
     background-color: rgba(128, 182, 204, 1);
+}
+
+#photo-upload {
+    display: none;
 }
 
 p {

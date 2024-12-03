@@ -101,3 +101,29 @@ $(document).ready(function () {
     });
 });
 
+const profilePicture = document.getElementById("profilePicture");
+const photoUpload = document.getElementById("photo-upload");
+const photoUploadBtn = document.getElementById("photo-upload-btn");
+
+// Trigger the hidden file input when the button is clicked
+photoUploadBtn.addEventListener("click", function () {
+    photoUpload.click();
+});
+
+// Handle file selection and update the profile picture
+photoUpload.addEventListener("change", function (event) {
+    const file = event.target.files[0];
+    if (file) {
+        const reader = new FileReader();
+
+        reader.onload = function (e) {
+            profilePicture.src = e.target.result;
+            profilePicture.style.width = "326px";
+            profilePicture.style.height = "326px";
+            profilePicture.style.objectFit = "cover";
+            profilePicture.style.borderRadius = "50%";
+        };
+
+        reader.readAsDataURL(file); // Read the selected file as a data URL
+    }
+});
