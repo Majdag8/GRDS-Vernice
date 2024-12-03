@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="login-signup.css">
+    <link rel="stylesheet" href="Profile.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="Home-Page.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -44,6 +45,39 @@
         <hr id="header-hr">
     </div>
 
+    <div id="profile">
+        <div id="back-form">
+            <img src="Home-Page-Images/arrow.png" alt="">
+        </div>
+
+        <div id="profileInfoContainer">
+
+            <div id="profileimg">
+                <img src="Images/Profileimage.png" alt="">
+                <button id="changepimg">Change Photo</button>
+            </div>
+
+            <div id="profileinfo">
+                <p>My Profile</p>
+                <div>
+                    <div>
+                        <input type="text" name="" id="" value="Sara">
+                        <input type="text" name="" id="" value="Murad">
+                    </div>
+                    <div>
+                        <input type="number" name="" id="" min="1" value="09865422">
+                        <input type="text" name="" id="" value="Password">
+                    </div>
+                    <input type="text" name="" id="profilelocation" value="Beruit, Sodico, Beirut, lebanon">
+                    <input type="email" name="" id="" value="saramurad2000@gmail.com">
+                </div>
+                <div id="signoutBtn">
+                    <button style="background-color: rgba(233, 176, 52, 1);">Sign Out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div id="login-signup">
         <img src="Images/login-signup img.png" alt="">
@@ -53,7 +87,7 @@
             <input type="text" placeholder="Username or Email" required>
             <input type="password" name="" id="" placeholder="Password" required>
             <p id="forgetpass-login">Forget Password?</p>
-            <button>Log in</button>
+            <button id="loginBtn">Log in</button>
             <p class="logininwith">Log in with</p>
             <div class="google-facebook"><img src="Images/Google.png" alt=""> <img src="Images/Facebook login.png"
                     alt=""></div>

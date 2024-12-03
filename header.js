@@ -56,4 +56,48 @@ $(document).ready(function () {
         let currentValue = parseInt(counter.textContent);
         counter.textContent = currentValue + 1;
     })
+
+    $(document).on('click', '#login button', function () {
+
+        $('#profile').css({
+            display: 'flex',
+            zIndex: '10000000',
+        });
+
+        $('#modal-overlay').show();
+        $('body').css('overflow', 'hidden');
+        $('#login-signup').hide();
+    });
+
+    $(window).on('click', function (event) {
+        if ($(event.target).is('#modal-overlay')) {
+            $('#login-signup').css('display', 'none');
+            $('#profile').css('display', 'none');
+            $('#modal-overlay').hide();
+            $('body').css('overflow', 'auto');
+
+        }
+    });
+
+    $(window).on('click', function (event) {
+        if ($(event.target).is('#profile #back-form img')) {
+
+            $('#login-signup').css({
+                "display": "flex",
+                "z-index": "10000"
+            });
+
+            $('#modal-overlay').show()
+
+            $('#profile').css('display', 'none');
+
+            $('body').css({
+                "overflow": "hidden"
+            });
+
+            $(".modal-content").hide();
+
+        }
+    });
 });
+
