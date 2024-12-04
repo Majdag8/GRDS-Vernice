@@ -16,8 +16,11 @@
 }
 
 #back-form {
+    position: absolute;
     display: flex;
     width: 90%;
+    top: 49px;
+    left: 64px;
 }
 
 #back-form img {
@@ -51,7 +54,9 @@
 
 #thankYouCard form {
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
 }
 
 #thankYouCard form div input {
@@ -83,7 +88,6 @@
 }
 
 #thankYouCard form #personalInfo div {
-    width: 90%;
     height: 64px;
     display: flex;
     justify-content: space-between;
@@ -96,10 +100,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 19px;
 }
 
 #thankYouCard form #payment {
-    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -121,7 +125,6 @@
     gap: 10px;
 }
 #thankYouCard form #expirationDate {
-    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -146,7 +149,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #thankYouCard form #remember {
@@ -168,7 +171,6 @@
 }
 
 #thankYouCard form #submitBtn{
-    width: 90%;
     text-align: center;
 }
 #thankYouCard form #submitBtn button{
@@ -183,6 +185,7 @@
     font-size: 13px;
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
+    margin-top: 10px;
     transition: .5s linear
 
 }

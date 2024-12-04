@@ -264,6 +264,11 @@ button:hover {
     margin-right: 20px;
 }
 
+#modal {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(83, 82, 79, 1);
+}
+
 #modal-info {
     display: flex;
     flex-direction: column;
@@ -276,7 +281,6 @@ button:hover {
 
 
 #modal-seats {
-    width: 101px;
     height: 28px;
     font-size: 18.68px;
     color: #53524F;
@@ -342,7 +346,7 @@ button:hover {
 #descriptionContainer,
 #detailsContainer,
 #cancellationContainer {
-    width: 100%;
+    width: 347.22px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -361,9 +365,9 @@ button:hover {
 #descriptionPotterry {
     display: none;
     margin-top: 4.7px;
-    width: 401px;
+    width: 350px;
     height: 34px;
-    font-size: 12px;
+    font-size: 11px;
     font-family: 'Poppins', sans-serif;
     color: #53524F;
     font-weight: 300;
@@ -399,14 +403,14 @@ button:hover {
     width: 147px;
 }
 
-#arrowDown {
+#descriptionarrow img {
     flex-shrink: 0;
     stroke-width: 0.779px;
     stroke: #C6BCBC;
     transition: .5s;
 }
 
-#arrowDown:hover {
+#descriptionarrow img:hover {
     cursor: pointer;
 }
 
@@ -414,19 +418,19 @@ button:hover {
     width: 400px;
     height: 1.5px;
     background-color: #C6BCBC;
+    width: 347.22px;
 }
 
 #reserveContainer {
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: flex-end;
     gap: 14px;
     margin: 0 auto;
 }
 
 #modalReserve-seats {
-    width: 39px;
+    width: 46px;
     height: 23px;
     color: #53524F;
     font-size: 18.57px;
@@ -436,7 +440,7 @@ button:hover {
 }
 
 #reserveContainer button {
-    background-color: #fff;
+    background-color: #ffffff00;
     color: #53524F;
 }
 
@@ -448,6 +452,7 @@ button:hover {
     font-size: 15.57px;
     line-height: 23.36px;
     text-align: center;
+    color: rgba(83, 82, 79, 1);
 }
 
 #reserveContainer #proceed {
@@ -944,7 +949,6 @@ button:hover {
     }
 
     #modal-seats {
-        width: 101px;
         height: 28px;
         font-size: 12.68px;
         color: #53524F;
@@ -1067,16 +1071,12 @@ button:hover {
         width: 137px;
     }
 
-    #arrowDown {
+    #descriptionarrow img {
         flex-shrink: 0;
         stroke-width: 0.779px;
         stroke: #C6BCBC;
         transition: .5s;
         width: 10px;
-    }
-
-    #arrowDown:hover {
-        cursor: pointer;
     }
 
     .popupLine {

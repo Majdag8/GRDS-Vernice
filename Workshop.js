@@ -81,7 +81,7 @@ $(document).ready(function () {
                                     "align-items": "center"
                                 })).append(
                                     $("<span id = 'description'>").text("Description"),
-                                    $('<i class="fa-solid fa-arrow-down" id="arrowDown"></i>')
+                                    $('<img src="workshopImages/down arrow.png" alt="">')
                                 )
                             )
                             const descriptionText = $("<p id = 'descriptionPotterry'>").
@@ -91,17 +91,16 @@ $(document).ready(function () {
 
                             descriptionContainer.append(descriptionText);
 
-                            $(document).on("click", "#descriptionContainer i", function () {
+                            $(document).on("click", "#descriptionContainer img", function () {
 
                                 const descriptionText = $(this).closest("#descriptionContainer").find("p");
                                 descriptionText.slideToggle();
 
-                                const arrowIcon = $(this);
-
-                                if (arrowIcon.hasClass("fa-arrow-down")) {
-                                    arrowIcon.removeClass("fa-arrow-down").addClass("fa-arrow-up");
+                                const currentSrc = $(this).attr("src");
+                                if (currentSrc.includes("down arrow.png")) {
+                                    $(this).attr("src", "workshopImages/up arrow.png");
                                 } else {
-                                    arrowIcon.removeClass("fa-arrow-up").addClass("fa-arrow-down");
+                                    $(this).attr("src", "workshopImages/down arrow.png");
                                 }
                             });
 
@@ -117,7 +116,7 @@ $(document).ready(function () {
                             const detailsContainer = $("<div id='detailsContainer'>");
                             detailsContainer.append(
                                 $("<span id = 'additionalDetails'>").text("Additional Details"),
-                                $('<i class="fa-solid fa-arrow-down" id="arrowDown"></i>')
+                                $('<img src="workshopImages/down arrow.png" alt="">')
                             )
                             $("#modal-info").append(detailsContainer);
 
@@ -128,7 +127,7 @@ $(document).ready(function () {
                             const cancellationContainer = $("<div id='cancellationContainer'>");
                             cancellationContainer.append(
                                 $("<span id = 'cancellationPolicy'>").text("Cancellation Policy "),
-                                $('<i class="fa-solid fa-arrow-down" id="arrowDown"></i>')
+                                $('<img src="workshopImages/down arrow.png" alt="">')
                             )
                             $("#modal-info").append(cancellationContainer);
 
@@ -137,7 +136,7 @@ $(document).ready(function () {
 
 
                             reserveContainer.append(
-                                $("<span id = 'modalReserve-seats'>").text("seats").css({
+                                $("<span id = 'modalReserve-seats'>").text("Seats").css({
 
                                 }),
 
