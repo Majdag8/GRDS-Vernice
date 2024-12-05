@@ -1,5 +1,22 @@
-#almostthere-form {
+/* #almostthere-form {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 49px;
+    width: 1000px;
+    height: 569px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 248, 244, 1);
+    padding: 20px;
+    z-index: 10000;
+} */
+
+#almostthere-form {
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;

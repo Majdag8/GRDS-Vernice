@@ -281,15 +281,22 @@ button:hover {
 
 
 #modal-seats {
+    width: 107px;
     height: 28px;
     font-size: 18.68px;
     color: #53524F;
+    font-weight: 400;
+    line-height: 28.03px;
 }
 
 #modal-name {
     font-size: 49.82px;
     color: #53524F;
     height: 56.83px;
+    font-family: 'Poppins', sans-serif;
+    width: 435.97px;
+    line-height: 74.74px;
+    font-weight: 400;
 }
 
 #price {
@@ -299,9 +306,9 @@ button:hover {
     font-size: 18.68px;
     color: #53524F;
     font-weight: 700;
-    line-height: 28.03px;
     text-align: center;
     margin-top: 5.45px;
+    line-height: 33.03px;
 }
 
 #essentials {
@@ -335,7 +342,7 @@ button:hover {
     color: #53524F;
     background-color: transparent;
     transition: .5s;
-    padding: 7.47px 17px;
+    padding: 6.47px 7px;
     text-align: center;
 }
 
@@ -356,6 +363,7 @@ button:hover {
 
 #descriptionContainer {
     flex-direction: column;
+    margin-bottom: 4.7px;
 }
 
 #descriptionContainer i {
@@ -375,7 +383,8 @@ button:hover {
 }
 
 #detailsContainer {
-    margin-top: 13.23px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 #cancellationContainer {
@@ -389,10 +398,13 @@ button:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 15.57px;
     font-weight: 300;
-    line-height: normal;
-    width: 78px;
+    line-height: 23.36px;
     height: 23px;
     color: #53524F;
+}
+
+#description {
+    width: 87px;
 }
 
 #additionalDetails {
@@ -422,7 +434,7 @@ button:hover {
 }
 
 #reserveContainer {
-    width: 100%;
+    width: 96%;
     display: flex;
     align-items: flex-end;
     gap: 14px;
@@ -430,10 +442,10 @@ button:hover {
 }
 
 #modalReserve-seats {
-    width: 46px;
+    width: 44px;
     height: 23px;
     color: #53524F;
-    font-size: 18.57px;
+    font-size: 15.57px;
     line-height: 23.36px;
     font-weight: 400;
     text-align: center;
@@ -452,21 +464,21 @@ button:hover {
     font-size: 15.57px;
     line-height: 23.36px;
     text-align: center;
-    color: rgba(83, 82, 79, 1);
+    color: #53524F;
 }
 
 #reserveContainer #proceed {
-    width: 105.42px;
-    height: 31px;
+    width: 93.42px;
+    height: 28.03px;
     border-radius: 11.68px;
-    background-color: #80B6CC;
-    font-size: 15px;
+    background-color: rgb(128, 182, 204);
+    font-size: 13.5px;
     font-weight: 400;
     font-family: "Poppins', sans-serif";
     line-height: 18.68px;
-    color: #fff;
-    padding: 5px 17.86px;
-    border: 0;
+    color: rgb(255, 255, 255);
+    padding: 4px 17.86px;
+    border: 0px;
     outline: none;
 }
 
