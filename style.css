@@ -1277,10 +1277,11 @@ label {
     }
 
     .loyaltyboxitem img {
+        height: 175px;
+        width: 175px;
         position: absolute;
         top: -71px;
         right: -56px;
-        display: none;
     }
 
     .loyaltyboxitem button {
