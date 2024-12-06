@@ -1226,19 +1226,6 @@ label {
         left: -41px;
     }
 
-    #loyaltyClub {
-        height: 447px;
-        background-color: rgba(233, 176, 52, 1);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        gap: 9px;
-        position: relative;
-        margin-bottom: 43px;
-    }
-
     #loyaltyvector {
         position: absolute;
         right: 0;
@@ -1712,105 +1699,6 @@ label {
         width: 115px;
         height: 15px;
         left: -72px;
-    }
-
-    #loyaltyClub {
-        height: 250px;
-        background-color: rgba(233, 176, 52, 1);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        gap: 0px;
-        position: relative;
-        margin-bottom: 29px;
-    }
-
-    #loyaltyTitle {
-        font-size: 17px;
-        font-weight: 700;
-    }
-
-    #loyaltyClub hr {
-        width: 165px;
-        height: 0px;
-        border: 1px solid rgba(255, 255, 255, 1);
-    }
-
-    #loyaltydescription {
-        font-family: 'Poppins', sans-serif;
-        font-size: 10px;
-        font-weight: 300;
-        text-align: center;
-        width: 396px;
-        line-height: 15px;
-    }
-
-    .loyaltyform {
-        display: flex;
-        flex-direction: column;
-        gap: 3px;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-    }
-
-    .loyaltyform input {
-        width: 339px;
-        height: 28.21px;
-        border-radius: 11.47px;
-        border: 1.15px solid rgba(255, 255, 255, 1);
-        background-color: rgba(240, 248, 255, 0);
-        padding-left: 13px;
-        color: white;
-    }
-
-    .loyaltyform a {
-        font-family: 'Poppins', sans-serif;
-        margin-left: auto;
-        text-decoration: none;
-        color: white;
-        font-size: 10.21px;
-        font-weight: 400;
-    }
-
-    #loyaltyClub span:nth-child(1) {
-        font-family: 'Poppins', sans-serif;
-        font-size: 10.35px;
-        font-weight: 300;
-        color: rgba(83, 82, 79, 1);
-    }
-
-    #loyaltyClub span:nth-child(2) a {
-        font-family: 'Poppins', sans-serif;
-        text-decoration: none;
-        font-size: 10.35px;
-        font-weight: 400;
-        color: rgba(83, 82, 79, 1);
-        border-bottom: 1.15px solid rgba(241, 255, 251, 1);
-        margin-left: 5px;
-    }
-
-    #create-account-form input {
-        font-size: 10px;
-        width: 171px;
-        height: 27.21px;
-        border-radius: 11.47px;
-        border: 1.15px solid rgba(255, 255, 255, 1);
-        background-color: rgba(240, 248, 255, 0);
-        padding-left: 13px;
-        color: white;
-    }
-
-    #create-account-form button {
-        margin-top: 5px;
-        width: 114px;
-    }
-
-    #create-account-form div {
-        display: flex;
-        gap: 5px;
     }
 
     #loyaltyvector {
