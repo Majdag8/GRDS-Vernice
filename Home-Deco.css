@@ -162,6 +162,7 @@ hr {
 
 #counter {
     position: absolute;
+    font-family: 'Poppins', sans-serif;
     left: 72px;
     bottom: -16px;
     display: flex;
@@ -172,7 +173,7 @@ hr {
     background-color: rgba(233, 176, 52, 1);
 }
 .decopm-button {
-    padding: 10px 15px;
+    padding: 10px 12px;
     font-size: 20px;
     border: none;
     color: white;
@@ -210,7 +211,8 @@ hr {
 
 #pagination li a {
     text-decoration: none;
-    font-family: Hannari;
+    
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 400;
     color: rgba(83, 82, 79, 1);
