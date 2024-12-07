@@ -5,11 +5,11 @@ footer {
     font-family: 'Poppins', sans-serif;
 }
 
-#ipadfooter{
+#ipadfooter {
     display: none;
 }
 
-#mobilefooter{
+#mobilefooter {
     display: none;
 }
 
@@ -117,8 +117,313 @@ footer {
     text-align: center;
     justify-self: center;
     color: white;
-font-size: 14px;
-font-weight: 400;
-line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
 }
 
+@media (max-width: 768px) {
+    footer {
+        background: #7BB7C9;
+        margin-top: 66px;
+        padding-top: 30px;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+    }
+
+    #ipadfooter {
+        display: none;
+    }
+
+    #mobilefooter {
+        display: none;
+    }
+
+    #footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 111px;
+        gap: 0px;
+        background-color: #7BB7C9;
+        width: 99%;
+    }
+
+    #logoSocialMedia {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logoSocialMedia #logo {
+        width: 100%;
+    }
+
+    #socialmedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 27px;
+        margin-left: 15px;
+    }
+
+    #socialmedia img {
+        width: 30px;
+    }
+
+    #socialmedia #facebook {
+        width: 13px;
+    }
+
+    #socialmedia #instagram {
+        width: 29px;
+    }
+
+    #socialmedia #tiktok {
+        width: 32px;
+    }
+
+    #divider {
+        background-color: white;
+        height: 171.5px;
+        width: 3px;
+    }
+
+    #navbar {
+        display: flex;
+        gap: 16px;
+        width: 359px;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        list-style-type: none;
+        padding: 0;
+        white-space: nowrap;
+    }
+
+    #navbar ul li a {
+        text-decoration: none;
+        color: white;
+        margin: 0;
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 29.86px;
+    }
+
+    .footer-nav p {
+        color: white;
+        margin: 0;
+        font-family: Poppins;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 29.86px;
+    }
+
+    .footer-nav p:nth-child(2) {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    #updates {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+    }
+
+    #updates-title {
+        font-size: 22px;
+        color: white;
+        margin: 0;
+    }
+
+    #updates-description {
+        width: 173px;
+        color: white;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #email-input {
+        color: #53524F;
+        font-size: 11px;
+        border-radius: 15px;
+        padding: 3px;
+        width: 135px;
+        padding-left: 16px;
+        border: 0;
+        outline: none;
+        line-height: 24px;
+        font-weight: 400;
+        background-color: #fff;
+    }
+
+    #footer-rights {
+        margin-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        justify-self: center;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+}
+
+@media (max-width: 431px) {
+    footer {
+        background: #7BB7C9;
+        margin-top: 66px;
+        padding-top: 30px;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+    }
+
+    #ipadfooter {
+        display: none;
+    }
+
+    #mobilefooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #topFooterM {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-self: center;
+    }
+
+    #topFooterM #logoSocialMedia #logo {
+        width: 206px;
+    }
+
+    #footer-content {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        height: 197px;
+        gap: 60px;
+        background-color: #7BB7C9;
+        width: 100%;
+    }
+
+    #logoSocialMedia {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+
+    #socialmedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 38px;
+    }
+
+    #divider {
+        background-color: white;
+        height: 171.5px;
+        width: 3px;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-left: 14px;
+        width: 100%;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        list-style-type: none;
+        padding: 0;
+        white-space: nowrap;
+    }
+
+    #navbar ul li a {
+        text-decoration: none;
+        color: white;
+        margin: 0;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 29.86px;
+    }
+
+    .footer-nav p {
+        color: white;
+        margin: 0;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 29.86px;
+    }
+
+    .footer-nav p:nth-child(2) {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    #updates {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        height: 110px;
+    }
+
+    #updates-title {
+        font-size: 20px;
+        color: white;
+        margin: 0;
+    }
+
+    #updates-description {
+        width: 150px;
+        color: white;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #email-input {
+        color: #3987A6;
+        font-size: 14px;
+        border-radius: 15px;
+        padding: 5px;
+        padding-left: 13px;
+        width: 160px;
+    }
+
+    #footer-rights {
+        margin-top: 20px;
+        padding-bottom: 5px;
+        text-align: center;
+        justify-self: center;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+}
