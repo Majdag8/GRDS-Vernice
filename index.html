@@ -23,12 +23,12 @@
 
             <ul id="list-links">
                 <li><a href="index.html" style="font-weight: 700;">Home</a></li>
-                <li><a href="">Menu</a></li>
+                <li><a href="menu.html">Menu</a></li>
                 <li><a href="Home-Deco.html">Shop</a></li>
                 <li><a href="Workshop.html">Workshops</a></li>
-                <li><a href="">Special Events</a></li>
+                <li><a href="reservation.html">Special Events</a></li>
                 <li><a href="">Table</a></li>
-                <li><a href="">Artists</a></li>
+                <li><a href="CallingAllArtist.html">Artists</a></li>
             </ul>
 
             <ul id="list-icons">
@@ -159,7 +159,7 @@
                 From bold flavors to sweet delights, our menu is as diverse, colorful, and creatively crafted as the art
                 we celebrate, offering everything from unique culinary fusions to comforting classics.
             </p>
-            <button>Our Menu</button>
+            <button onclick="window.location.href = 'menu.html'">Our Menu</button>
         </div>
     </div>
 
@@ -353,7 +353,7 @@
                 </div>
                 <div class="loyaltyboxitem">
                     <img src="Home-Page-Images/item 1 loyalty.png" alt="">
-                    <button>Order Now</button>
+                    <button onclick="window.location.href = 'Home-Deco.html'">Order Now</button>
                 </div>
             </div>
         </div>
@@ -366,7 +366,7 @@
                 </div>
                 <div class="loyaltyboxitem">
                     <img src="Home-Page-Images/item 2 loyalty.png" alt="" id="cuployaty">
-                    <button>Order Now</button>
+                    <button onclick="window.location.href = 'menu.html'">Order Now</button>
                 </div>
             </div>
 
@@ -378,7 +378,7 @@
                 </div>
                 <div class="loyaltyboxitem">
                     <img src="Home-Page-Images/item 3 loyalty.png" alt="">
-                    <button>Order Now</button>
+                    <button onclick="window.location.href = 'Workshop.html'">Book Now</button>
                 </div>
             </div>
         </div>
@@ -404,6 +404,133 @@
         </div>
         <img src="Home-Page-Images/blog vector.png" alt="" id="blogvector">
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const testimonialsData = [
+            {
+                stars: "★★★☆☆",
+                feedback: "I love the mix of art, coffee, and community here. It's a cozy spot for studying, and the workshops are a great bonus!",
+                imgSrc: "testimonials-imges/Parisian Style_ 50+ Easy To Copy Paris Outfit Ideas For Effortlessly Chic Wardrobe 1.png",
+                name: "Sara Murad",
+                likes: "73 likes"
+            },
+            {
+                stars: "★★★★★",
+                feedback: "Vernice is the perfect spot to relax or get creative. The atmosphere is inspiring!",
+                imgSrc: "testimonials-imges/_ - 2024-11-09T142336.803 1.png",
+                name: "John Doe",
+                likes: "85 likes"
+            },
+            {
+                stars: "★★★★☆",
+                feedback: "The workshops here are incredible! I’ve learned so much and met amazing people.",
+                imgSrc: "testimonials-imges/New Collection _ Sustainable Parisian style 1.png",
+                name: "Emily Brown",
+                likes: "90 likes"
+            },
+            {
+                stars: "★★☆☆☆",
+                feedback: "The coffee is good, but I wish there were more food options. Great place to chill though!",
+                imgSrc: "testimonials-imges/New Collection _ Sustainable Parisian style 1.png",
+                name: "Alex Johnson",
+                likes: "42 likes"
+            },
+            {
+                stars: "★★★☆☆",
+                feedback: "A cozy spot for reading, but the Wi-Fi was a bit slow during my visit.",
+                imgSrc: "testimonials-imges/_ - 2024-11-09T142336.803 1.png",
+                name: "Rachel Green",
+                likes: "59 likes"
+            }
+        ];
+        
+            const leftCard = document.querySelector("#testimonial-card-left");
+            const centerCard = document.querySelector("#testimonial-card-center");
+            const rightCard = document.querySelector("#testimonial-card-right");
+        
+            const prevButton = document.querySelector(".testimonial-prev");
+            const nextButton = document.querySelector(".testimonial-next");
+        
+            let currentIndex = 0;
+        
+            // Function to render a card's content
+            function renderCard(cardElement, testimonial) {
+                cardElement.querySelector(".testimonial-stars").textContent = testimonial.stars;
+                cardElement.querySelector("#testimonial-feedtext").textContent = testimonial.feedback;
+                cardElement.querySelector("img").src = testimonial.imgSrc;
+                cardElement.querySelector("img").alt = testimonial.name;
+                cardElement.querySelector("#testimonial-name").textContent = testimonial.name;
+                cardElement.querySelector("#testimonial-likes").textContent = testimonial.likes;
+            }
+        
+            // Function to update all cards
+            function updateCards() {
+                const leftIndex = (currentIndex - 1 + testimonialsData.length) % testimonialsData.length;
+                const centerIndex = currentIndex;
+                const rightIndex = (currentIndex + 1) % testimonialsData.length;
+        
+                renderCard(leftCard, testimonialsData[leftIndex]);
+                renderCard(centerCard, testimonialsData[centerIndex]);
+                renderCard(rightCard, testimonialsData[rightIndex]);
+            }
+        
+            // Event listeners for buttons
+            prevButton.addEventListener("click", () => {
+                currentIndex = (currentIndex - 1 + testimonialsData.length) % testimonialsData.length;
+                updateCards();
+            });
+        
+            nextButton.addEventListener("click", () => {
+                currentIndex = (currentIndex + 1) % testimonialsData.length;
+                updateCards();
+            });
+        
+            // Initialize the cards with the first set of testimonials
+            updateCards();
+        });
+        
+        
+            </script>
+            
+            <div class="testimonials-section">
+                <h1 class="testimonials-h1">‘‘</h1>
+                <h2 class="testimonials-h2">Testimonials</h2>
+                <div class="testimonials-carousel">
+                    <div class="testimonial-cards" id="testimonial-card-left">
+                        <div class="testimonial-stars">★★★☆☆</div>
+                        <p id="testimonial-feedtext">I love the mix of art, coffee, and community here. It's a cozy spot for studying, and the workshops are a great bonus!.</p>
+                        <div class="testimonial-user-info">
+                            <img src="testimonials-imges/Parisian Style_ 50+ Easy To Copy Paris Outfit Ideas For Effortlessly Chic Wardrobe 1.png" alt="Sara Murad">
+                            <p id="testimonial-name">Sara Murad</p>
+                            <p id="testimonial-likes">73 likes</p>
+                        </div>
+                    </div>  
+                  <div class="testimonial-cards" id="testimonial-card-right">
+                        <div class="testimonial-stars" >★★★☆☆</div>
+                        <p id="testimonial-feedtext">As a student, Vernice has become my favorite spot for both studying and unwinding. The student discounts are a huge bonus.</p>
+                        <div class="testimonial-user-info">
+                            <img src="testimonials-imges/New Collection _ Sustainable Parisian style 1.png" alt="Sara Murad">
+                            <p id="testimonial-name">Sara Murad</p>
+                            <p id="testimonial-likes">73 likes</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-cards" id="testimonial-card-center">
+                        <div class="testimonial-stars">★★★☆☆</div>
+                        <p id="testimonial-feedtext">Vernice is the perfect spot to relax or get creative. The atmosphere is inspiring, and the student discounts make it even better!</p>
+                        <div class="testimonial-user-info">
+                            <img src="testimonials-imges/_ - 2024-11-09T142336.803 1.png" alt="Sara Murad">
+                            <p id="testimonial-name">Sara Murad</p>
+                            <p id="testimonial-likes">73 likes</p>
+                        </div>
+                    </div>
+        
+                </div>
+                <div class="testimonial-carousel-controls">
+                    <button class="testimonial-prev" ><img src="testimonials-imges/Vector 126.png" alt=""></button>
+                    <button class="testimonial-next"><img src="testimonials-imges/Vector 125.png" alt=""></button>
+                </div>
+            </div>
 
     <footer id="footer">
         <div id="footer-content">

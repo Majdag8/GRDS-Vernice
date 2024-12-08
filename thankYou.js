@@ -15,6 +15,13 @@ $(window).on('click', function (event) {
     }
 });
 
+$('#submitBtn').click((e)=>{
+    $('#thankYouCard').hide();
+    $('#modal').hide();
+    e.preventDefault();
+    $('#almostthere-form').css('display', 'flex');
+})
+
 $('#back-form img').click(() => {
     $('#modal-overlay').hide();
     $('#thankYouCard').hide();
@@ -25,3 +32,4 @@ $('#back-form img').click(() => {
     $(".modal-content").css('visibility', 'visible');
     $(".modal").css('z-index', '10000')
 });
+

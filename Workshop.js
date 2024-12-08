@@ -226,8 +226,16 @@ $(document).ready(function () {
                     $('#modal').hide();
                     $('#modal-overlay').hide();
                     $('body').css('overflow', 'auto');
-                }
+                $('#almostthere-form').css('display', 'none');
+            }
             });
+
+            $("#back-almostthere").on('click', function(e){
+                e.preventDefault();
+                $('#modal-overlay').hide();
+                $('#almostthere-form').css('display', 'none');
+                $('body').css('overflow', 'auto');
+            })
         });
     }).fail(function (error) {
         console.error("Error fetching workshops data:", error);

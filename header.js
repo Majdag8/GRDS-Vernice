@@ -25,7 +25,7 @@ $(document).ready(function () {
         }
     });
 
-    $(document).on('click', '#login button', function () {
+    $(document).on('click', '#signup button', function () {
 
         $('#profile').css({
             display: 'flex',
@@ -67,6 +67,11 @@ $(document).ready(function () {
 
         }
     });
+
+    $("#list-icons li:nth-child(3) img").click(() => {
+        window.location.href = 'cart.html';
+    })
+
 });
 
 const profilePicture = document.getElementById("profilePicture");

@@ -181,6 +181,11 @@ hr {
     background-color: rgba(240, 248, 255, 0);
 }
 
+.add-to-cart:hover {
+    background-color: rgba(233, 176, 52, 1);
+    color: white;
+}
+
 #counterValue {
     font-size: 20px;
     font-weight: 400;

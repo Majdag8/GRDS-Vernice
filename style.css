@@ -34,7 +34,8 @@ button {
     border-radius: 16.74px;
     padding: 6.7px 17.86px 6.7px 17.86px;
     color: rgba(241, 255, 251, 1);
-    font-family: Poppins;
+        font-family: 'Poppins', sans-serif;
+
     font-size: 14.51px;
     font-weight: 400;
     line-height: 21.77px;
@@ -79,7 +80,8 @@ button {
 
 #landing p:nth-child(3),
 #landing p:nth-child(6) {
-    font-family: Poppins;
+        font-family: 'Poppins', sans-serif;
+
     font-size: 21.13px;
     font-weight: 300;
 }
@@ -316,7 +318,8 @@ button {
 }
 
 #booking-inputs3 p {
-    font-family: Poppins;
+        font-family: 'Poppins', sans-serif;
+
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -368,10 +371,13 @@ input[type="radio"] {
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;
     margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
 }
 
 input[type="radio"]:checked {
-    background-color: rgba(233, 176, 52, 1)
+    background-color: rgba(233, 176, 52, 1);
 }
 
 input[type="radio"]:not(:checked) {
@@ -379,11 +385,13 @@ input[type="radio"]:not(:checked) {
 }
 
 label {
-    font-family: Poppins;
+        font-family: 'Poppins', sans-serif;
+
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    padding-top: -10px;
+    vertical-align: middle;
+    cursor: pointer;
 }
 
 #bookNow {
@@ -408,7 +416,8 @@ label {
 }
 
 #bookingform-info span {
-    font-family: Poppins;
+        font-family: 'Poppins', sans-serif;
+
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -577,6 +586,11 @@ label {
     border: 1.02px solid rgba(233, 176, 52, 1);
     color: rgba(233, 176, 52, 1);
     background-color: rgba(255, 255, 255, 0);
+}
+
+.add-to-cart:hover {
+    background-color: rgba(233, 176, 52, 1);
+    color: white;
 }
 
 #counter {
@@ -767,6 +781,7 @@ label {
 }
 
 .loyaltyboxitem button {
+    z-index: 10;
     width: 135px;
     height: 36px;
     padding: 6px 16px 6px 16px;
@@ -857,7 +872,8 @@ label {
 
     #landing p:nth-child(3) {
         width: 355px;
-        font-family: Poppins;
+            font-family: 'Poppins', sans-serif;
+
         font-weight: 300;
     }
 
@@ -888,7 +904,8 @@ label {
         border-radius: 16.74px;
         padding: 6.7px 17.86px 6.7px 17.86px;
         color: rgba(241, 255, 251, 1);
-        font-family: Poppins;
+            font-family: 'Poppins', sans-serif;
+
         font-size: 14.51px;
         font-weight: 400;
         line-height: 21.77px;
@@ -1436,7 +1453,8 @@ label {
 
     #landing p:nth-child(3),
     #landing p:nth-child(6) {
-        font-family: Poppins;
+            font-family: 'Poppins', sans-serif;
+
         font-size: 8.13px;
         font-weight: 300;
     }
@@ -1970,4 +1988,371 @@ label {
         top: 220px;
         width: 50px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+.testimonials-section{
+    height: 639px;
+    position: relative;
+}
+.testimonials-h1{
+position: absolute;
+width: 52px;
+height: 42px;
+left: 510px;
+
+margin-top: 132px;
+
+font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 130px;
+line-height: 50px;
+/* or 38% */
+text-align: center;
+
+color: #53524F;
+
+}
+.testimonials-h2{
+position: absolute;
+width: 386px;
+height: 125px;
+left: 590px;
+
+margin-top: 99px;
+
+font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 109.75%;
+/* or 70px */
+
+color: #53524F;
+
+
+
+}
+.testimonial-cards{
+    background: #7BB7C9;
+    border-radius: 20px;
+    align-items: center;
+    position: absolute;
+
+    width: 396px;
+height: 293px;
+    
+}
+#testimonial-card-center {
+
+background: #E9B034;
+
+    left: 566px;
+    margin-top: 205px;
+}
+#testimonial-card-right {
+left: 994px;
+margin-top: 261px;
+}
+#testimonial-card-left{
+left: 135px;
+margin-top: 261px;
+}
+
+/* Star rating section */
+.testimonial-stars {
+    width: 105px;
+    height: 21px;
+    text-align: left;
+    align-items: left;
+    color: #FFFFFF;
+    border: 1px #FFFFFF;
+    border-radius: 1px;
+    margin-top: 31px;
+    margin-left: 31px;
+    font-size: 21px;
+}
+
+/* Testimonial text styling */
+#testimonial-feedtext{
+align-content: center;
+width: 320px;
+height: 114px;
+margin-left: 31px;
+margin-top: 5px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+
+color: #53524F;
+
+
+
+}
+
+/* User information section */
+.testimonial-user-info {
+display: flex;
+
+width: 358px;
+height: 56px;
+margin-left:25px;
+margin-bottom: 30px;
+
+background: linear-gradient(90deg, rgba(217, 217, 217, 0.17) 0%, rgba(115, 115, 115, 0) 100%);
+border-radius: 31px;
+
+
+}
+
+.testimonial-user-info img {
+width: 57.44px;
+height: 57.44px;
+border-radius: 31px;
+}
+#testimonial-name{
+
+width: 158px;
+height: 17px;
+margin-left: 4.5px;
+margin-top: 15px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 149.28%;
+/* or 18px */
+
+color: #53524F;
+
+
+
+}
+
+#testimonial-likes{
+
+position: absolute;
+width: 80px;
+height: 19px;
+margin-left: 63px;
+margin-top: 30px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 8px;
+line-height: 149.28%;
+/* or 12px */
+
+color: #53524F;
+
+}
+
+/* Carousel Controls */
+.testimonial-carousel-controls {
+    display: flex;
+    position: absolute;
+    width: 119px;
+    height: 44px;
+    margin-top: 541px;
+}
+.testimonial-prev{
+    position: absolute;
+margin-left: 703px;
+width: 44px;
+height: 44px;
+border-radius: 100%;
+
+background: #3687A7;
+
+}
+.testimonial-next{
+    position: absolute;
+    margin-left: 778px;
+width: 44px;
+height: 44px;
+border-radius: 100%;
+
+background: #3687A7;
+}
+
+
+/* Responsive for iPad (768px) */
+@media (max-width: 768px) {
+
+.testimonials-section{
+    width: 768px;
+    position: relative;
+}
+    /* Star rating section */
+.testimonial-stars {
+
+    text-align: left;
+    align-items: left;
+
+    padding-top: 20px;
+    
+    margin-left: 31px;
+}
+
+/* Testimonial text styling */
+#testimonial-feedtext{
+align-content: center;
+
+margin-left: 31px;
+margin-top: 0px;
+
+}
+
+    .testimonials-h1 {
+        top: -1%;
+        left: 28%;
+        transform: translateX(-50%);
+        font-size: 80px;
+        line-height: 45px;
+    }
+
+    .testimonials-h2 {
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 48px;
+        width: auto;
+        text-align: center;
+    }
+
+    .testimonial-cards {
+        width: 50%;
+        height: 280px;
+    }
+
+    #testimonial-card-left {
+        position: absolute;
+        top: -40px;
+        left: -170px;
+    }
+    #testimonial-card-center{
+        position: absolute;
+        top: -30px;
+        
+
+        left: 180px;
+
+    }
+    #testimonial-card-right {
+        position: absolute;
+        top: -40px;
+        left: 510px;
+    }
+    
+
+    .testimonial-carousel-controls {
+        top: 500px;
+        margin: 0;
+        width: fit-content;
+    }
+
+    .testimonial-prev{
+        position: absolute;
+        margin-left: 300px;
+        bottom: 0%;
+    }
+    
+    .testimonial-next {
+        position: absolute;
+        margin-left: 400px;
+        bottom: 0%;
+    }
+}
+
+/* Responsive for mobile (450px) */
+@media (max-width: 430px) {
+    .testimonials-section{
+        width: 430px;
+    }
+
+    .testimonials-h1 {
+        font-size: 60px;
+        left: 23%;
+        top: -3%;
+        line-height: 40px;
+    }
+
+    .testimonials-h2 {
+        font-size: 32px;
+    }
+
+    .testimonial-cards {
+        width: 360px;
+        height: 250px;
+    }
+
+    #testimonial-card-left{
+    
+        top: 185px;
+        position: absolute;
+
+        height: 270px;
+        left: -290px;
+
+    }
+    #testimonial-card-center{
+    
+        top: 150px;
+        position: absolute;
+
+        height: 270px;
+        left: 40px;
+
+    }
+    #testimonial-card-right{
+    
+        top: 185px;
+        position: absolute;
+
+        height: 270px;
+        right: -290px;
+
+    }
+
+    #testimonial-feedtext {
+        font-size: 16px;
+    }
+
+    .testimonial-carousel-controls {
+        top: 500px;
+
+        margin: 0;
+        width: fit-content;
+    }
+
+    .testimonial-prev{
+        position: absolute;
+        margin-left: 130px;
+
+    }
+    
+    .testimonial-next {
+        position: absolute;
+        margin-left: 230px;
+
+    }
+    
 }
