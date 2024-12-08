@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600;700&display=swap');
+
+.popup{
+    /* Frame 73 */
+position: absolute;
+
+width: 1000px;
+height: 569px;
+
+background: rgba(255, 248, 244, 1);
+top: 0;
+left: 50%;
+transform: translate(-50%,-50%) scale(0.1);
+visibility: hidden;
+border: 1px black solid;
+
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+
+
+.popup{
+    /* Frame 73 */
+position: absolute;
+
+width: 1000px;
+height: 569px;
+
+background: rgba(255, 248, 244, 1);
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+border: 1px black solid;
+}
+
+
+
+.popup input{
+    background-color:rgba(255, 248, 244, 1) ;
+    padding-left: 10px;
+}
+
+.popup input::placeholder{
+    font-family: 'Poppins';
+}
+
+.popup #thankuu{
+    /* Thank you */
+
+position: absolute;
+width: 354px;
+height: 95.58px;
+left: 318px;
+top: 30px;
+
+font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 74.2151px;
+line-height: 89px;
+
+color: #53524F;
+
+
+}
+
+.popup #forch{
+    /* for choosing Vernice */
+
+position: absolute;
+width: 252px;
+height: 36px;
+left: 376px;
+top: 110px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+color: #53524F;
+
+
+}
+
+.popup #add{
+    /* Address */
+
+position: absolute;
+width: 65px;
+height: 24px;
+left: 236px;
+top: 145px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #53524F;
+
+
+
+}
+
+.popup #name{
+    /* Rectangle 440 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 267px;
+height: 49px;
+left: 236px;
+top: 180px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+}
+
+.popup #phonee{
+    /* Rectangle 441 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 267px;
+height: 49px;
+left: 544px;
+top: 180px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+}
+
+.popup #address{
+    /* Rectangle 516 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 575px;
+height: 49px;
+left: 236px;
+top: 240px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+}
+
+.popup #pay{
+    /* Payment */
+
+position: absolute;
+width: 300px;
+height: 24px;
+left: 236px;
+top: 325px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #53524F;
+
+
+}
+
+.popup #cash{
+    /* Component 53 */
+/* Ellipse 102 */
+/* Ellipse 102 */
+
+/* Ellipse 102 */
+
+
+
+
+
+background: #E9B034;
+
+position: absolute;
+width: 20px;
+height: 19px;
+left: 245px;
+top: 295px;
+
+
+
+
+
+appearance: none;
+-webkit-appearance: none;
+
+border: 2px solid #E9B034; 
+border-radius: 50%;
+background-color: white;
+transition: all 0.3s ease;
+cursor: pointer;
+
+}
+
+
+
+.popup #cash:checked{
+    background-color: #E9B034;
+}
+
+.popup #paym{
+    /* Cash on Delivery */
+
+position: absolute;
+width: 137px;
+height: 24px;
+left: 275px;
+top: 290px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #53524F;
+
+
+}
+
+.popup #card{
+
+
+background: #E9B034;
+
+position: absolute;
+width: 20px;
+height: 19px;
+left: 450px;
+top: 295px;
+
+
+
+
+
+appearance: none;
+-webkit-appearance: none;
+
+border: 2px solid #E9B034; 
+border-radius: 50%;
+background-color: white;
+transition: all 0.3s ease;
+cursor: pointer;
+
+}
+
+
+
+.popup #card:checked{
+    background-color: #E9B034;
+}
+
+.popup #checkb{
+    /* Card */
+
+position: absolute;
+width: 95px;
+height: 24px;
+left: 480px;
+top: 290px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #53524F;
+
+
+}
+
+
+.popup #cardnum{
+    /* Rectangle 517 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 267px;
+height: 49px;
+left: 236px;
+top: 360px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+}
+
+#picv{
+    /* Group 251 */
+
+position: absolute;
+width: 71.88px;
+height: 33.88px;
+left: 421px;
+top: 368px;
+z-index: 1000;
+
+
+}
+
+.popup #expdatep{
+/* Expiration Date MM/YY */
+
+position: absolute;
+width: 167px;
+height: 23px;
+left: 548px;
+top: 325px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+color: #53524F;
+
+
+}
+.popup #expdate{
+    /* Rectangle 518 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 267px;
+height: 49px;
+left: 544px;
+top: 360px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+}
+
+.popup #cvv{
+    /* Rectangle 519 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 267px;
+height: 49px;
+left: 236px;
+top: 420px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+}
+.popup #cardholder{
+    /* Rectangle 520 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 267px;
+height: 49px;
+left: 544px;
+top: 420px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+}
+
+
+.popup #remme{
+    position: absolute;
+width: 20px;
+height: 19px;
+left: 245px;
+top: 475px;
+
+
+
+
+
+appearance: none;
+-webkit-appearance: none;
+
+border: 2px solid #E9B034; 
+border-radius: 50%;
+background-color: white;
+transition: all 0.3s ease;
+cursor: pointer;
+
+
+}
+
+
+.popup #remme:checked{
+    background-color: #E9B034;
+}
+
+.popup #remt{
+    /* Remember Me */
+
+position: absolute;
+width: 137px;
+height: 24px;
+left: 275px;
+top: 470px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #53524F;
+
+
+}
+
+.popup #submit{
+    /* Frame 54 */
+    border: none;
+    outline: none;
+    box-shadow: none;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 16px;
+gap: 10px;
+
+position: absolute;
+width: 120px;
+left: calc(50% - 120px/2 + 24px);
+top: 500px;
+
+border-color: #E9B034;
+background: #E9B034;
+border-radius: 15px;
+
+
+/* text */
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.popup #exit{
+background-image: url('thanku/Group\ 286.png');
+/* Group 286 */
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 50px;
+top: 50px;
+
+
+background-color: transparent;
+
+
+
+
+
+
+
+
+/* Vector 126 */
+
+
+
+border: transparent;
+}
+.popup #exit:hover{
+    cursor: pointer;
+    
+}
+.popup #submit:hover{
+    cursor: pointer;
+}
+
+.popup {
+    display: none; /* Initially hidden */
+    position: fixed;
+
+    transform: translate(-50%, -50%);
+
+ 
+    box-shadow: 0 0 800px rgba(0, 0, 0, 0.8);
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.open-popup {
+    display: block; /* Show the popup */
+}

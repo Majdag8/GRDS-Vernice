@@ -1,0 +1,1159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    /* Special events Booking */
+
+position: relative;
+
+
+box-sizing: border-box;
+
+
+
+
+}
+
+
+input,select{
+    background: rgba(255, 248, 244, 1);
+}
+
+
+
+
+
+.main{
+
+position: absolute;
+width: 1512px;
+height: 1586px;
+left: 0px;
+top: 1px;
+background: rgba(255, 248, 244, 1);
+
+}
+#spe {
+
+position: absolute;
+width: 573px;
+height: 85px;
+left: 143px;
+top: 211px;
+
+font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #53524F;
+
+}
+
+#nameres, #emailres, #eventdateres, #guests, #phone, #evtype, #timeres, #specialreq, #foodbev, #Decorationres, #Audiores, #staffres, #themeres {
+    box-sizing: border-box;
+    border: 1px solid #53524F;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#res{
+
+font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;}
+
+#nameres{
+    /* Rectangle 440 */
+    box-sizing: border-box;
+margin-top: 30px;
+
+position: absolute;
+width: 267px;
+height: 49px;
+left: 143px;
+top: 308px;
+padding-left: 10px;
+border: 1px solid #53524F;
+border-radius: 10px;
+
+}
+
+#emailres{
+    /* Rectangle 446 */
+margin-top: 25px;
+box-sizing: border-box;
+padding-left: 10px;
+
+position: absolute;
+width: 267px;
+height: 49px;
+left: 143px;
+top: 388px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+}
+
+
+#eventdateres{
+    /* Rectangle 436 */
+    margin-top: 25px;
+box-sizing: border-box;
+padding-left: 10px;
+position: absolute;
+width: 267px;
+height: 49px;
+left: 143px;
+top: 468px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+color: #53524F;
+
+}
+
+
+#guests{
+    /* Rectangle 442 */
+    padding-left: 10px;
+box-sizing: border-box;
+margin-top: 25px;
+position: absolute;
+width: 267px;
+height: 49px;
+left: 143px;
+top: 546px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+
+color: #53524F;
+
+
+
+}
+
+#phone{
+   
+
+box-sizing: border-box;
+
+position: absolute;
+width: 267px;
+height: 49px;
+left: 451px;
+top: 308px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+margin-top: 30px;
+padding-left: 10px;}
+
+
+
+#evtype{
+    /* Rectangle 444 */
+    margin-top: 25px;
+    padding-left: 10px;
+    color: #53524F;
+box-sizing: border-box;
+
+position: absolute;
+width: 267px;
+height: 49px;
+left: 452px;
+top: 388px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+
+}
+
+#timeres{
+    /* Rectangle 439 */
+    margin-top: 25px;
+padding-left: 10px;
+box-sizing: border-box;
+margin-left: 3px;
+position: absolute;
+width: 267px;
+height: 49px;
+left: 447px;
+top: 468px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+
+}
+
+#indoorres{
+    /* Component 53 */
+
+/* Component 53 */
+appearance: none;
+-webkit-appearance: none;
+position: absolute;
+width: 20px;
+height: 19px;
+left: 451px;
+top: 580px;
+border: 2px solid #E9B034; 
+border-radius: 50%;
+background-color: white;
+transition: all 0.3s ease;
+cursor: pointer;
+
+
+
+/* Ellipse 102 */
+
+
+
+
+}
+
+#indoorres:hover{
+    background-color: #E9B034;
+}
+
+#indoorres:checked{
+    background-color: #E9B034;
+}
+
+
+#outdoorres{
+    /* Component 54 */
+    appearance: none;
+    -webkit-appearance: none;
+position: absolute;
+width: 20px;
+height: 19px;
+left: 586px;
+top: 580px;
+border: 2px solid #E9B034; 
+border-radius: 50%;
+background-color: white;
+transition: all 0.3s ease;
+cursor: pointer;
+
+/* Ellipse 102 */
+
+
+
+
+
+}
+
+#outdoorres:hover{
+    background-color: #E9B034;
+}
+
+#outdoorres:checked{
+    background-color: #E9B034;
+}
+
+#indoors{
+    /* Indoors */
+margin-left: 4px;
+position: absolute;
+width: 60px;
+height: 24px;
+left: 478px;
+top: 580px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #53524F;
+}
+
+
+#outdoors{
+/* Outdoors */
+margin-left: 5px;
+position: absolute;
+width: 75px;
+height: 24px;
+left: 611px;
+top: 580px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #53524F;
+
+}
+
+#specialreq{
+    /* Rectangle 447 */
+margin-top: 25px;
+padding-left: 10px;
+box-sizing: border-box;
+
+position: absolute;
+width: 576px;
+height: 49px;
+left: 143px;
+top: 624px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+}
+
+#foodbev{
+    /* Rectangle 448 */
+    margin-top: 25px;
+    padding-left: 10px;
+box-sizing: border-box;
+
+position: absolute;
+width: 576px;
+height: 49px;
+left: 143px;
+top: 695px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+color: #53524F;
+
+}
+
+#Decorationres{
+    /* Rectangle 445 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 576px;
+height: 49px;
+left: 794px;
+top: 330px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+color: #53524F;
+
+
+}
+
+#Audiores{
+    /* Rectangle 450 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 575px;
+height: 49px;
+left: 794px;
+top: 401px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+color: #53524F;
+
+}
+
+#staffres{
+    /* Rectangle 451 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 575px;
+height: 49px;
+left: 794px;
+top: 475px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+color: #53524F;
+
+}
+
+#themeres{
+    /* Rectangle 449 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 572px;
+height: 49px;
+left: 797px;
+top: 543px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+color: #53524F;
+
+}
+
+#txtres{
+    /* Rectangle 452 */
+
+box-sizing: border-box;
+padding-top: 0px;
+position: absolute;
+width: 571px;
+height: 95px;
+left: 796px;
+top: 614px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+
+}
+#oppttl{
+    /* Optional Add-Ons */
+
+/* Rectangle 526 */
+
+/* Optional Add-Ons */
+
+position: absolute;
+width: 293px;
+height: 60px;
+left: calc(50% - 293px/2 + 179.5px);
+top: 210px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+
+color: #53524F;
+
+
+
+}
+
+#v{
+    /* Vector */
+    width: 183.58px;
+    height: 277.25px;
+    top: 170px;
+    left: -50px;
+   
+position: absolute;
+
+
+background-color: transparent;
+
+
+}
+
+#v1{/* Vector */
+    width: 150.58px;
+    height: 350.25px;
+    background-color: transparent;
+
+    position: absolute;
+    left:1360px;
+   
+  
+    top: 600px;
+    bottom: 44.45%;
+    
+    
+    
+}
+#totalres{
+    /* Total: $45 */
+
+position: absolute;
+width: 102px;
+height: 30px;
+left: 1041px;
+top: 733px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+text-align: center;
+
+color: #53524F;
+
+
+}
+
+#btn{
+    /* Frame 30 */
+
+/* Auto layout */
+
+border: none;
+outline: none;
+box-shadow: none;
+
+width: 184px;
+height: 36px;
+
+border-color: #80B6CC;
+position: absolute;
+left: 1183px;
+
+top: 750px;
+
+
+background: #80B6CC;
+border-radius: 15px;
+
+
+/* text */
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #F1FFFB;
+
+}
+#btn:hover{
+    cursor: pointer;
+}
+
+#btnres:hover{
+    cursor: pointer;
+
+}
+
+.specialres{
+    height: 900px;
+}
+
+#tableres{/* This Is The Secret to Making Your Next Dinner Party Unforgettable 4 */
+
+ /* This Is The Secret to Making Your Next Dinner Party Unforgettable 4 */
+
+position: absolute;
+width: 591px;
+height: 507px;
+left: 130px;
+top: 100px;
+
+
+
+    
+   
+    }
+
+
+
+
+h4{
+    /* Cancelation Policy */
+
+position: absolute;
+width: 573px;
+height: 85px;
+left: 773px;
+top: 50px;
+
+font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #53524F;
+
+
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+  
+   background-color: transparent;
+   /* 72 Hours Prior: Cancellations made at least 72 hours before the event will receive a full refund. 48 to 72 Hours Prior: Cancellations made 48 to 72 hours before the event will receive a 50% refund. Less than 48 Hours: Cancellations made within 48 hours of the event are non-refundable. No-Show Policy: If the event is a no-show, no refund will be issued. Rescheduling: One-time rescheduling is allowed if requested at least 72 hours before the original event date, subject to availability. */
+
+position: absolute;
+width: 9px;
+height: 3px;
+left: 700px;
+top: 120px;
+
+font-family: 'Poppins';
+font-style: normal;
+
+font-size: 20px;
+line-height: 20px;
+
+color: #53524F;
+
+
+
+
+}
+
+.list-item {
+    padding: 8px 0;
+    word-wrap: break-word;
+    line-height: 34px;
+   
+
+}
+
+.list-item span {
+   /* 72 Hours Prior: Cancellations made at least 72 hours before the event will receive a full refund. 48 to 72 Hours Prior: Cancellations made 48 to 72 hours before the event will receive a 50% refund. Less than 48 Hours: Cancellations made within 48 hours of the event are non-refundable. No-Show Policy: If the event is a no-show, no refund will be issued. Rescheduling: One-time rescheduling is allowed if requested at least 72 hours before the original event date, subject to availability. */
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+
+color: #53524F;
+
+
+
+}
+
+.list-conainer {
+    display: flex;
+    flex-direction: column;
+  
+   background-color: transparent;
+   /* 72 Hours Prior: Cancellations made at least 72 hours before the event will receive a full refund. 48 to 72 Hours Prior: Cancellations made 48 to 72 hours before the event will receive a 50% refund. Less than 48 Hours: Cancellations made within 48 hours of the event are non-refundable. No-Show Policy: If the event is a no-show, no refund will be issued. Rescheduling: One-time rescheduling is allowed if requested at least 72 hours before the original event date, subject to availability. */
+
+position: absolute;
+width: 700px;
+height: 33px;
+left: 750px;
+top: 150px;
+
+font-family: 'Poppins';
+font-style: normal;
+
+font-size: 20px;
+line-height: 20px;
+
+color: #53524F;
+
+}
+#indoorres, #outdoorres {
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    border: 2px solid #E9B034; 
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}#indoorres, #outdoorres {
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    border: 2px solid #E9B034; 
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+#totalres {
+    position: absolute;
+    width: 102px;
+    height: 30px;
+    left: 1041px;
+    top: 733px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #53524F;
+}
+#btn{
+    width: 184px;
+    height: 36px;
+    border-color: #80B6CC;
+    position: absolute;
+    left: 1183px;
+    top: 750px;
+    background: #80B6CC;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #F1FFFB;
+}#btn {
+    width: 184px;
+    height: 36px;
+    border-color: #80B6CC;
+    position: absolute;
+    left: 1183px;
+    top: 750px;
+    background: #80B6CC;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #F1FFFB;
+}
+h4 {
+    position: absolute;
+    width: 573px;
+    height: 85px;
+    left: 773px;
+    top: 50px;
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #53524F;
+}
+.list-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 9px;
+    height: 3px;
+    left: 700px;
+    top: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #53524F;
+}
+/* Base styles */
+#rect{
+    /* Rectangle 513 */
+
+position: absolute;
+width: 173px;
+height: 35px;
+left: -8px;
+top: 170px;
+
+background: #E9B034;
+
+}
+#play{
+    background-color: transparent;
+    left: 400px;
+    top: 325px;
+}
+
+@media (max-width: 768px){
+    .main{
+        width: 768px;
+    }
+   
+    #oppttl{
+   
+    left: 150px;
+    top: 750px;
+    
+
+    
+    
+    }
+    #Decorationres{
+        /* Rectangle 445 */
+    
+ 
+    left: 140px;
+    top: 880px;
+    
+ 
+    
+    
+    }
+    .cancelationpolicy{
+        top: 500px;
+        width: 600px;
+    }
+    #Audiores{
+        /* Rectangle 450 */
+    
+
+  
+    left: 140px;
+    top: 950px;
+ 
+    }
+    #staffres{
+        /* Rectangle 451 */
+    
+ 
+    left: 140px;
+    top: 1020px;
+    
+  
+    
+    }
+    
+    
+#themeres{
+    /* Rectangle 449 */
+
+
+left: 140px;
+top: 1090px;
+
+
+
+}
+
+#txtres{
+    /* Rectangle 452 */
+
+
+left: 140px;
+top: 1160px;
+
+
+
+}
+#btn{
+    /* Frame 30 */
+
+/* Auto layout */
+
+
+
+
+left: 450px;
+
+top: 1310px;
+
+
+
+}
+#totalres{
+    /* Total: $45 */
+
+left: 250px;
+top: 1295px;
+
+
+}#v1{/* Vector */
+   
+
+ 
+    left:620px;
+    
+    top: 1350px;
+   
+    
+    
+    
+}
+
+h4{
+    position: absolute;
+    width: 573px;
+    height: 85px;
+    left: 60px;
+    top: 600px;
+   
+}
+ul {
+  
+
+left: 30px;
+top: 700px;
+
+
+}
+
+
+}
+
+@media (max-width: 431px){
+   
+    #spe {
+
+        position: absolute;
+        width: 573px;
+        height: 85px;
+        left: 143px;
+        top: 211px;
+        
+        font-family: 'Albert Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 48px;
+        
+        color: #53524F;
+        
+        }
+        #res{
+
+         
+            font-size: 30px;
+            }
+
+            #phone{
+   
+
+              
+                left: 143px;
+                top: 620px;
+                
+                }
+                
+                
+                
+                #evtype{
+                    /* Rectangle 444 */
+               
+              
+               
+                left: 143px;
+                top: 780px;
+                
+            
+                
+                }
+                
+                #timeres{
+                    /* Rectangle 439 */
+                
+                left: 143px;
+                top: 700px;
+                
+                
+                
+                }
+                
+                #indoorres{
+               left: 143px;
+                top: 900px;
+            
+                }
+                
+                
+                #outdoorres{
+               
+                left: 143px;
+                top: 950px;
+              
+                
+                }
+                
+           
+                #indoors{
+                left: 180px;
+                top: 900px;
+              
+                }
+                
+                
+                #outdoors{
+              
+                left: 180px;
+                top: 950px;
+            
+                }
+                
+                #specialreq{
+                   width: 350px;
+             
+                left: 143px;
+                top: 970px;
+             
+                }
+                
+                #foodbev{
+                   
+                    width: 350px;
+                left: 143px;
+                top: 1040px;
+          
+                }
+                #oppttl{
+   
+                    left: 100px;
+                    top: 1100px;
+                    font-size: 20px;
+                    
+                
+                    
+                    
+                    }
+                    #Decorationres{
+                        /* Rectangle 445 */
+                    
+                        width: 350px;
+                    left: 140px;
+                    top: 1220px;
+                    
+                 
+                    
+                    
+                    }
+                    .cancelationpolicy{
+                        left: 10px;
+                        
+                        top: 850px;
+                        width: 460px;
+                    }
+                    #Audiores{
+                        /* Rectangle 450 */
+                    
+                        width: 350px;
+                  
+                    left: 140px;
+                    top: 1290px;
+                 
+                    }
+                    #staffres{
+                        /* Rectangle 451 */
+                    
+                        width: 350px;
+                    left: 140px;
+                    top: 1360px;
+                    
+                  
+                    
+                    }
+                    
+                    
+                #themeres{
+                    /* Rectangle 449 */
+                
+                    width: 350px;
+                left: 140px;
+                top: 1430px;
+                
+                
+                
+                }
+                
+                #txtres{
+                    /* Rectangle 452 */
+                    width: 380px;
+                
+                left: 140px;
+                top: 1500px;
+                
+                
+                
+                }
+                #btn{
+                    /* Frame 30 */
+                
+                /* Auto layout */
+                
+                
+                
+                
+                left: 300px;
+                
+                top: 1650px;
+                
+                
+                
+                }
+                #totalres{
+                    /* Total: $45 */
+                
+                left: 150px;
+                top: 1640px;
+                
+                
+                }#v1{/* Vector */
+                   
+                
+                 
+                    left:610px;
+                    
+                    top: 1650px;
+                   
+                    
+                    
+                    
+                }
+                
+                h4{
+                
+                    left: 60px;
+                    top: 500px;
+                    font-size: 30px;
+                   
+                }
+                ul {
+                  
+                
+                left: 30px;
+                top: 570px;
+                font-size: 14px;
+                
+                
+                }
+                .list-item span {
+               
+                    font-size: 15px;
+                 
+                 }
+                #tableres{/* This Is The Secret to Making Your Next Dinner Party Unforgettable 4 */
+
+                    /* This Is The Secret to Making Your Next Dinner Party Unforgettable 4 */
+                   
+                   position: absolute;
+                   width: 400px;
+                   height: 400px;
+                   left: 100px;
+                   top: 100px;
+                   
+                   
+                   
+                       
+                      
+                       }
+                       #play{
+                        background-color: transparent;
+                        left: 250px;
+                        top: 260px;
+                    }
+
+
+
+
+}
+
+
+

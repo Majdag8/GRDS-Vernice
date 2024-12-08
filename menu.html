@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <title>Menu</title>
+</head>
+<body>
+    <div id="fixed-nav">
+        <div id="header">
+            <img src="Images/Vernice Logo.png" alt="Vernice Logo" id="logo">
+    
+            <ul id="list-links">
+                <li><a href="index.html" style="font-weight: 700;">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="Home-Deco.html">Shop</a></li>
+                <li><a href="Workshop.html">Workshops</a></li>
+                <li><a href="">Special Events</a></li>
+                <li><a href="">Table</a></li>
+                <li><a href="CallingAllArtist.html">Artists</a></li>
+            </ul>
+    
+            <ul id="list-icons">
+                <div id="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <li><img src="Images/Search Icon.png" alt="Search Icon"></li>
+                <li><img src="Images/Bag Icon.png" alt="Bag Icon"></li>
+                <li><img src="Images/Profile Icon.png" alt="Profile Icon" id="profile-icon"></li>
+            </ul>
+        </div>
+        <hr id="header-hr">
+    </div>
+    
+    <div class="all-div-menu">
+        <div class="cover-menu">
+
+            <div id="menu-label-div-1">
+                <h1 class="cover-menu-h1" id="menu-h1-first-line">Savor the Art  </h1>
+
+                <div id="menu-label-div-2">
+                <h1 class="cover-menu-h1" id="menu-h1-sec-line"> of Taste at</h1>
+                <h1 class="cover-menu-h1" id="cover-menu-h1-bold"> Vernice</h1>
+                </div>
+            </div>
+            <img src="menu-images/Vector 235.png" alt="" id="vector-break">    
+            <p id="cover-menu-p">Where Every Dish is a Creation, Crafted to Delight the Palate and Spark Inspiration.</p>
+            <img src="menu-images/Vector-background-food-plate.png" alt="" id="cover-menu-back-img">
+            <img src="menu-images/Ceramic_Plate_Of_Beef_Steak_And_Chips-removebg-preview 1.png" alt="" id="cover-menu-food-img">
+            <img src="menu-images/Vector-background-left-circle.png" alt="" id="cover-menu-style">
+        </div>
+
+        <div class="sec2-menu">
+            <h1 class="cover-menu-h1" id="Specialties-style-title">Our <span  id="style-Specialties-label">Specialities</span></h1>
+            
+
+            
+            <div class="Specialities-card" id="Specialities-card-left">
+                <h2 class="Specialities-title">Passion Mojito</h2>
+                <img src="menu-images/DRINK_PHOTOGRAPHY_-_Andrea_Di_Lorenzo___Photographer__1_-removebg-preview 1.png" alt="" id="mojito-img">
+                <span class="Specialities-price">Price: $6</span>
+                <br>
+                <span class="Specialities-description">White Rum - Passion Fruit - Mint Leaves - Lime Juice</span>
+                    <div class="Specialities-counter">
+                        <p class="Specialities-mins">-</p>
+                        <p class="Specialities-number">1</p>
+                        <p class="Specialities-plus">+</p>
+                    </div>
+                    <div class="Add-cart-btn-div" id="Add-cart-btn-left">
+                        <p class="Add-cart-btn">Add to Cart</p>
+                    </div>
+            </div>
+<img src="menu-images/Rectangle 513.png" class="Rectangle-background-1" alt="">
+            <div class="Specialities-card" id="Specialities-card-center">
+                <h2 class="Specialities-title">Berlin Breakfast</h2>
+                <img src="menu-images/two-delicious-sandwiches 1.png" alt="" id="Specialities-img-center">
+                <span class="Specialities-price">Price: $11.5</span>
+                <br>
+                <span class="Specialities-description">Smoked turkey, Emmental cheese, cream cheese, cherry tomato, brown toast, mint, butter.</span>
+                    <div class="Specialities-counter">
+                        <p class="Specialities-mins">-</p>
+                        <p class="Specialities-number">1</p>
+                        <p class="Specialities-plus">+</p>
+                    </div>
+                    <div class="Add-cart-btn-div"id="Add-cart-btn-center">
+                        <p class="Add-cart-btn" >Add to Cart</p>
+                    </div>
+            </div>
+            <img src="menu-images/Rectangle 524.png" class="Rectangle-background-2" alt=""> 
+            <div class="Specialities-card" id="Specialities-card-right">
+                <h2 class="Specialities-title" style="text-align: center; width: 200px; height:58px ;">Grilled Chicken Breast</h2>
+                <img src="menu-images/Buttermilk Chicken Marinade Recipe (1) 1.png" alt="" id="Specialities-img-right">
+                <span class="Specialities-price">Price: $14.5</span>
+                <br>
+                <span class="Specialities-description" id="right-des">Grilled marinated chicken breast, sautéed vegetables, potato puree or French fries served with mushroom sauce.</span>
+                    <div class="Specialities-counter">
+                        <p class="Specialities-mins">-</p>
+                        <p class="Specialities-number">1</p>
+                        <p class="Specialities-plus">+</p>
+                    </div>
+                    <div class="Add-cart-btn-div"id="Add-cart-btn-right">
+                        <p class="Add-cart-btn" >Add to Cart</p>
+                    </div>
+            </div>
+           
+
+            <script>
+                function toggleVisibilityDesserts() {
+    const element = document.getElementById("Desserts.dev");
+    if (element.style.visibility === "hidden") {
+        element.style.visibility = "visible";
+    } else {
+        element.style.visibility = "hidden";
+    }
+    
+}
+
+            </script>
+
+
+
+        </div>
+
+        <div class="Full-menu">
+            <h1 class="cover-menu-h1" id="Menu-style-title">Our <span id="style-Menu-label">Menu</span></h1>
+
+            <div class="btn-sec" id="btn-sec-1st">
+                <img src="menu-images/Layer_1.png" alt="" id="sec-icon-1st">
+                <p class="sec-name">Food</p>
+                <img src="menu-images/Vector 152 colored.png" alt="" class="drop-btn">
+            </div>
+
+            <div class="btn-sec" id="btn-sec-2nd" onclick="toggleVisibilityDesserts()">
+                <img src="menu-images/Vector.png" alt="" id="sec-icon-2nd">
+                <p class="sec-name">Desserts</p>
+                <img src="menu-images/Vector 152 colored.png" alt="" class="drop-btn">
+            </div>
+
+            <div class="btn-sec" id="btn-sec-3rd">
+                <img src="menu-images/Isolation_Mode.png" alt="" id="sec-icon-3rd">
+                <p class="sec-name">Drinks</p>
+                <img src="menu-images/Vector 152 colored.png" alt="" class="drop-btn">
+            </div>
+
+            <div class="btn-sec" id="btn-sec-4th">
+                <img src="menu-images/smoke.png" alt="" id="sec-icon-4th">
+                <p class="sec-name">Tobacco</p>
+                <img src="menu-images/Vector 152 colored.png" alt="" class="drop-btn">
+            </div>
+
+            <div class="Breakfast-sec">
+                <p class="menu-sec-title">Breakfast</p>
+
+                <div class="menu-food-card" id="menu-food-card-1st">
+                    <div class="food-img-holder">
+                        <img src="menu-images/25 Tortilla Wrap Recipes That Are Perfect For Lunch 1.png" alt="">
+                    </div>
+                    <h2 class="food-title">Halloumi Sandwich</h2>
+                    <img class="food-line" src="menu-images/Vector 197.png" alt="">
+                    <span class="food-price">$5.00</span>
+                    <p class="food-description">Grilled halloumi cheese, tomato, cucumber, mint, olive tapenade spread ,in authentic tannour bread .</p>
+                    <div  class="btn-food-sec">
+                        <div class="Add-cart-btn-div">
+                            <p class="Add-cart-btn">Add to Cart</p>
+                        </div>
+                        <div class="food-counter">
+                            <p class="food-mins">-</p>
+                            <p class="food-number">1</p>
+                            <p class="food-plus">+</p>
+                        </div>
+
+                        <div class="food-addon-dev">
+                            <p class="food-addon-label">Add Extras</p>
+                            <img src="menu-images/Vector 152.png" alt="" class="drop-btn-food">
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="menu-food-card" id="menu-food-card-2nd">
+                    <div class="food-img-holder">
+                        <img src="menu-images/Ultimate bacon and egg sandwich recipe_ Bacon breakfast ideas 1.png" style="margin-top: -30px; margin-left: -20px;" alt="">
+                    </div>
+                    <h2 class="food-title">London Breakfast</h2>
+                    <img class="food-line" src="menu-images/Vector 197.png"  alt="">
+                    <span class="food-price">$11.50</span>
+                    <p class="food-description">Grilled beef frankfurter, bacon, tomato, fresh mushrooms, eggs, brown toast, parsley, butter.</p>
+                    <div  class="btn-food-sec">
+                        <div class="Add-cart-btn-div">
+                            <p class="Add-cart-btn">Add to Cart</p>
+                        </div>
+                        <div class="food-counter">
+                            <p class="food-mins">-</p>
+                            <p class="food-number">1</p>
+                            <p class="food-plus">+</p>
+                        </div>
+
+                        <div class="food-addon-dev">
+                            <p class="food-addon-label">Add Extras</p>
+                            <img src="menu-images/Vector 152.png" alt="" class="drop-btn-food">
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="menu-food-card" id="menu-food-card-3rd">
+                    <div class="food-img-holder">
+                        <img src="menu-images/_ - 2024-11-14T163808 1.png" style="margin-left: -25px;">
+                    </div>
+                    <h2 class="food-title">Beirut Breakfast</h2>
+                    <img class="food-line" src="menu-images/Vector 197.png" alt="">
+                    <span class="food-price">$8.00</span>
+                    <p class="food-description">Assorted mini cheese kechek and zaatar manouche, labneh, tomato, cucumber, tannour bread, mint & black olives.</p>
+                    <div  class="btn-food-sec">
+                        <div class="Add-cart-btn-div">
+                            <p class="Add-cart-btn">Add to Cart</p>
+                        </div>
+                        <div class="food-counter">
+                            <p class="food-mins">-</p>
+                            <p class="food-number">1</p>
+                            <p class="food-plus">+</p>
+                        </div>
+
+                        <div class="food-addon-dev">
+                            <p class="food-addon-label">Add Extras</p>
+                            <img src="menu-images/Vector 152.png" alt="" class="drop-btn-food">
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="menu-food-card" id="menu-food-card-4th">
+                    <div class="food-img-holder">
+                        <img src="menu-images/two-delicious-sandwiches 2.png" style="margin-left: -20px;" alt="">
+                    </div>
+                    <h2 class="food-title">Berlin Breakfast</h2>
+                    <img class="food-line" src="menu-images/Vector 197.png" alt="">
+                    <span class="food-price">$11.50</span>
+                    <p class="food-description">Smoked turkey, Emmental cheese, cream cheese, cherry tomato, brown toast, mint, butter.</p>
+                    <div  class="btn-food-sec">
+                        <div class="Add-cart-btn-div">
+                            <p class="Add-cart-btn">Add to Cart</p>
+                        </div>
+                        <div class="food-counter">
+                            <p class="food-mins">-</p>
+                            <p class="food-number">1</p>
+                            <p class="food-plus">+</p>
+                        </div>
+
+                        <div class="food-addon-dev">
+                            <p class="food-addon-label">Add Extras</p>
+                            <img src="menu-images/Vector 152.png" alt="" class="drop-btn-food">
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+            <div class="Breakfast-sec" id="Desserts.dev" style="visibility: hidden;">
+                <p class="menu-sec-title">Desserts</p>
+
+                <div class="menu-food-card" id="menu-food-card-1st">
+                    <div class="food-img-holder">
+                        <img src="menu-images/Chocolate_Pancakes_with_Cocoa_Powder-removebg-preview 1.png" alt="">
+                    </div>
+                    <h2 class="food-title">Chocolate Pancakes</h2>
+                    <img class="food-line" src="menu-images/Vector 197.png" alt="">
+                    <span class="food-price">$13.00</span>
+                    <p class="food-description">Pancakes filled with rich chocolate spread, topped with fresh fruits and a drizzle of chocolate sauce.</p>
+                    <div  class="btn-food-sec">
+                        <div class="Add-cart-btn-div">
+                            <p class="Add-cart-btn">Add to Cart</p>
+                        </div>
+                        <div class="food-counter">
+                            <p class="food-mins">-</p>
+                            <p class="food-number">1</p>
+                            <p class="food-plus">+</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-food-card" id="menu-food-card-2nd">
+                    <div class="food-img-holder">
+                        <img src="menu-images/Mask group.png" style="margin-top: -30px; margin-left: -20px;" alt="">
+                    </div>
+                    <h2 class="food-title">London Breakfast</h2>
+                    <img class="food-line" src="menu-images/Vector 197.png"  alt="">
+                    <span class="food-price">$23.50</span>
+                    <p class="food-description">A French tart with poached pears, almond cream, and a buttery pastry base.</p>
+                    <div  class="btn-food-sec">
+                        <div class="Add-cart-btn-div">
+                            <p class="Add-cart-btn">Add to Cart</p>
+                        </div>
+                        <div class="food-counter">
+                            <p class="food-mins">-</p>
+                            <p class="food-number">1</p>
+                            <p class="food-plus">+</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-food-card" id="menu-food-card-3rd">
+                    <div class="food-img-holder">
+                        <img src="menu-images/Crispy_Strawberry_Waffles_for_One-removebg-preview 1.png" style="margin-left: -25px;">
+                    </div>
+                    <h2 class="food-title">Waffle Strawberry</h2>
+                    <img class="food-line" src="menu-images/Vector 197.png" alt="">
+                    <span class="food-price">$15.00</span>
+                    <p class="food-description">A golden, crispy waffle topped with fresh strawberries, a drizzle of sweet syrup, and a dusting of powdered sugar.</p>
+                    <div  class="btn-food-sec">
+                        <div class="Add-cart-btn-div">
+                            <p class="Add-cart-btn">Add to Cart</p>
+                        </div>
+                        <div class="food-counter">
+                            <p class="food-mins">-</p>
+                            <p class="food-number">1</p>
+                            <p class="food-plus">+</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="menu-food-card" id="menu-food-card-4th">
+                    <div class="food-img-holder">
+                        <img src="menu-images/__-_2024-11-22T173353.374-removebg-preview 1.png" style="margin-left: -20px;" alt="">
+                    </div>
+                    <h2 class="food-title">Strawberry Cloud Tart</h2>
+                    <img class="food-line" src="menu-images/Vector 197.png" alt="">
+                    <span class="food-price">$11.50</span>
+                    <p class="food-description">A light and fluffy tart with sweetened whipped cream topped with fresh strawberries.</p>
+                    <div  class="btn-food-sec">
+                        <div class="Add-cart-btn-div">
+                            <p class="Add-cart-btn">Add to Cart</p>
+                        </div>
+                        <div class="food-counter">
+                            <p class="food-mins">-</p>
+                            <p class="food-number">1</p>
+                            <p class="food-plus">+</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+            <div class="Drinks-sec" style="visibility: hidden;">
+                <p class="menu-sec-title">Drinks</p>
+
+                <div class="menu-food-card" id="menu-food-card-1st">
+                    <div class="food-img-holder">
+                        <img src="menu-images/Recipe__Sparkling_Strawberry_Cucumber_Mocktail-removebg-preview 1.png" alt="">
+                    </div>
+                    <h2 class="food-title">Sparkling Strawberry Mocktail</h2>
+                    <img class="food-line" src="menu-images/Vector 197.png" alt="">
+                    <span class="food-price">$9.00</span>
+                    <p class="food-description">A refreshing blend of strawberry, cucumber, and sparkling water for a cool, tangy drink.</p>
+                    <div  class="btn-food-sec">
+                        <div class="Add-cart-btn-div">
+                            <p class="Add-cart-btn">Add to Cart</p>
+                        </div>
+                        <div class="food-counter">
+                            <p class="food-mins">-</p>
+                            <p class="food-number">1</p>
+                            <p class="food-plus">+</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-food-card" id="menu-food-card-2nd">
+                    <div class="food-img-holder">
+                        <img src="menu-images/Refreshing_dragon_fruit_lemonade-removebg-preview 1.png" style="margin-top: -30px; margin-left: -20px;" alt="">
+                    </div>
+                    <h2 class="food-title">Passion Fruit Mojito</h2>
+                    <img class="food-line" src="menu-images/Vector 197.png"  alt="">
+                    <span class="food-price">$11.50</span>
+                    <p class="food-description">A tropical blend of passion fruit, mint, lime, and soda, offering a refreshing twist on the classic mojito.</p>
+                    <div  class="btn-food-sec">
+                        <div class="Add-cart-btn-div">
+                            <p class="Add-cart-btn">Add to Cart</p>
+                        </div>
+                        <div class="food-counter">
+                            <p class="food-mins">-</p>
+                            <p class="food-number">1</p>
+                            <p class="food-plus">+</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-food-card" id="menu-food-card-3rd">
+                    <div class="food-img-holder">
+                        <img src="menu-images/mojito-removebg-preview 1.png" style="margin-left: -25px;">
+                    </div>
+                    <h2 class="food-title">Blue Lagoon Mojito</h2>
+                    <img class="food-line" src="menu-images/Vector 197.png" alt="">
+                    <span class="food-price">$12.00</span>
+                    <p class="food-description">A refreshing minty drink with lime, blue curaçao syrup, and soda water, perfect for a cool twist on the classic mojito.</p>
+                    <div  class="btn-food-sec">
+                        <div class="Add-cart-btn-div">
+                            <p class="Add-cart-btn">Add to Cart</p>
+                        </div>
+                        <div class="food-counter">
+                            <p class="food-mins">-</p>
+                            <p class="food-number">1</p>
+                            <p class="food-plus">+</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="menu-food-card" id="menu-food-card-4th">
+                    <div class="food-img-holder">
+                        <img src="menu-images/Hangman_s_Blood-removebg-preview 1.png" style="margin-left: -20px;" alt="">
+                    </div>
+                    <h2 class="food-title">Cherry Mocktail</h2>
+                    <img class="food-line" src="menu-images/Vector 197.png" alt="">
+                    <span class="food-price">$9.50</span>
+                    <p class="food-description">A sweet and tangy mojito with muddled cherries, mint, and lime for a refreshing, fruity twist.</p>
+                    <div  class="btn-food-sec">
+                        <div class="Add-cart-btn-div">
+                            <p class="Add-cart-btn">Add to Cart</p>
+                        </div>
+                        <div class="food-counter">
+                            <p class="food-mins">-</p>
+                            <p class="food-number">1</p>
+                            <p class="food-plus">+</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <footer id="footer">
+        <div id="footer-content">
+            <div id="logoSocialMedia">
+                <img src="Images/footer logo.png" alt="" id="logo">
+                <div id="socialmedia">
+                    <img src="Images/facebook.png" alt="" id="facebook">
+                    <img src="Images/instagram.png" alt="" id="instagram">
+                    <img src="Images/tiktok.png" alt="" id="tiktok">
+                </div>
+            </div>
+    
+            <div id="navbar">
+                <ul class="footer-nav">
+                    <li><a href="index.html" style="font-weight: 700;">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="Home-Deco.html">Shop</a></li>
+                </ul>
+                <ul class="footer-nav">
+                    <li><a href="Workshop.html">Workshops</a></li>
+                    <li><a href="">Secial Events</a></li>
+                    <li><a href="CallingAllArtist.html">Artists</a></li>
+                </ul>
+                <ul class="footer-nav">
+                    <li><a href="">Table</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Profile</a></li>
+                </ul>
+                <ul class="footer-nav">
+                    <p>Location</p>
+                    <p>Koraytem, Verdun, Lebanon</p>
+                </ul>
+            </div>
+    
+            <div id="updates">
+                <p id="updates-title">Get Updates</p>
+                <p id="updates-description">Get Updates on Workshops, New Dishes, and Exciting Events!</p>
+                <input type="text" placeholder="Email" id="email-input">
+            </div>
+        </div>
+        <hr>
+        <p id="footer-rights">All rights reserved. 2024. by Vernice.</p>
+    </footer>
+    
+</body>
+</html>

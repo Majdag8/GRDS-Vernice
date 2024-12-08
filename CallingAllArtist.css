@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+#all-artist-cover-div{
+    height: 529px;
+position: relative;
+top: 166.23px;
+}
+#all-artist-cover-h1{
+    position: absolute;
+    top: 111px;
+    left: 97px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+    width: 530px;
+    height: 123px;
+
+font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 62px;
+line-height: 109.75%;
+/* or 68px */
+
+color: #53524F;
+}
+#all-artist-cover-label{
+    font-weight: 700; 
+}
+#all-artist-cover-line{
+    position: absolute;
+    top: 265px;
+    left: 97px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+#all-artist-cover-description{
+    position: absolute;
+    left: 97px;
+    top: 295px;
+
+    width: 574px;
+    height: 120px;
+
+    margin-top: 0px;
+    margin-left: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+
+color: #000000;
+
+
+}
+#all-artist-cover-img1{
+    position: absolute;
+    top: -32px;
+    left: 695.5px;
+
+    width: 372px;
+    height: 464px;
+}
+#all-artist-cover-img2{
+    position: absolute;
+    top: 17px;
+    left: 1110px;
+}
+#all-artist-cover-background{
+    position: absolute;
+    top: 106px;
+    left: 713.5px;
+}
+#all-artist-cover-background-img1{
+    position: absolute;
+    top: 392px;
+    left: 918.5px;
+}
+#all-artist-cover-background-img2{
+    position: absolute;
+    top: 411px;
+    left: 1251px;
+}
+
+
+#About-the-space-div{
+height: 515px;
+width: 1512px;
+position: relative;
+margin-top: 0px;
+margin-left: 0px;
+top: 166.23px;
+
+background: #E9B034;
+
+}
+#About-the-space-h1{
+margin-top: 0px;
+position: absolute;
+left: 106px;
+top: 93px;
+
+width: 484px;
+height: 123px;
+
+font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 62px;
+line-height: 109.75%;
+/* or 68px */
+
+color: #FFFFFF;
+
+
+}
+#About-the-space-h1-label{
+    font-weight: 700;
+}
+.About-the-space-discription-style{
+margin-top: 0px;
+margin-left: 0px;
+
+width: 547px;
+height: 60px;
+
+position: absolute;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+.About-the-space-discription-style-label{
+    font-weight: 700;
+}
+#About-the-space-discription-1st{
+    left: 106px;
+    top: 186px;
+}
+#About-the-space-discription-2nd{ 
+    left: 106px;
+    top: 284px;
+}
+#About-the-space-discription-3rd{
+    left: 106px;
+    top: 374px;
+}
+#About-the-space-discription-4th{
+    left: 733px;
+    top: 186px;
+}
+#About-the-space-discription-5th{
+    left: 733px;
+    top: 284px;
+}
+#About-vector-1st{
+    position: absolute;
+    top: 268px;
+    left: 106px;
+}
+#About-vector-2nd{
+    position: absolute;
+    top: 362px;
+    left: 106px;
+}
+#About-vector-3rd{
+    position: absolute;
+    top: 268px;
+    left: 730px;
+}
+
+#book-dev{
+    height: 612px ;
+    width: 1512px;
+    position: relative;
+    top: 166.23px;
+}
+#book-h1{
+
+position: absolute;
+width: 393px;
+height: 47px;
+left: 92px;
+top: 61px;
+
+margin-top: 0px;
+margin-left: 0px;
+
+font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 109.75%;
+/* or 53px */
+
+color: #53524F;
+}
+#book-h1-label{
+    font-weight: 700;
+}
+#calender-div{
+    /* Rectangle 19 */
+
+position: absolute;
+width: 583px;
+height: 367px;
+left: 62px;
+top: 138px;
+
+background: #7BB7C9;
+border-radius: 39.6617px;
+
+}
+.booking-text-style{
+    box-sizing: border-box;
+
+position: absolute;
+width: 338px;
+height: 49px;
+
+border: 1px solid #53524F;
+border-radius: 10px;
+}
+.booking-text-style::placeholder{
+position: absolute;
+margin-inline-start:auto;  
+margin-left: 14px;
+padding-left: 14px;
+left: 14px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+color: #53524F;
+
+
+}
+
+#booking-name{
+left: 690px;
+top: 140px;
+}
+#booking-email{
+
+left: 690px;
+top: 220px;    
+}
+#booking-workshop{
+    left: 690px;
+    top: 300px
+}
+#booking-participants{
+    left: 690px;
+    top: 378px;
+}
+#booking-nots{
+    left: 690px;
+    top: 456px;
+}
+#booking-phonenumber{
+    top: 140px;
+    left:1079px;
+}
+#booking-type{
+    top: 220px;
+    left: 1079px;
+}
+#booking-time{
+    top: 300px;
+    left: 1079px;
+}
+
+#radio-btn-left{
+    position: absolute;
+    top: 389px;
+    left: 1082px;
+}
+#radio-btn-right{
+    position: absolute;
+    top: 389px;
+    left: 1256px;
+}
+
+#radio-btn-label-2nd{
+    position: absolute;
+    left: 1285px;
+    top: 386px;
+
+    margin-top: 0px;
+    margin-left: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #53524F;
+
+
+}
+#radio-btn-label-1st{
+    position: absolute;
+    top: 386px;
+    left: 1111px;
+
+    margin-top: 0px;
+    margin-left: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #53524F;
+}
+
+#price-booking-label{
+    position: absolute;
+    top: 473px;
+    left: 1080px;
+
+    margin-top: 0px;
+    margin-left: 0px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+text-align: center;
+
+color: #53524F;
+}
+.btn-proceed-booking{
+    
+    position: absolute;
+    left: 1297px;
+    top: 469px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+width: 120px;
+height: 36px;
+
+background: #80B6CC;
+border-radius: 15px;
+
+}
+
+#btn-proceed-label{
+margin-top: 10px;
+
+width: 66px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+#info-dev-contact-us{
+    position: absolute;
+    display: flex;
+    left: 447px;
+    top: 552px;
+}
+.contact-us-icons{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+.contact-us-labels{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-left: 6px;
+    padding-right: 28px;
+    padding-top: 0px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+
+color: #53524F;
+
+
+}
+
+#calender-week-days{
+    display: flex;
+    position: absolute;
+    top: 51.5px;
+    left: 54.5px;
+}
+#calender-week-days-row-1st{
+    display: flex;
+    position: absolute;
+    left: 54.5px;
+    top: 97.5px;
+}
+#calender-week-days-row-2nd{
+    display: flex;
+    position: absolute;
+    left: 54.5px;
+    top: 138.5px;
+}
+#calender-week-days-row-3rd{
+    display: flex;
+    position: absolute;
+    left: 54.5px;
+    top: 178px;
+}
+#calender-week-days-row-4th{
+    display: flex;
+    position: absolute;
+    left: 54.5px;
+    top: 214.5px;
+}
+#calender-week-days-row-5th{
+    display: flex;
+    position: absolute;
+    left: 54.5px;
+    top: 251px;
+}
+.label-calender-style{
+margin-top: 0px;
+margin-left: 0px;
+
+width: 49.21px;
+height: 33.05px;
+
+padding-right: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17.6274px;
+line-height: 51px;
+/* identical to box height, or 292% */
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.calender-line{
+    position: absolute;
+    top: 301.77px;
+    left: 54.5px;
+}
+.label-calender-style-available{
+
+box-sizing: border-box;
+
+margin-top: 0px;
+margin-left: 0px;
+
+position: absolute;
+width: 37.97px;
+height: 38.97px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17.6274px;
+line-height: 51px;
+/* identical to box height, or 292% */
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #E9B034;
+
+
+
+background-color: #FFFFFF;
+border: 0.904145px solid #FFFFFF;
+border-radius: 100%;
+
+}
+#calender-key{
+    left: 63.17px;
+    top: 314px;
+}
+#Available-days{
+    position: absolute;
+    top: 324.05px;
+    left: 106.61px ;
+
+    margin-top: 0px;
+    margin-left: 0px;
+
+width: 146.39px;
+height: 24.13px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16.0872px;
+line-height: 109.75%;
+/* or 18px */
+
+color: #FFFFFF;
+
+
+}
+#btn-back-arrow{
+    position: absolute;
+    left: 169.86px;
+    top: 30px ;
+}
+#calender-mon-name{
+    position: absolute;
+    top: 6.56px;
+    left: 218.68px;
+
+    margin-top: 0px;
+    margin-left: 0px;
+
+    width: 143px;
+    height: 52px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 26.4411px;
+line-height: 51px;
+/* identical to box height, or 194% */
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+#btn-next-arrow{
+    left: 390px;
+    position: absolute;
+    top: 31px;
+}
+
+
+
+
+
+
+#Cancelation-dev{
+    height: 884px;
+    width: 1512px;
+    position: relative;
+    top: 166.23px;
+}
+#Cancelation-h1{
+    position: absolute;
+    top: 71px;
+    left: 755px;
+
+width: 573px;
+height: 85px;
+
+margin-top: 0px;
+margin-left: 0px;
+
+font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #53524F;
+}
+#Cancelation-h1-label{
+    font-weight: 700;
+}
+#Cancelation-list{
+    position: absolute;
+    top: 139px;
+    left: 741px;
+    
+    width: 665px;
+    height: 483px;
+
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.Cancelation-li{
+margin-bottom: 40px;
+
+width: 665px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+
+color: #53524F;
+}
+.Cancelation-li-style{
+    font-weight: 700;
+}
+#Cancelation-img{
+    width: 591px;
+    height: 507px;
+    
+    position: absolute;
+
+    top: 79px;
+    left: 94px;
+}
+#Cancelation-img-background-1st{
+    position: absolute;
+    right: 0px;
+    top: 389px;
+    margin-right: 0px;
+}
+
