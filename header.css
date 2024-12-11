@@ -92,18 +92,18 @@
 
     #header #list-icons {
         display: flex;
-        width: 150px;
+        width: 74px;
         justify-content: center;
-        gap: 6px;
-        margin-right: 15px;
+        gap: 5px;
+        margin-right: 153px;
     }
 
     #list-links {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 15px;
-        width: 800px;
+        gap: 14px;
+        width: 59%;
     }
 
     #list-links li a {
@@ -121,7 +121,7 @@
     }
 
     #logo {
-        width: 26.5%;
+        width: 165px;
     }
 
     #header-hr {
