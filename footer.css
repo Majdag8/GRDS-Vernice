@@ -165,7 +165,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 27px;
+        gap: 21px;
         margin-left: 15px;
     }
 
@@ -185,16 +185,16 @@ footer {
         width: 32px;
     }
 
-    #divider {
-        background-color: white;
-        height: 171.5px;
-        width: 3px;
+    #navbar {
+        display: flex;
+        gap: 17px;
+        width: 407px;
     }
 
     #navbar {
         display: flex;
-        gap: 16px;
-        width: 359px;
+        gap: 17px;
+        width: 387px;
     }
 
     .footer-nav {
@@ -211,7 +211,7 @@ footer {
         color: white;
         margin: 0;
         font-family: Poppins;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 400;
         line-height: 29.86px;
     }
@@ -226,7 +226,7 @@ footer {
     }
 
     .footer-nav p:nth-child(2) {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 300;
     }
 
@@ -245,7 +245,7 @@ footer {
     }
 
     #updates-description {
-        width: 173px;
+        width: 175px;
         color: white;
         margin: 0;
         margin-bottom: 10px;
@@ -257,7 +257,7 @@ footer {
         color: #53524F;
         font-size: 11px;
         border-radius: 15px;
-        padding: 3px;
+        padding: 2px;
         width: 135px;
         padding-left: 16px;
         border: 0;
@@ -267,15 +267,19 @@ footer {
         background-color: #fff;
     }
 
+    #footer hr {
+        margin-top: 12px;
+    }
+
     #footer-rights {
         margin-top: 5px;
         padding-bottom: 5px;
         text-align: center;
         justify-self: center;
         color: white;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 400;
-        line-height: 21px;
+        line-height: 39px;
     }
 }
 
