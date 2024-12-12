@@ -302,10 +302,9 @@ footer {
         align-items: center;
         width: 100%;
     }
-
     #topFooterM {
         display: flex;
-        width: 100%;
+        width: 443px;
         justify-content: space-around;
         align-self: center;
     }
@@ -356,7 +355,7 @@ footer {
         justify-content: space-around;
         gap: 0px;
         margin-left: 11px;
-        width: 93%;
+        width: 414px;
     }
 
     .footer-nav {
