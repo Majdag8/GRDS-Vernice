@@ -852,9 +852,9 @@ label {
         display: flex;
         flex-direction: column;
         gap: 7px;
-        margin-left: 58px;
-        margin-top: 46px;
-        margin-bottom: 18px;
+        padding-left: 58px;
+        padding-top: 140px;
+        padding-bottom: 18px;
     }
 
     #landing p:nth-child(1) {
@@ -897,15 +897,14 @@ label {
 
     button {
         font-family: 'Poppins', sans-serif;
-        width: 112.95px;
-        height: 33.19px;
+        width: 107.95px!important;
+        height: 30.19px!important;
         gap: 10px;
         border: 0;
         border-radius: 16.74px;
-        padding: 6.7px 17.86px 6.7px 17.86px;
+        padding: 3.7px 17.86px 6.7px 17.86px!important;
         color: rgba(241, 255, 251, 1);
-            font-family: 'Poppins', sans-serif;
-
+        font-family: Poppins;
         font-size: 14.51px;
         font-weight: 400;
         line-height: 21.77px;
@@ -914,14 +913,14 @@ label {
 
     #Landing-Image {
         position: absolute;
-        top: -35px;
+        top: 127px;
         width: 410px;
         height: 348px;
         left: 378px;
     }
 
     #afterlanding-hr {
-        height: 49px;
+        height: 30px;
         background-color: rgba(233, 176, 52, 1);
     }
 
@@ -1236,8 +1235,8 @@ label {
         flex-direction: column;
         justify-content: center;
         gap: 18px;
-        max-width: 350px;
-        min-width: 200px;
+        max-width: 442px;
+        min-width: 345px;
     }
 
     #loyaltyTitle {
@@ -1428,10 +1427,10 @@ label {
     #landing-text {
         display: flex;
         flex-direction: column;
-        gap: 5px;
-        margin-left: 18px;
-        margin-top: 20px;
-        margin-bottom: 10px;
+        gap: 2px;
+        padding-left: 18px;
+        padding-top: 78px;
+        padding-bottom: 10px;
     }
 
     #landing p:nth-child(1) {
@@ -1444,7 +1443,8 @@ label {
         font-family: 'Albert Sans';
         font-size: 23.92px;
         font-weight: 700;
-        margin-top: -8px;
+        line-height: 25px;
+        margin-top: 0px;
     }
 
     #landing p:nth-child(3) {
@@ -1487,10 +1487,10 @@ label {
 
     #Landing-Image {
         position: absolute;
-        top: -12px;
+        top: 56px;
         width: 246px;
         height: 198px;
-        left: 176px;
+        left: 185px;
     }
 
     #afterlanding-hr {

@@ -142,6 +142,7 @@
     #fixed-nav {
         position: fixed;
         top: 0;
+        height: 58px;
         left: 0;
         width: 438px;
         z-index: 1000;
@@ -153,9 +154,10 @@
         justify-self: center;
         justify-content: space-between;
         align-items: center;
-        margin-top: 22px;
+        margin-top: -2px;
         font-family: 'Poppins', sans-serif;
-        width: 88%;
+        width: 98%;
+        margin-left: -28px;
     }
 
     #logo {
@@ -223,5 +225,6 @@
 
     #header-hr {
         border: 1.48px solid rgba(123, 183, 202, 1);
+        margin-top: -5px;
     }
 }
