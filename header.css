@@ -134,9 +134,6 @@
 
     #header-hr {
         border: 1.48px solid rgba(123, 183, 202, 1);
-        width: 93%;
-        margin-left: 35px;
-        margin-top: -7px;
     }
 }
 
@@ -226,8 +223,5 @@
 
     #header-hr {
         border: 1.48px solid rgba(123, 183, 202, 1);
-        width: 84%;
-        margin-left: 46px;
-        margin-top: -10px;
     }
 }
