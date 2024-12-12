@@ -193,8 +193,8 @@ footer {
 
     #navbar {
         display: flex;
-        gap: 17px;
-        width: 387px;
+        gap: 18px;
+        width: 401px;
     }
 
     .footer-nav {
@@ -245,7 +245,7 @@ footer {
     }
 
     #updates-description {
-        width: 175px;
+        width: 186px;
         color: white;
         margin: 0;
         margin-bottom: 10px;
