@@ -141,14 +141,7 @@ $(document).ready(function () {
                                 }),
 
                                 $("<div id='input'>").css({
-                                    "width": "90.31px",
-                                    "height": "23.36px",
-                                    "color": "#53524F",
-                                    "display": "flex",
-                                    "justify-content": "space-around",
-                                    "align-items": "center",
-                                    "border": "1px solid #53524F",
-                                    "border-radius": "14.01px"
+                                   
                                 }).append(
                                     $("<button>").text("-").css({
                                         "width": "9px",
@@ -226,11 +219,11 @@ $(document).ready(function () {
                     $('#modal').hide();
                     $('#modal-overlay').hide();
                     $('body').css('overflow', 'auto');
-                $('#almostthere-form').css('display', 'none');
-            }
+                    $('#almostthere-form').css('display', 'none');
+                }
             });
 
-            $("#back-almostthere").on('click', function(e){
+            $("#back-almostthere").on('click', function (e) {
                 e.preventDefault();
                 $('#modal-overlay').hide();
                 $('#almostthere-form').css('display', 'none');

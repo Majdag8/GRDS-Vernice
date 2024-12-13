@@ -159,7 +159,7 @@ button {
         align-items: center;
         gap: 41px;
         width: 609px;
-        height: 447px;
+        height: 390px;
         position: fixed;
         top: 25%;
         left: 42%;
@@ -226,11 +226,11 @@ button {
         margin-left: auto !important;
         text-decoration: none;
         color: rgba(83, 82, 79, 0.55);
-        font-size: 15.21px;
+        font-size: 13.21px;
         margin-top: -19px !important;
         font-weight: 400;
         cursor: pointer;
-        width: 137px;
+        width: 127px;
     }
 
     #sideImage {
@@ -268,5 +268,21 @@ button {
         margin-top: -20px !important;
         width: 254px;
         font-size: 14px;
+    }
+
+    #login-signup button {
+        background-color: rgba(233, 176, 52, 1);
+        font-size: 13px;
+    }
+    .google-facebook {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        margin-top: -22px;
+    }
+
+    .google-facebook img {
+        width: 20px;
     }
 }
