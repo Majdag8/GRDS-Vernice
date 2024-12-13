@@ -35,6 +35,11 @@
     height: 420px;
 }
 
+#profilePicture{
+    width: 326px;
+    height: 326px;
+}
+
 .change-btn {
     font-family: 'Poppins', sans-serif;
     
@@ -182,4 +187,119 @@ button {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+@media (max-width: 768px){
+    #profile {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 41px;
+        width: 609px;
+        height: 447px;
+        position: fixed;
+        top: 25%;
+        left: 42%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        z-index: 10000;
+    }
+
+
+    #profileinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 0px;
+        height: 256px;
+    }
+
+    #profileinfo p {
+        font-family: 'Albert Sans';
+        color: #53524F;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 27.8px;
+        margin-right: auto;
+        width: 168px;
+        margin-bottom: 43px;
+        height: 0;
+    }
+
+    #profileInfoContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        background-color: rgb(255, 255, 255);
+        height: fit-content;
+        margin-top: -10px;
+    }
+
+    #profiledropdowns p {
+        font-family: 'Albert Sans';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28.8px;
+        color: rgba(83, 82, 79, 1);
+    }
+
+    #profiledropdowns {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-top: -7px;
+    }
+
+    #profileimg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        height: 337px;
+    }
+
+    .change-btn {
+        width: 115px!important;
+        font-size: 10px;
+        font-weight: 400;
+        padding: 6.7px 17.86px 6.7px 17.86px !important;
+    }
+
+    #profilePicture{
+        width: 150px;
+        height: 150px;
+    }
+
+    #profileinfo div div input {
+        width: 194px;
+        height: 31px;
+        border-radius: 10px;
+        border: 0;
+        border: 1px solid rgba(83, 82, 79, 1);
+        outline: none;
+        color: #53524F;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #profileinfo div input {
+        width: 410px;
+        height: 31px;
+        border-radius: 10px;
+        border: 0;
+        border: 1px solid rgba(83, 82, 79, 1);
+        outline: none;
+        padding-left: 10px;
+        color: #53524F;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+    }
 }

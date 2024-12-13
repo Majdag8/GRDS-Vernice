@@ -180,15 +180,45 @@ button {
 
     #login-signup input {
         width: 216px;
-        height: 46px;
+        height: 31px;
         border-radius: 10px;
         padding-left: 15px;
         border: 1px solid rgba(83, 82, 79, 1);
         color: rgba(83, 82, 79, 1);
         font-family: 'Poppins', sans-serif;
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 24px;
+    }
+
+    #signup {
+        width: 260px;
+    }
+
+    #login input[type="password"] {
+        margin-top: -16px;
+    }
+
+    #back-form {
+        position: absolute;
+        display: flex;
+        width: 90%;
+        top: 3px;
+        left: 7px;
+    }
+
+    #back-form img{
+        width: 44px;
+        height: 44px;
+    }
+
+    .logininwith {
+        color: rgba(130, 129, 126, 1);
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22.86px;
+        margin-top: -12px !important;
     }
 
     #forgetpass-login {

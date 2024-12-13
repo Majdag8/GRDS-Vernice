@@ -34,7 +34,7 @@ button {
     border-radius: 16.74px;
     padding: 6.7px 17.86px 6.7px 17.86px;
     color: rgba(241, 255, 251, 1);
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
     font-size: 14.51px;
     font-weight: 400;
@@ -80,7 +80,7 @@ button {
 
 #landing p:nth-child(3),
 #landing p:nth-child(6) {
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
     font-size: 21.13px;
     font-weight: 300;
@@ -318,7 +318,7 @@ button {
 }
 
 #booking-inputs3 p {
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
     font-size: 16px;
     font-weight: 400;
@@ -385,7 +385,7 @@ input[type="radio"]:not(:checked) {
 }
 
 label {
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
     font-size: 16px;
     font-weight: 400;
@@ -416,7 +416,7 @@ label {
 }
 
 #bookingform-info span {
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
     font-size: 16px;
     font-weight: 300;
@@ -872,7 +872,7 @@ label {
 
     #landing p:nth-child(3) {
         width: 355px;
-            font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', sans-serif;
 
         font-weight: 300;
     }
@@ -897,12 +897,12 @@ label {
 
     button {
         font-family: 'Poppins', sans-serif;
-        width: 107.95px!important;
-        height: 30.19px!important;
+        width: 107.95px !important;
+        height: 30.19px !important;
         gap: 10px;
         border: 0;
         border-radius: 16.74px;
-        padding: 3.7px 17.86px 6.7px 17.86px!important;
+        padding: 3.7px 17.86px 6.7px 17.86px !important;
         color: rgba(241, 255, 251, 1);
         font-family: Poppins;
         font-size: 14.51px;
@@ -913,7 +913,7 @@ label {
 
     #Landing-Image {
         position: absolute;
-        top: 127px;
+        top: 118px;
         width: 410px;
         height: 348px;
         left: 378px;
@@ -1016,6 +1016,57 @@ label {
         height: 268px;
     }
 
+    #booking-form {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        width: 609px;
+        height: 447px;
+        position: fixed;
+        top: 25%;
+        left: 42%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        z-index: 10000;
+    }
+
+    #bookingform-info {
+        display: flex;
+        width: 94%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 24px;
+        margin-left: 30px;
+    }
+
+    .icon img {
+        width: 12px;
+        margin-top: 3px;
+    }
+
+    #back-form {
+        position: absolute;
+        display: flex;
+        width: 90%;
+        top: 23px!important;
+        left: 34px!important;
+    }
+
+    .booking-inputs input {
+        width: 254px;
+        height: 45px;
+        border-radius: 10px;
+        border: 1px solid rgba(83, 82, 79, 1);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #bookNow {
+        margin-top: 10px;
+    }
+
     .event-label {
         font-family: 'Poppins', sans-serif;
         font-size: 18px;
@@ -1064,8 +1115,8 @@ label {
         margin-bottom: 112px;
     }
 
-    #quotesec p{
-        width: 640px!important;
+    #quotesec p {
+        width: 640px !important;
     }
 
     #quotesec p span {
@@ -1282,7 +1333,7 @@ label {
         font-size: 14.56px;
         font-weight: 700;
         width: 253px;
-        margin-bottom: 10px!important;
+        margin-bottom: 10px !important;
     }
 
     .loyaltyboxdescription {
@@ -1453,7 +1504,7 @@ label {
 
     #landing p:nth-child(3),
     #landing p:nth-child(6) {
-            font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', sans-serif;
 
         font-size: 8.13px;
         font-weight: 300;
@@ -1472,14 +1523,14 @@ label {
 
     button {
         font-family: 'Poppins', sans-serif;
-        width: 90.95px!important;
-        height: 25.19px!important;
+        width: 90.95px !important;
+        height: 25.19px !important;
         gap: 10px;
         border: 0;
         border-radius: 16.74px;
-        padding: 1.7px 17.86px 6.7px 17.86px!important;
+        padding: 1.7px 17.86px 6.7px 17.86px !important;
         color: rgba(241, 255, 251, 1);
-        font-size: 10.51px!important;
+        font-size: 10.51px !important;
         font-weight: 400;
         line-height: 21.77px;
         background-color: rgba(128, 182, 204, 1);
@@ -1785,7 +1836,7 @@ label {
         padding: 6.11px 16.3px 6.11px 16.3px;
         gap: 10.19px;
         border-radius: 15.28px;
-        font-size: 9px!important;
+        font-size: 9px !important;
         border: 1.02px solid rgba(233, 176, 52, 1);
         color: rgba(233, 176, 52, 1);
         background-color: rgba(255, 255, 255, 0);
@@ -1859,6 +1910,7 @@ label {
         flex-direction: column;
         gap: 17px;
     }
+
     .loyaltybox {
         max-width: 356px;
         min-width: 197px;
@@ -1891,6 +1943,7 @@ label {
         color: rgba(83, 82, 79, 1);
         text-align: left;
     }
+
     #loyaltydescription {
         font-family: 'Poppins', sans-serif;
         font-size: 8px;
@@ -1908,12 +1961,14 @@ label {
         top: -51px;
         right: -19px;
     }
+
     #cuployaty {
         top: -43px;
         height: 112px;
         width: 116px;
         right: -11px;
     }
+
     .loyaltyboxitem button {
         width: 91px;
         height: 20px;
@@ -1925,6 +1980,7 @@ label {
         cursor: pointer;
         font-size: 11px;
     }
+
     #cuployaty {
         top: -45px;
         height: 105px;
@@ -2003,73 +2059,79 @@ label {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 
-.testimonials-section{
+.testimonials-section {
     height: 639px;
     position: relative;
 }
-.testimonials-h1{
-position: absolute;
-width: 52px;
-height: 42px;
-left: 510px;
 
-margin-top: 132px;
+.testimonials-h1 {
+    position: absolute;
+    width: 52px;
+    height: 42px;
+    left: 510px;
 
-font-family: 'Albert Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 130px;
-line-height: 50px;
-/* or 38% */
-text-align: center;
+    margin-top: 132px;
 
-color: #53524F;
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 130px;
+    line-height: 50px;
+    /* or 38% */
+    text-align: center;
 
-}
-.testimonials-h2{
-position: absolute;
-width: 386px;
-height: 125px;
-left: 590px;
-
-margin-top: 99px;
-
-font-family: 'Albert Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 109.75%;
-/* or 70px */
-
-color: #53524F;
-
-
+    color: #53524F;
 
 }
-.testimonial-cards{
+
+.testimonials-h2 {
+    position: absolute;
+    width: 386px;
+    height: 125px;
+    left: 590px;
+
+    margin-top: 99px;
+
+    font-family: 'Albert Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 109.75%;
+    /* or 70px */
+
+    color: #53524F;
+
+
+
+}
+
+.testimonial-cards {
     background: #7BB7C9;
     border-radius: 20px;
     align-items: center;
     position: absolute;
 
     width: 396px;
-height: 293px;
-    
+    height: 293px;
+
 }
+
 #testimonial-card-center {
 
-background: #E9B034;
+    background: #E9B034;
 
     left: 566px;
     margin-top: 205px;
 }
+
 #testimonial-card-right {
-left: 994px;
-margin-top: 261px;
+    left: 994px;
+    margin-top: 261px;
 }
-#testimonial-card-left{
-left: 135px;
-margin-top: 261px;
+
+#testimonial-card-left {
+    left: 135px;
+    margin-top: 261px;
 }
 
 /* Star rating section */
@@ -2087,20 +2149,20 @@ margin-top: 261px;
 }
 
 /* Testimonial text styling */
-#testimonial-feedtext{
-align-content: center;
-width: 320px;
-height: 114px;
-margin-left: 31px;
-margin-top: 5px;
+#testimonial-feedtext {
+    align-content: center;
+    width: 320px;
+    height: 114px;
+    margin-left: 31px;
+    margin-top: 5px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
 
-color: #53524F;
+    color: #53524F;
 
 
 
@@ -2108,60 +2170,61 @@ color: #53524F;
 
 /* User information section */
 .testimonial-user-info {
-display: flex;
+    display: flex;
 
-width: 358px;
-height: 56px;
-margin-left:25px;
-margin-bottom: 30px;
+    width: 358px;
+    height: 56px;
+    margin-left: 25px;
+    margin-bottom: 30px;
 
-background: linear-gradient(90deg, rgba(217, 217, 217, 0.17) 0%, rgba(115, 115, 115, 0) 100%);
-border-radius: 31px;
+    background: linear-gradient(90deg, rgba(217, 217, 217, 0.17) 0%, rgba(115, 115, 115, 0) 100%);
+    border-radius: 31px;
 
 
 }
 
 .testimonial-user-info img {
-width: 57.44px;
-height: 57.44px;
-border-radius: 31px;
-}
-#testimonial-name{
-
-width: 158px;
-height: 17px;
-margin-left: 4.5px;
-margin-top: 15px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 12px;
-line-height: 149.28%;
-/* or 18px */
-
-color: #53524F;
-
-
-
+    width: 57.44px;
+    height: 57.44px;
+    border-radius: 31px;
 }
 
-#testimonial-likes{
+#testimonial-name {
 
-position: absolute;
-width: 80px;
-height: 19px;
-margin-left: 63px;
-margin-top: 30px;
+    width: 158px;
+    height: 17px;
+    margin-left: 4.5px;
+    margin-top: 15px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 300;
-font-size: 8px;
-line-height: 149.28%;
-/* or 12px */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 149.28%;
+    /* or 18px */
 
-color: #53524F;
+    color: #53524F;
+
+
+
+}
+
+#testimonial-likes {
+
+    position: absolute;
+    width: 80px;
+    height: 19px;
+    margin-left: 63px;
+    margin-top: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 149.28%;
+    /* or 12px */
+
+    color: #53524F;
 
 }
 
@@ -2173,53 +2236,56 @@ color: #53524F;
     height: 44px;
     margin-top: 541px;
 }
-.testimonial-prev{
-    position: absolute;
-margin-left: 703px;
-width: 44px;
-height: 44px;
-border-radius: 100%;
 
-background: #3687A7;
+.testimonial-prev {
+    position: absolute;
+    margin-left: 703px;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+
+    background: #3687A7;
 
 }
-.testimonial-next{
+
+.testimonial-next {
     position: absolute;
     margin-left: 778px;
-width: 44px;
-height: 44px;
-border-radius: 100%;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
 
-background: #3687A7;
+    background: #3687A7;
 }
 
 
 /* Responsive for iPad (768px) */
 @media (max-width: 768px) {
 
-.testimonials-section{
-    width: 768px;
-    position: relative;
-}
+    .testimonials-section {
+        width: 768px;
+        position: relative;
+    }
+
     /* Star rating section */
-.testimonial-stars {
+    .testimonial-stars {
 
-    text-align: left;
-    align-items: left;
+        text-align: left;
+        align-items: left;
 
-    padding-top: 20px;
-    
-    margin-left: 31px;
-}
+        padding-top: 20px;
 
-/* Testimonial text styling */
-#testimonial-feedtext{
-align-content: center;
+        margin-left: 31px;
+    }
 
-margin-left: 31px;
-margin-top: 0px;
+    /* Testimonial text styling */
+    #testimonial-feedtext {
+        align-content: center;
 
-}
+        margin-left: 31px;
+        margin-top: 0px;
+
+    }
 
     .testimonials-h1 {
         top: -1%;
@@ -2248,20 +2314,22 @@ margin-top: 0px;
         top: -40px;
         left: -170px;
     }
-    #testimonial-card-center{
+
+    #testimonial-card-center {
         position: absolute;
         top: -30px;
-        
+
 
         left: 180px;
 
     }
+
     #testimonial-card-right {
         position: absolute;
         top: -40px;
         left: 510px;
     }
-    
+
 
     .testimonial-carousel-controls {
         top: 500px;
@@ -2269,12 +2337,12 @@ margin-top: 0px;
         width: fit-content;
     }
 
-    .testimonial-prev{
+    .testimonial-prev {
         position: absolute;
         margin-left: 300px;
         bottom: 0%;
     }
-    
+
     .testimonial-next {
         position: absolute;
         margin-left: 400px;
@@ -2284,7 +2352,7 @@ margin-top: 0px;
 
 /* Responsive for mobile (450px) */
 @media (max-width: 430px) {
-    .testimonials-section{
+    .testimonials-section {
         width: 430px;
     }
 
@@ -2304,8 +2372,8 @@ margin-top: 0px;
         height: 250px;
     }
 
-    #testimonial-card-left{
-    
+    #testimonial-card-left {
+
         top: 185px;
         position: absolute;
 
@@ -2313,8 +2381,9 @@ margin-top: 0px;
         left: -290px;
 
     }
-    #testimonial-card-center{
-    
+
+    #testimonial-card-center {
+
         top: 150px;
         position: absolute;
 
@@ -2322,8 +2391,9 @@ margin-top: 0px;
         left: 40px;
 
     }
-    #testimonial-card-right{
-    
+
+    #testimonial-card-right {
+
         top: 185px;
         position: absolute;
 
@@ -2343,16 +2413,16 @@ margin-top: 0px;
         width: fit-content;
     }
 
-    .testimonial-prev{
+    .testimonial-prev {
         position: absolute;
         margin-left: 130px;
 
     }
-    
+
     .testimonial-next {
         position: absolute;
         margin-left: 230px;
 
     }
-    
+
 }

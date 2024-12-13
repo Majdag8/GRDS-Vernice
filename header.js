@@ -91,8 +91,6 @@ photoUpload.addEventListener("change", function (event) {
 
         reader.onload = function (e) {
             profilePicture.src = e.target.result;
-            profilePicture.style.width = "326px";
-            profilePicture.style.height = "326px";
             profilePicture.style.objectFit = "cover";
             profilePicture.style.borderRadius = "50%";
         };
