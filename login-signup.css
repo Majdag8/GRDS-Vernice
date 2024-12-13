@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 #login-signup {
     display: none;
     justify-content: center;
@@ -69,7 +72,7 @@ button {
     border-radius: 16.74px;
     padding: 6.7px 17.86px 6.7px 17.86px;
     color: rgba(241, 255, 251, 1);
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 14.51px;
     font-weight: 400;
     line-height: 21.77px;

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
 body {
@@ -34,8 +35,6 @@ button {
     border-radius: 16.74px;
     padding: 6.7px 17.86px 6.7px 17.86px;
     color: rgba(241, 255, 251, 1);
-    font-family: 'Poppins', sans-serif;
-
     font-size: 14.51px;
     font-weight: 400;
     line-height: 21.77px;
@@ -51,13 +50,13 @@ button {
 }
 
 #landing p:nth-child(1) {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 27.72px;
     font-weight: 400;
 }
 
 #landing p:nth-child(2) {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 73.92px;
     line-height: 57px;
     font-weight: 700;
@@ -129,14 +128,14 @@ button {
 
 #food p span:nth-child(1),
 #food p span:nth-child(4) {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 67.4px;
     font-weight: 400;
 }
 
 #food p span:nth-child(2),
 #food p span:nth-child(3) {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 67.4px;
     font-weight: 700;
 }
@@ -174,7 +173,7 @@ button {
 }
 
 #Booking-Experience p:nth-child(1) {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 48px;
     font-weight: 700;
     color: rgba(83, 82, 79, 1);
@@ -285,7 +284,7 @@ button {
 }
 
 #form-title {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 48px;
     font-weight: 700;
     line-height: 57.6px;
@@ -439,7 +438,7 @@ label {
 }
 
 #quotesec p span {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -478,7 +477,7 @@ label {
 }
 
 #homedecotitle p:first-child {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 67px;
     font-weight: 700;
     width: 394px;
@@ -651,7 +650,7 @@ label {
 }
 
 #callingartist p:first-child {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 67px;
     font-weight: 700;
     width: 394px;
@@ -711,7 +710,7 @@ label {
 }
 
 #loyaltyTitle {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 64px;
     font-weight: 700;
     color: rgba(83, 82, 79, 1);
@@ -816,14 +815,14 @@ label {
 }
 
 #blogs p span:nth-child(1) {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 64px;
     font-weight: 400;
     color: rgba(83, 82, 79, 1);
 }
 
 #blogs p span:nth-child(2) {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 64px;
     font-weight: 700;
     color: rgba(83, 82, 79, 1);
@@ -858,13 +857,13 @@ label {
     }
 
     #landing p:nth-child(1) {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 16.72px;
         font-weight: 400;
     }
 
     #landing p:nth-child(2) {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 37.92px;
         font-weight: 700;
         margin-top: -11px;
@@ -904,7 +903,6 @@ label {
         border-radius: 16.74px;
         padding: 3.7px 17.86px 6.7px 17.86px !important;
         color: rgba(241, 255, 251, 1);
-        font-family: Poppins;
         font-size: 14.51px;
         font-weight: 400;
         line-height: 21.77px;
@@ -946,14 +944,14 @@ label {
 
     #food p span:nth-child(1),
     #food p span:nth-child(4) {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 42.4px;
         font-weight: 400;
     }
 
     #food p span:nth-child(2),
     #food p span:nth-child(3) {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 42.4px;
         font-weight: 700;
     }
@@ -988,7 +986,7 @@ label {
     }
 
     #Booking-Experience p:nth-child(1) {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 35px;
         font-weight: 700;
         color: rgba(83, 82, 79, 1);
@@ -1120,7 +1118,7 @@ label {
     }
 
     #quotesec p span {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 22px;
         font-weight: 700;
         line-height: 36px;
@@ -1151,7 +1149,7 @@ label {
     }
 
     #homedecotitle p:first-child {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 35px;
         font-weight: 700;
         width: 332px;
@@ -1291,7 +1289,7 @@ label {
     }
 
     #loyaltyTitle {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 26px;
         font-weight: 700;
         color: rgba(83, 82, 79, 1);
@@ -1392,7 +1390,7 @@ label {
     }
 
     #callingartist p:first-child {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 38px;
         font-weight: 700;
         width: 394px;
@@ -1485,13 +1483,13 @@ label {
     }
 
     #landing p:nth-child(1) {
-        /* font-family: 'Albert Sans'; */
+        font-family: 'Albert Sans', sans-serif;
         font-size: 10.72px;
         font-weight: 400;
     }
 
     #landing p:nth-child(2) {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 23.92px;
         font-weight: 700;
         line-height: 25px;
@@ -1565,14 +1563,14 @@ label {
 
     #food p span:nth-child(1),
     #food p span:nth-child(4) {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 22.4px;
         font-weight: 400;
     }
 
     #food p span:nth-child(2),
     #food p span:nth-child(3) {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 22.4px;
         font-weight: 700;
     }
@@ -1608,7 +1606,7 @@ label {
     }
 
     #Booking-Experience p:nth-child(1) {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 16px;
         font-weight: 700;
         color: rgba(83, 82, 79, 1);
@@ -1696,7 +1694,7 @@ label {
     }
 
     #form-title {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 33px;
         font-weight: 700;
         line-height: 57.6px;
@@ -1825,7 +1823,7 @@ label {
     }
 
     #quotesec p span {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 13px;
         font-weight: 700;
         line-height: 15px;
@@ -1848,7 +1846,7 @@ label {
     }
 
     #homedecotitle p:first-child {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 16px;
         font-weight: 700;
         width: 283px;
@@ -1995,7 +1993,7 @@ label {
     }
 
     #callingartist p:first-child {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 17px;
         font-weight: 700;
         width: 394px;
@@ -2068,7 +2066,7 @@ label {
     }
 
     #loyaltyTitle {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 17px;
         font-weight: 700;
         color: rgba(83, 82, 79, 1);
@@ -2203,7 +2201,7 @@ label {
 
     margin-top: 132px;
 
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 130px;

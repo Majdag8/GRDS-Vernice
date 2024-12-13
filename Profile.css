@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&display=swap');
 
 
 #profile {
@@ -42,7 +43,6 @@
 
 .change-btn {
     font-family: 'Poppins', sans-serif;
-    
     border: 0;
     border-radius: 16.74px;
     padding: 6.7px 17.86px 6.7px 17.86px;
@@ -71,7 +71,7 @@ p {
 }
 
 #profileinfo p {
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     color: #53524F;
     font-size: 24px;
     font-weight: 700;
@@ -135,7 +135,6 @@ p {
     border-radius: 15px;
     padding: 8px 0px;
     color: rgba(241, 255, 251, 1);
-    font-family: Poppins;
     font-size: 13px;
     font-weight: 400;
     line-height: 19.5pxpx;
@@ -176,7 +175,7 @@ button {
 }
 
 #profiledropdowns p{
-    font-family: 'Albert Sans';
+    font-family: 'Albert Sans', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 28.8px;
@@ -217,7 +216,7 @@ button {
     }
 
     #profileinfo p {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         color: #53524F;
         font-size: 24px;
         font-weight: 700;
@@ -239,7 +238,7 @@ button {
     }
 
     #profiledropdowns p {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         font-size: 16px;
         font-weight: 700;
         line-height: 28.8px;
@@ -383,7 +382,7 @@ button {
         height: 337px;
     }
     #profileinfo p {
-        font-family: 'Albert Sans';
+        font-family: 'Albert Sans', sans-serif;
         color: #53524F;
         font-size: 24px;
         font-weight: 700;

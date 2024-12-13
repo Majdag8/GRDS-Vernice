@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 #thankYouCard {
     position: fixed;
     left: 50%;
@@ -36,7 +39,7 @@
     text-align: center;
     color: #53524F;
     margin: 0 auto;
-    font-family: Albert Sans;
+    font-family: 'Albert Sans', sans-serif;
 
 }
 
@@ -233,7 +236,7 @@
         text-align: center;
         color: #53524F;
         margin: 0 auto;
-        font-family: Albert Sans;
+        font-family: 'Albert Sans', sans-serif;
     }
 
     #back-form img {
@@ -341,7 +344,7 @@
         text-align: center;
         color: #53524F;
         margin: 0 -10px;
-        font-family: Albert Sans;
+        font-family: 'Albert Sans', sans-serif;
     }
 
     #choosing {

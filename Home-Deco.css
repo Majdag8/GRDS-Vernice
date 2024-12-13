@@ -37,8 +37,8 @@ hr {
 }
 
 #landing p:nth-child(1) {
-    font-family: 'Albert Sans';
-    font-size: 73.92px;
+    font-family: 'Albert Sans', sans-serif;
+        font-size: 73.92px;
     font-weight: 700;
     width: 410px;
 }
@@ -239,7 +239,7 @@ hr {
     }
 
     #landing p:nth-child(1) {
-        font-family: Albert Sans;
+        font-family: 'Albert Sans', sans-serif;
         font-size: 33.92px;
         font-weight: 700;
         width: 287px;
@@ -253,7 +253,7 @@ hr {
 
     #landing p:nth-child(3) {
         width: 255px;
-        font-family: Poppins;
+        font-family: 'Poppins', sans-serif;
         font-size: 18px;
         font-weight: 300;
     }
@@ -388,7 +388,7 @@ hr {
     }
 
     #landing p:nth-child(1) {
-        font-family: Albert Sans;
+        font-family: 'Albert Sans', sans-serif;
         font-size: 17.92px;
         font-weight: 700;
         width: 142px;
@@ -396,7 +396,7 @@ hr {
 
     #landing p:nth-child(3) {
         width: 201px;
-        font-family: Poppins;
+        font-family: 'Poppins', sans-serif;
         font-size: 11px;
         font-weight: 300;
     }
