@@ -543,7 +543,7 @@ button:hover {
         color: #53524F;
         font-weight: 400;
         line-height: 28.03px;
-        margin-left: 105px;
+        margin-left: 98px;
         margin-top: -14px;
         margin-bottom: 10px;
     }
@@ -635,7 +635,7 @@ button:hover {
         align-items: center;
         gap: 10px;
         margin-top: 9.7px;
-        margin-left: 12px;
+        margin-left: 13px;
     }
 
     .modal-content {
@@ -645,7 +645,7 @@ button:hover {
         padding: 45px 35px;
         border-radius: 8px;
         width: 542px;
-        max-height: 314px;
+        max-height: 350px;
         justify-content: space-between;
         position: relative;
         overflow: hidden;
@@ -672,27 +672,35 @@ button:hover {
         height: 324px;
         margin-left: 79px;
         width: 374px;
-        margin-top: 21px;
+        margin-top: 65px;
     }
 
     #essentials {
         width: 187px;
-        height: 23px;
+        height: 21px;
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
         font-size: 15.57px;
         line-height: 23.36px;
         text-align: center;
-        margin-top: 24.94px;
-        margin-left: 20px;
+        margin-top: 11.94px;
+        margin-left: 18px;
     }
 
     #imgContainer div:first-child {
-        width: 300px;
-        height: 27.248px;
+        width: 248px;
+        height: 20.248px;
         flex-shrink: 0;
-        top: -20px;
-        left: -20px;
+        top: -10px;
+        left: -23px;
+    }
+
+    #imgContainer div:last-child {
+        width: 255.352px;
+        height: 21.248px;
+        flex-shrink: 0;
+        bottom: 9px;
+        right: -99px;
     }
 
     #modal-image {
@@ -705,22 +713,35 @@ button:hover {
     #modal-name {
         font-size: 29px;
         color: #53524F;
-        height: 5px;
-        margin-left: 115px;
-        margin-top: 20px;
+        height: 28px;
+        margin-left: 95px;
+    }
+
+    #essentalsBtn button {
+        border-radius: 14.01px;
+        color: #53524F;
+        height: 32.7px;
+        outline: none;
+        border: 1px solid #53524F;
+        font-size: 12.46px;
+        color: #53524F;
+        background-color: transparent;
+        transition: .5s;
+        padding: 4.47px 7px;
+        text-align: center;
     }
 
     #price {
         width: 32px;
-        height: 20px;
+        height: 2px;
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
         color: #53524F;
         font-weight: 700;
         line-height: 2px;
         text-align: center;
-        margin-top: -18.45px;
-        margin-left: 26px;
+        margin-top: -35.45px;
+        margin-left: 16px;
     }
 
     #descriptionContainer,
@@ -728,8 +749,9 @@ button:hover {
     #cancellationContainer {
         display: flex;
         align-items: center;
-        margin-top: 16px;
+        margin-top: 10px;
         margin-bottom: 7px;
+        margin-left: 10px;
     }
 
     #description,
@@ -750,13 +772,15 @@ button:hover {
     #descriptionPotterry {
         display: none;
         margin-top: 4.7px;
-        width: 300px;
-        height: 34px;
+        width: 322px;
+        height: 28px;
         font-size: 9.32px;
         font-family: 'Poppins', sans-serif;
         color: #53524F;
         font-weight: 300;
         line-height: 16.5px;
+        margin-left: -37px;
+        margin-top: 2px;
     }
 
     .popupLine {

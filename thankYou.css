@@ -37,7 +37,7 @@
     color: #53524F;
     margin: 0 auto;
     font-family: Albert Sans;
-    
+
 }
 
 #choosing {
@@ -124,6 +124,7 @@
     height: 111px;
     gap: 10px;
 }
+
 #thankYouCard form #expirationDate {
     display: flex;
     flex-direction: column;
@@ -170,10 +171,11 @@
     color: #53524F;
 }
 
-#thankYouCard form #submitBtn{
+#thankYouCard form #submitBtn {
     text-align: center;
 }
-#thankYouCard form #submitBtn button{
+
+#thankYouCard form #submitBtn button {
     width: 120px;
     height: 36px;
     border-radius: 15px;
@@ -187,9 +189,9 @@
     color: #FFFFFF;
     margin-top: 10px;
     transition: .5s linear
-
 }
-#thankYouCard form #submitBtn button:hover{
+
+#thankYouCard form #submitBtn button:hover {
     cursor: pointer;
 }
 
@@ -202,4 +204,104 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    #thankYouCard {
+        position: fixed;
+        left: 50%;
+        top: 29%;
+        transform: translate(-50%, -50%);
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: auto;
+        padding: 32px;
+        z-index: 1000;
+        background-color: #FFF8F4;
+        width: 575.27px;
+        height: 422px;
+    }
+
+    #thankYou-title {
+        width: 354px;
+        height: 78.58px;
+        font-weight: 400;
+        font-size: 70.22px;
+        line-height: 67.06px;
+        text-align: center;
+        color: #53524F;
+        margin: 0 auto;
+        font-family: Albert Sans;
+    }
+
+    #back-form img {
+        cursor: pointer;
+        width: 35px;
+    }
+
+    #thankYouCard form {
+        margin: 0 auto;
+        width: 431px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #thankYouCard form #payment {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #thankYouCard form #personalInfo {
+        width: 463px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #thankYouCard form #personalInfo div {
+        height: 64px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        gap: 10px;
+    }
+
+    #thankYouCard form #paymentexpirationDate {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    #thankYouCard form div input {
+        padding-left: 10px;
+        width: 217px;
+        height: 49px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        border: 1px solid #53524F;
+        font-weight: 400;
+        gap: 10px;
+    }
+
+    #thankYouCard form #submitBtn button {
+        width: 115px;
+        height: 32px;
+        border-radius: 15px;
+        background-color: #E9B034;
+        border: none;
+        outline: none;
+        font-weight: 400;
+        line-height: 18.5px;
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        color: #FFFFFF;
+        margin-top: 10px;
+        transition: .5s linear;
+    }
 }
