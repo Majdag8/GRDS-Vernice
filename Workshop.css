@@ -513,10 +513,10 @@ button:hover {
         position: fixed;
         z-index: -10000;
         left: 50%;
-        top: 38%;
+        top: 28%;
         transform: translate(-50%, -50%);
-        width: 997.27px;
-        height: 569.09px;
+        width: 806px;
+        height: 500.09px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -534,6 +534,18 @@ button:hover {
         color: #53524F;
         height: 38px;
         line-height: 18px;
+    }
+
+    #modal-seats {
+        width: 107px;
+        height: 0;
+        font-size: 15.68px;
+        color: #53524F;
+        font-weight: 400;
+        line-height: 28.03px;
+        margin-left: 105px;
+        margin-top: -14px;
+        margin-bottom: 10px;
     }
 
     .seats {
@@ -615,15 +627,26 @@ button:hover {
         color: #fff;
     }
 
+    #essentalsBtn {
+        width: 277px;
+        height: 33.48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 9.7px;
+        margin-left: 12px;
+    }
+
     .modal-content {
         visibility: hidden;
         display: flex;
         background-color: rgb(255, 248, 244);
         padding: 45px 35px;
         border-radius: 8px;
-        width: 69%;
-        max-height: 81%;
-        justify-content: center;
+        width: 542px;
+        max-height: 314px;
+        justify-content: space-between;
         position: relative;
         overflow: hidden;
         z-index: 1000000;
@@ -643,10 +666,25 @@ button:hover {
     #modal-info {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: flex-start;
         text-align: left;
-        height: 640px;
+        height: 324px;
+        margin-left: 79px;
+        width: 374px;
+        margin-top: 21px;
+    }
+
+    #essentials {
+        width: 187px;
+        height: 23px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 15.57px;
+        line-height: 23.36px;
+        text-align: center;
+        margin-top: 24.94px;
+        margin-left: 20px;
     }
 
     #imgContainer div:first-child {
@@ -658,50 +696,55 @@ button:hover {
     }
 
     #modal-image {
-        width: 350px;
-        height: 464.772px;
+        width: 267px;
+        height: 323.772px;
         object-fit: cover;
-        margin-right: 30px;
+        margin-right: -77px;
     }
 
     #modal-name {
-        font-size: 40px;
+        font-size: 29px;
         color: #53524F;
-        height: 56.83px;
+        height: 5px;
+        margin-left: 115px;
+        margin-top: 20px;
     }
 
     #price {
-        width: 30px;
-        height: 28px;
+        width: 32px;
+        height: 20px;
         font-family: 'Poppins', sans-serif;
-        font-size: 17px;
+        font-size: 14px;
         color: #53524F;
         font-weight: 700;
-        line-height: 28.03px;
+        line-height: 2px;
         text-align: center;
-        margin-top: 5.45px;
+        margin-top: -18.45px;
+        margin-left: 26px;
     }
 
     #descriptionContainer,
     #detailsContainer,
     #cancellationContainer {
-        width: 90%;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        margin-top: 28.58px;
-        margin-bottom: 11.25px
+        margin-top: 16px;
+        margin-bottom: 7px;
     }
 
     #description,
     #additionalDetails,
     #cancellationPolicy {
         font-family: 'Poppins', sans-serif;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 300;
         line-height: normal;
         height: 23px;
         color: #53524F;
+    }
+
+    #modal-info img {
+        margin-right: 69px;
     }
 
     #descriptionPotterry {
@@ -723,11 +766,23 @@ button:hover {
     }
 
     #reserveContainer {
-        width: 100%;
+        width: 87%;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 2px;
+        margin-left: -10px;
+        margin-top: 11px;
+    }
+
+    #modalReserve-seats {
+        width: 44px;
+        height: 23px;
+        color: #53524F;
+        font-size: 13.57px;
+        line-height: 23.36px;
+        font-weight: 400;
+        text-align: center;
     }
 
     #totalPrice {
@@ -740,8 +795,8 @@ button:hover {
         text-align: center;
     }
 
-    #proceed {
-        width: 80px;
+    #reserveContainer #proceed {
+        width: 71px;
         height: 26px;
         border-radius: 11.68px;
         background-color: #80B6CC;
@@ -750,7 +805,7 @@ button:hover {
         font-family: "Poppins', sans-serif";
         line-height: 18.68px;
         color: #fff;
-        padding: 5px 17.86px;
+        padding: 0px 1.86px;
         border: 0;
         outline: none;
     }
