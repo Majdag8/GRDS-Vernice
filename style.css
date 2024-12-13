@@ -1679,6 +1679,137 @@ label {
         gap: 17px;
     }
 
+    #booking-form {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        width: 358px;
+        height: 360px;
+        position: fixed;
+        top: 23%;
+        left: 24%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        z-index: 10000;
+    }
+
+    #form-title {
+        font-family: 'Albert Sans';
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 57.6px;
+        margin: 0;
+        margin-bottom: 36px;
+        color: rgba(83, 82, 79, 1);
+    }
+
+    #profile {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 41px;
+        width: 350px;
+        height: 388px;
+        position: fixed;
+        top: 318px!important;
+        left: 24%!important;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        z-index: 10000;
+    }
+
+    #booking-inputs3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 9px;
+    }
+    
+    label {
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 24px;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    input[type="radio"] {
+        appearance: none;
+        width: 13px;
+        height: 14px;
+        border-radius: 50%;
+        border: 2px solid rgba(233, 176, 52, 1);
+        outline: none;
+        cursor: pointer;
+        transition: background-color 0.3s, border-color 0.3s;
+        margin-right: 1px;
+        vertical-align: middle;
+        position: relative;
+        top: -3px;
+    }
+
+    #radio-sec-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+
+    #booking-inputs3 p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    #booking-counter {
+        display: flex;
+        align-items: center;
+        width: 84px;
+        height: 22px;
+        border-radius: 14px;
+        border: 1px solid rgba(83, 82, 79, 1);
+        background-color: rgba(233, 176, 52, 0);
+    }
+
+    #bookingcounterValue {
+        text-align: center;
+        color: rgba(83, 82, 79, 1);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    #bookingform-info span {
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;
+        font-weight: 300;
+        line-height: 24px;
+        color: rgba(83, 82, 79, 1);
+    }
+
+    #bookingform-info {
+        display: flex;
+        width: 106%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 24px;
+        margin-left: 5px;
+    }
+
+    .booking-inputs input {
+        width: 140px;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid rgba(83, 82, 79, 1);
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     #quotesec {
         display: flex;
         justify-content: center;

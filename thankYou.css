@@ -305,3 +305,110 @@
         transition: .5s linear;
     }
 }
+
+@media (max-width:431px){
+    #thankYouCard {
+        position: fixed;
+        left: 49%;
+        top: 34%;
+        transform: translate(-50%, -50%);
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: auto;
+        padding: 32px;
+        z-index: 1000;
+        background-color: #FFF8F4;
+        width: 335px;
+        height: 422px;
+    }
+
+    #thankYouCard #back-form {
+        position: absolute;
+        display: flex;
+        width: 90%;
+        top: 20px;
+        left: 23px;
+    }
+
+    #thankYou-title {
+        width: 354px;
+        height: 78.58px;
+        font-weight: 400;
+        font-size: 37.22px;
+        line-height: 121.06px;
+        text-align: center;
+        color: #53524F;
+        margin: 0 -10px;
+        font-family: Albert Sans;
+    }
+
+    #choosing {
+        width: 252px;
+        height: 36px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 36px;
+        text-align: center;
+        color: #53524F;
+        margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #thankYouCard form div input {
+        padding-left: 10px;
+        width: 162px;
+        height: 33px;
+        font-size: 11px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        border: 1px solid #53524F;
+        font-weight: 400;
+        gap: 10px;
+    }
+
+    #thankYouCard form #personalInfo {
+        width: 357px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #thankYouCard form #paymentexpirationDate {
+        width: 81%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -4px;
+        gap: 10px;
+    }
+
+    #thankYouCard form #payment div {
+        display: flex;
+        flex-direction: column;
+        height: 81px;
+        gap: 10px;
+    }
+
+    #thankYouCard form #rememberMe p {
+        width: 137px;
+        height: 24px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        color: #53524F;
+    }
+    #thankYouCard form #remember {
+        width: 13px;
+        height: 13px;
+        background-color: #E9B034;
+        color: #E9B034;
+        border-radius: 50%;
+    }
+    #thankYouCard form #submitBtn {
+        text-align: start;
+        margin-left: 123px;
+    }
+}

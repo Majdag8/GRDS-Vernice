@@ -348,9 +348,28 @@ hr {
         margin-top: -45px;
         margin-bottom: 5px;
     }
+
+    #login-signup {
+        left: 50%!important;
+    }
+
+    #profile{
+        top: 31%!important;
+        left: 50%!important;
+    }
+
+    #profile #back-form{
+            top: 10px!important;
+            left: 21px!important;
+    }
 }
 
 @media (max-width: 431px) {
+
+    #login-signup {
+        top: 32%!important;
+    }
+
     #Landing-Image {
         position: absolute;
         top: 24px;

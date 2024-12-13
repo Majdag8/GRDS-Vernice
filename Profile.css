@@ -303,3 +303,100 @@ button {
         font-family: 'Poppins', sans-serif;
     }
 }
+@media (max-width: 431px){
+    #profile {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 41px;
+        width: 350px;
+        height: 388px;
+        position: fixed;
+        top: 350px;
+        left: 42%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        z-index: 10000;
+    }
+    #profileInfoContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        width: 350px;
+        background-color: rgb(255, 255, 255);
+        height: fit-content;
+        margin-top: -10px;
+    }
+    #profileinfo div div input {
+        width: 109px;
+        height: 20px;
+        border-radius: 10px;
+        border: 0;
+        border: 1px solid rgba(83, 82, 79, 1);
+        outline: none;
+        color: #53524F;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #profileinfo div input {
+        width: 240px;
+        height: 20px;
+        border-radius: 10px;
+        border: 0;
+        border: 1px solid rgba(83, 82, 79, 1);
+        outline: none;
+        padding-left: 10px;
+        color: #53524F;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #profilePicture {
+        width: 108px;
+        height: 108px;
+    }
+    #profileinfo button {
+        padding: 5px 0px;
+        width: 103px!important;
+        height: 28px;
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .change-btn {
+        width: 103px!important;
+        height: 28px;
+        font-size: 9px;
+        font-weight: 400;
+        padding: 6.7px 17.86px 6.7px 17.86px !important;
+    }
+    #profileimg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        height: 337px;
+    }
+    #profileinfo p {
+        font-family: 'Albert Sans';
+        color: #53524F;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 27.8px;
+        margin-right: auto;
+        width: 168px;
+        margin-bottom: 20px;
+        height: 0;
+    }
+    #profiledropdowns {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-top: -36px;
+    }
+}

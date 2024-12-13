@@ -285,4 +285,31 @@ button {
     .google-facebook img {
         width: 20px;
     }
+
+    #login-signuplogo{
+        width: 200px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 431px) {
+    #sideImage {
+        display: none;
+    }
+
+    #login-signup {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 41px;
+        width: 337px;
+        height: 390px;
+        position: fixed;
+        top: 16%;
+        left: 24%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        z-index: 10000;
+    }
 }
