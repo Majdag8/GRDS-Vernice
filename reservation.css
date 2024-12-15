@@ -698,13 +698,13 @@ color: #53524F;
     text-align: center;
     color: #53524F;
 }
-#btn{
+#btn {
     width: 184px;
     height: 36px;
     border-color: #80B6CC;
     position: absolute;
     left: 1183px;
-    top: 750px;
+    top: 730px;
     background: #80B6CC;
     border-radius: 15px;
     font-family: 'Poppins';
@@ -713,21 +713,8 @@ color: #53524F;
     font-size: 20px;
     line-height: 30px;
     color: #F1FFFB;
-}#btn {
-    width: 184px;
-    height: 36px;
-    border-color: #80B6CC;
-    position: absolute;
-    left: 1183px;
-    top: 750px;
-    background: #80B6CC;
-    border-radius: 15px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #F1FFFB;
+    margin: 0px;
+    padding: 0px;
 }
 h4 {
     position: absolute;
@@ -774,10 +761,25 @@ background: #E9B034;
     left: 400px;
     top: 325px;
 }
+footer{
+    top: 1550px;
+    margin: 0px;
+}
+select {
+    appearance: none; /* Reset browser styling */
+  
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" viewBox="0 0 16 16"><path d="M12.07 6.63a.75.75 0 1 0-1.14-.96L8 9.34 5.07 5.67a.75.75 0 1 0-1.14.96l3.5 4.2a.75.75 0 0 0 1.14 0l3.5-4.2z"/></svg>') no-repeat right 1rem center;
+    background-size: 1rem; /* Size of the arrow */
+    padding-right: 2rem; /* Padding for the arrow */
 
+  
+    font-family: 'Poppins';
+  }
 @media (max-width: 768px){
     .main{
         width: 768px;
+        background: rgba(255, 248, 244, 1);
+
     }
    
     #oppttl{
@@ -802,7 +804,9 @@ background: #E9B034;
     }
     .cancelationpolicy{
         top: 500px;
-        width: 600px;
+        width: 768px;
+        height: 1350px;
+        background-color: rgba(255, 248, 244, 1);
     }
     #Audiores{
         /* Rectangle 450 */
@@ -856,7 +860,7 @@ top: 1160px;
 
 left: 450px;
 
-top: 1310px;
+top: 1295px;
 
 
 
@@ -874,7 +878,7 @@ top: 1295px;
  
     left:620px;
     
-    top: 1350px;
+    top: 1200px;
    
     
     
@@ -889,7 +893,7 @@ h4{
     top: 600px;
    
 }
-ul {
+.list-conainer{
   
 
 left: 30px;
@@ -897,19 +901,29 @@ top: 700px;
 
 
 }
+footer{
+    top: 2600px;
+    margin: 0px;
+}
 
 
 }
 
 @media (max-width: 431px){
-   
+    .main{
+        width: 430px;
+        height: 2600px;
+      left: 0;
+        background: rgba(255, 248, 244, 1);
+
+    }
     #spe {
 
         position: absolute;
-        width: 573px;
+        width: 300px;
         height: 85px;
-        left: 143px;
-        top: 211px;
+        left: 3px;
+        top: 100px;
         
         font-family: 'Albert Sans';
         font-style: normal;
@@ -920,9 +934,11 @@ top: 700px;
         color: #53524F;
         
         }
+        #nameres ,#emailres,#eventdateres,#guests{
+            left: 3px;
+        }
         #res{
 
-         
             font-size: 30px;
             }
 
@@ -930,7 +946,7 @@ top: 700px;
    
 
               
-                left: 143px;
+                left: 5px;
                 top: 620px;
                 
                 }
@@ -942,7 +958,7 @@ top: 700px;
                
               
                
-                left: 143px;
+                left: 2px;
                 top: 780px;
                 
             
@@ -952,7 +968,7 @@ top: 700px;
                 #timeres{
                     /* Rectangle 439 */
                 
-                left: 143px;
+                left: 2px;
                 top: 700px;
                 
                 
@@ -960,7 +976,7 @@ top: 700px;
                 }
                 
                 #indoorres{
-               left: 143px;
+               left: 2px;
                 top: 900px;
             
                 }
@@ -968,7 +984,7 @@ top: 700px;
                 
                 #outdoorres{
                
-                left: 143px;
+                left: 2px;
                 top: 950px;
               
                 
@@ -976,7 +992,7 @@ top: 700px;
                 
            
                 #indoors{
-                left: 180px;
+                left: 30px;
                 top: 900px;
               
                 }
@@ -984,29 +1000,29 @@ top: 700px;
                 
                 #outdoors{
               
-                left: 180px;
+                left: 30px;
                 top: 950px;
             
                 }
                 
                 #specialreq{
-                   width: 350px;
+                   width: 300px;
              
-                left: 143px;
+                left: 3px;
                 top: 970px;
              
                 }
                 
                 #foodbev{
                    
-                    width: 350px;
-                left: 143px;
+                    width: 300px;
+                left: 3px;
                 top: 1040px;
           
                 }
                 #oppttl{
    
-                    left: 100px;
+                    left: 3px;
                     top: 1100px;
                     font-size: 20px;
                     
@@ -1017,8 +1033,8 @@ top: 700px;
                     #Decorationres{
                         /* Rectangle 445 */
                     
-                        width: 350px;
-                    left: 140px;
+                        width: 300px;
+                    left: 3px;
                     top: 1220px;
                     
                  
@@ -1026,7 +1042,7 @@ top: 700px;
                     
                     }
                     .cancelationpolicy{
-                        left: 10px;
+                        left: 3px;
                         
                         top: 850px;
                         width: 460px;
@@ -1034,17 +1050,17 @@ top: 700px;
                     #Audiores{
                         /* Rectangle 450 */
                     
-                        width: 350px;
+                        width: 300px;
                   
-                    left: 140px;
+                    left: 3px;
                     top: 1290px;
                  
                     }
                     #staffres{
                         /* Rectangle 451 */
                     
-                        width: 350px;
-                    left: 140px;
+                        width: 300px;
+                    left: 3px;
                     top: 1360px;
                     
                   
@@ -1055,8 +1071,8 @@ top: 700px;
                 #themeres{
                     /* Rectangle 449 */
                 
-                    width: 350px;
-                left: 140px;
+                    width: 300px;
+                left: 3px;
                 top: 1430px;
                 
                 
@@ -1065,9 +1081,9 @@ top: 700px;
                 
                 #txtres{
                     /* Rectangle 452 */
-                    width: 380px;
+                    width: 300px;
                 
-                left: 140px;
+                left: 3px;
                 top: 1500px;
                 
                 
@@ -1081,9 +1097,9 @@ top: 700px;
                 
                 
                 
-                left: 300px;
+                left: 200px;
                 
-                top: 1650px;
+                top: 1640px;
                 
                 
                 
@@ -1091,42 +1107,34 @@ top: 700px;
                 #totalres{
                     /* Total: $45 */
                 
-                left: 150px;
+                left: 3px;
                 top: 1640px;
                 
                 
-                }#v1{/* Vector */
-                   
-                
-                 
-                    left:610px;
-                    
-                    top: 1650px;
-                   
-                    
-                    
-                    
                 }
-                
+              
                 h4{
                 
-                    left: 60px;
-                    top: 500px;
+                    left: 3px;
+                    top: 320px;
                     font-size: 30px;
+                    width: 300px;
                    
                 }
-                ul {
+                .list-conainer {
                   
                 
-                left: 30px;
-                top: 570px;
-                font-size: 14px;
+                left: 0px;
+                top: 400px;
+                font-size: 10px;
+                width: 360px;
                 
                 
                 }
                 .list-item span {
+                    left: 0px;
                
-                    font-size: 15px;
+                    font-size: 10px;
                  
                  }
                 #tableres{/* This Is The Secret to Making Your Next Dinner Party Unforgettable 4 */
@@ -1134,26 +1142,57 @@ top: 700px;
                     /* This Is The Secret to Making Your Next Dinner Party Unforgettable 4 */
                    
                    position: absolute;
-                   width: 400px;
-                   height: 400px;
-                   left: 100px;
-                   top: 100px;
+                   width: 300px;
+                   height: 300px;
+                   left: 5px;
+                   top: 50px;
                    
                    
                    
                        
                       
                        }
+
+                       #rect{
+                        display: none;
+                       }
                        #play{
+                        width: 50px;
                         background-color: transparent;
-                        left: 250px;
-                        top: 260px;
+                        left: 125px;
+                        top: 170px;
+                    }
+                    footer{
+                        top: 2600px;
+                    }
+                    .cancelationpolicy{
+                       
+                        width: 431px;
+                        height: 100px;
+                      
                     }
 
 
+                    #v1{/* Vector */
+                        display: none;
+                        left: 0;
+
+    
+       
+    
+                    }
+                    #v{
+                        display: none;
+                    }
+                    header{
+                        width: 20%;
+                    }
+    
+                }
 
 
-}
+
+
 
 
 

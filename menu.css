@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 *{
-    padding: 0;
+    margin-top: 0px;
+    margin-left: 0px;
 }
+
+
 .cover-menu{
     height: 424px;
     
@@ -44,10 +47,16 @@ margin-left: 15px;
 font-weight: 700;
 }
 #vector-break{
-width: 543px;
-height: 1px;
+
 margin-left: 118px;
 margin-top: 0px;
+
+width: 136px;
+height: 0px;
+
+
+border: 3px solid #E9B034;
+
 }
 #cover-menu-p{
 
@@ -159,6 +168,8 @@ color: #FFFFFF;
 #mojito-img{
     margin-left: 83px;
     margin-top: 66px;
+    width: 144px;
+    height: 235px;
     
 }
 .Specialities-price{
@@ -220,7 +231,7 @@ border-radius: 16px;
 width: 10px;
 height: 16.47px;   
 
-margin-left: 10px;
+margin-left: 14px;
 margin-top: 6px;
 
 background: #7BB7C9;
@@ -241,7 +252,7 @@ color: #F1FFFB;
 
 }
 .Specialities-number{
-    margin-left: 19px;
+    margin-left: 12px;
     margin-top: 6.5px;
 width: 10px;
 height: 16.47px;
@@ -324,6 +335,9 @@ flex-grow: 0;
 width: 78px;
 height: 20px;
 
+
+
+margin-left: auto;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -444,22 +458,31 @@ border-radius: 17px;
     left: 925px;
 }
 
+.sec-icon-1st{
+    position: absolute;
+    left: 21px;
+    top: 13px;
 
-#sec-icon-2nd{
+    width: 25px;
+    height: 18px;
+}
+
+
+.sec-icon-2nd{
     position: absolute;
     left: 15px;
-    top: 12px;
+    top: 10px;
     width: 30px;
     height: 24px;
 }
-#sec-icon-3rd{
+.sec-icon-3rd{
     position: absolute;
-    top: 8px;
+    top: 7px;
     left: 20px;
     width: 25px;
     height: 28px;
 }
-#sec-icon-4th{
+.sec-icon-4th{
     position: absolute;
     top: 8px;
     left: 11px;
@@ -470,14 +493,15 @@ border-radius: 17px;
     position: absolute;
     left: 54px;
     top: 8px;
+
     margin-top: 0px;
+    margin-left: -6px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 30px;
 /* identical to box height */
-
 color: #7BB7C9;
 
 }
@@ -485,7 +509,7 @@ color: #7BB7C9;
 .drop-btn{
     position: absolute;
     left: 142px;
-    top: 22px;
+    top: 20px;
 }
 .Breakfast-sec{
     height: 542px;
@@ -556,7 +580,7 @@ border-radius: 13px;
     left: 172px;
     top: 68px;
 
-    width: 230px;
+    width: auto;
     height: 36px;
     margin-top: 0px;
     margin-left: 0px;
@@ -575,8 +599,12 @@ color: #53524F;
 }
 .food-line{
     position: absolute;
-    left:400px;
     top: 88.5px;
+    height: 0px;
+
+border: 1px solid #53524F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 .food-price{
     position: absolute;
@@ -662,9 +690,10 @@ color: #F1FFFB;
 }
 .food-number{
     position: absolute;
-    left: 39px;
+    left: 42px;
     top: 6.5px;
     margin-top: 0px;
+    margin-left: 0px;
 
     font-family: 'Poppins';
 font-style: normal;
@@ -737,6 +766,8 @@ color: #FFFFFF;
     left: 99px;
     margin-top: 0%;
     margin-left: 0%;
+    width: 10px;
+    height: 5px;
 }
 
 #right-des{
@@ -744,9 +775,84 @@ color: #FFFFFF;
     margin-left: 24px;
 }
 
+#chocolate-pancakes-img{
+    position: absolute;
+    top: 14px;
+    left: -18px;
+    width: 175px;
+    height: 135px;
+}
+#tarte-bourdaloue-img{
+    position: absolute;
+    top: 8px;
+    left: -12px;
+    width: 192px;
+    height: 175px;
+}
+#waffle-strawberry-img{
+    position: absolute;
+    top: 5px;
+    left: -28px;
+    width: 208px;
+    height: 158px;
+}
+#strawberry-cloud-img{
+    position: absolute;
+    top: -2px;
+    left: -37px;
+    width: 215px;
+    height: 177px;
+}
+#Sparkling-strawberry-img{  
+    position: absolute;
+    top: -11px;
+    left:17px;
+    width: 130px;
+    height: 174px;
+
+}
+#Passion-fruit-img{
+    position: absolute;
+    top: -33px;
+    left: -4px;
+    width: 153px;
+    height: 202px;
+}
+#blue-mojito{
+    position: absolute;
+    top: -24px;
+    left: 12px;
+    width: 135px;
+    height: 192px;
+
+}
+#cherry-mocktail-img{
+    position: absolute;
+    top:-28px;
+    left: 0px;
+    width: 140px;
+    height: 211px;
+}
+#Halloumi-img{
+    width: 184px;
+    height: 193px;
+}
+#london-breakfast-img{
+    width: 223px;
+    height: 226px;
+}
+#Beirut-breakfast-img{
+    width: 204px;
+    height: 157px;
+}
+#Berlin-breakfast-img{
+    width: 187px;
+    height: 167px;
+}
+
 @media (max-width: 768px) {
     .cover-menu{
-        height: 424px;
+        height: 350px;
         width: 768px;
     }
     
@@ -757,18 +863,11 @@ color: #FFFFFF;
     }
     
 
-    #cover-menu-food-img{
+    #cover-menu-food-img, #cover-menu-back-img{
         visibility: hidden;
     
     }
-    #cover-menu-back-img{
-    
-    position: absolute;
-    right: 0px;
-    top: 320px;
-    bottom: 80.31%;
-    
-    }
+
     #cover-menu-style{
     visibility: hidden;
     }
@@ -922,7 +1021,7 @@ color: #FFFFFF;
 
 
     .Full-menu{
-        height: 721px;
+        height: 980px;
         position: relative;
         width: 768px;
         }
@@ -980,307 +1079,137 @@ color: #FFFFFF;
         
         }
         #menu-food-card-1st{
-            position: absolu50;
         left: 40px ;
         top: 29px;
         }
         #menu-food-card-2nd{
-            position: absolute;
             top:214px;
             left: 40px;
         }
         #menu-food-card-3rd{
-            position: absolute;
             top: 405px;
             left: 40px;
         }
         #menu-food-card-4th{
-            position: absolute;
             top:590px;
             left: 40px;
         }
         
-        .food-img-holder{
-        position: absolute;
-        top: 29px;
-        left: 0px;
-        width: 147px;
-        height: 163px;
-        
-        background: #7BB7C9;
-        border-radius: 13px;
-        
-        }
-        .food-title{
+        #chocolate-pancakes-img{
             position: absolute;
-            left: 172px;
-            top: 68px;
-        
-            width: 230px;
-            height: 36px;
-            margin-top: 0px;
-            margin-left: 0px;
-        
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 36px;
-        /* identical to box height */
-        text-align: left;
-        
-        color: #53524F;
-        
+            top: 14px;
         }
-        .food-line{
-            position: absolute;
-            left:400px;
-            top: 88.5px;
-        }
-        .food-price{
-            position: absolute;
-            left: 613px;
-            top: 77px;
-            width: auto;
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 106.17%;
-        /* or 19px */
-        text-align: center;
-        
-        color: #53524F;
-        
-        }
-        
-        .food-description{
-            position: absolute;
-            left: 172px;
-            top: 104px;
-        
-            margin-top: 0px;
-            margin-left: 0px;
-        
-            width: 508px;
-            height: 48px;
-        
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 24px;
-        
-        color: #53524F;
-        
-        
-        
-        }
-        
-        .btn-food-sec{
-            position: absolute;
-            top: 161px;
-            left: 171px;
-        
-            width: 360px;
-            height: 31px;
-        }
-        
-        .food-counter{
-        
-        
-        position: absolute;
-        width: 87px;
-        height: 31px;
-        top: 0px;
-        left: 133px;
-        
-        background: #E9B034;
-        border-radius: 16px;
-        
-        
-        
-        }
-        .food-mins{
-        position: absolute;
-            left: 13px;
-            top: 5px;
-            margin-top: 0px;
-        
-            font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 106.17%;
-        /* identical to box height, or 17px */
-        text-align: center;
-        
-        color: #F1FFFB;
-        }
-        .food-number{
-            position: absolute;
-            left: 39px;
-            top: 6.5px;
-            margin-top: 0px;
-        
-            font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 106.17%;
-        /* identical to box height, or 17px */
-        text-align: center;
-        
-        color: #F1FFFB;
-        }
-        .food-plus{
-            position: absolute;
-            left: 65px;
-            top: 6px;
-            margin-top: 0px;
-        
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 106.17%;
-        /* identical to box height, or 17px */
-        text-align: center;
-        
-        color: #F1FFFB;
-        
-        
-        }
-        
-        .food-addon-dev{
-            position: absolute;
-            left: 239px;
-            top: 0px;
-        
-        width: 121px;
-        height: 31px;
-        
-        
-        background: #E9B034;
-        border-radius: 16px;
-        
-        }
-        .food-addon-label{
-            /* Add Extras */
-        
-        position: absolute;
-        width: 101px;
-        height: 38px;
-        left: 4px;
-        top: 4px;
-        margin-top: 0px;
-        margin-left: 0px;
-        
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 22px;
-        text-align: center;
-        
-        color: #FFFFFF;
-        
-        
-        }
-        .drop-btn-food{
-            position: absolute;
-            top: 13px;
-            left: 99px;
-            margin-top: 0%;
-            margin-left: 0%;
-        }
-        
 
 
 }
 @media (max-width: 431px) {
     .cover-menu{
-        height: 424px;
+        height: 200px;
         width: 431px;
     }
-    
+    .cover-menu-h1{
+        font-family: 'Albert Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 100%;
+        /* or 64px */
+        
+        color: #887c58;
+        
+        
+        }
+        #menu-h1-first-line{
 
-    #cover-menu-food-img{
+            margin-top: 0px;
+            margin-left: 20px;
+            
+        }
+        #menu-h1-sec-line{
+            margin-top: -30px;
+            margin-left: 20px;
+        }
+
+        #cover-menu-h1-bold{
+        margin-top: -30px;
+        margin-left: 15px;
+        font-weight: 700;
+        }    
+        #vector-break{
+
+            margin-left: 20px;
+            margin-top: 0px;
+
+            width: 136px;
+            height: 0px;
+
+        border: 3px solid #E9B034;
+
+            }
+    
+        #cover-menu-p{
+
+            width: 350px;
+            height: 58px;
+            margin-left: 20px;
+            margin-top: -80.5px;
+
+            font-size: 14px;
+ 
+            
+            color: #53524F;
+            
+            }
+
+    #cover-menu-food-img,#cover-menu-back-img,#cover-menu-style,
+    .Rectangle-background-1,.Rectangle-background-2{
         visibility: hidden;
     
     }
-    #cover-menu-back-img{
-    
-    position: absolute;
-    right: 0px;
-    top: 320px;
-    bottom: 80.31%;
-    
-    }
-    #cover-menu-style{
-    visibility: hidden;
-    }
-
-
-
-
-
-
     .sec2-menu{
-        height: 746px;
+        height: 600px;
         position: relative;
-        width: 768px;
+        width: 431px;
     }
-    .Rectangle-background-1{
-        position: absolute;
-        left: -200px;
-        top: 267px;
-        
-    }
-    .Rectangle-background-2{
-        position: absolute;
-        right: -200px;
-        top: 528px;
-        
-    }
+
     
     #Specialties-style-title{
         position: absolute;
         top: 62px;
-        left: 150px;
+        left: 90px;
         width: 475px;
         height: 57px;
     }
 
+    .Specialities-title{
+        position: absolute;
+        width: auto;
+        height: 36px;
+        
+        margin-top: 30px;
+        margin-left: 25px;
+
+        font-size: 14px;
+
+        }
     
     .Specialities-card{
     
-        width: 235px;
-        height: 392px;
+        width: 160px;
+        height: 280px;
     
     }
     #Specialities-card-left{
     position:absolute;
-     left: 5px;    
-     top: 201px;   
+     left: 30px;    
+     top: 170px;   
     }
     
-    .Specialities-title{
-    position: absolute;
-    width: auto;
-    height: 36px;
-    
-    margin-top: 30px;
-    margin-left: 25px;
-    
-    }
     #mojito-img{
-        margin-left: 50px;
-        margin-top: 66px;
+        margin-left: 20px;
+        margin-top: 50px;
+        width: 125px;
+        height: 160px;
         
     }
     .Specialities-price{
@@ -1289,82 +1218,63 @@ color: #FFFFFF;
     height: 21px;
     
     
-    margin-left: 70px;
-    margin-top: 300px;
+    margin-left: 50px;
+    margin-top: 250px;
+
+
+font-size: 14px;
+
     
     }
     
     .Specialities-description{
         
     position: absolute;
-    
-    margin-left: 10px;
+    width: 145px;
+    margin-left: 8px;
+    height: 40px;
 
     
     }
     .Specialities-counter{
-    margin-top: 50px;
-    margin-left: 70px;
+    margin-top: 55px;
+    margin-left: 37px;
     
     }
 
-    #Add-cart-btn-left{
-           margin-left: 55px;
+    #Add-cart-btn-left,#Add-cart-btn-center,#Add-cart-btn-right{
+           margin-left: 22px;
         margin-top: 10px; 
-    }
-    #Add-cart-btn-center{
-        margin-left: 55px;
-        margin-top: 10px;  
-    }
-    #Add-cart-btn-right{
-        margin-left: 55px;
-        margin-top: 10px;   
+        
     }
     
 
     #Specialities-card-center{
     position: absolute;
     
-    width: 235px;
-    height: 392px;
+    width: 160px;
+    height: 280px;
 
 
-    left: 257.5px;    
-    top:201px;   
+    left: 230px;    
+    top: 170px;   
     
     }
     #Specialities-img-center{
     
-    width: 240px;
-    height: 214px;
+    width: 155px;
+    height: 165px;
     
-        margin-top: 87px;
-        margin-left: -3px;
+        margin-top: 45px;
+        margin-left: 2px;
     }
     
     #Specialities-card-right{
-        position: absolute;
-    
-        width: 235px;
-        height: 392px;
-
-    left: 510px;    
-    top:201px;   
+        visibility: hidden;
     
     
-    }
-    #Specialities-img-right{
-        margin-left: 25px;
-        margin-top: 79px;
-        width: 202px;
-        height: 222px;
     }
 
-    #right-des{
-        width: 230px;height: 26px; 
-        margin-left: 7px;
-    }
-    
 
     
 
@@ -1374,31 +1284,118 @@ color: #FFFFFF;
 
 
     .Full-menu{
-        height: 721px;
+        height: 1030px;
         position: relative;
-        width: 768px;
+        width: 431px;
         }
         
         #Menu-style-title{
             position: absolute;
             top: 0px;
             margin-top: 0px;
-            left: 225px;
+            left: 150px;
             width: 338px;
             height: 94px;
         
         }
 
         #btn-sec-1st{
-            left: 25px;
+            left: 30px;
+            top: 60px;
         }
         #btn-sec-2nd{
-            left:203px ;
+            left:215px;
+            top: 60px;
         }
         #btn-sec-3rd{
-            left: 381px;
+            left: 30px;
+            top: 120px;
         }
         #btn-sec-4th{
-            left: 559px;
+            left: 215px;
+            top: 120px;
         }
+
+        .sec-name{
+        font-size: 18px;
+        }
+
+        
+        .Breakfast-sec{
+            height: 542px;
+            position: absolute;
+            top: 179px;
+        }
+        
+        .menu-sec-title{
+        
+
+        left: 0px;
+
+        font-size: 30px;
+        
+         
+        }
+        
+
+        #menu-food-card-1st{
+        left: 10px;
+        top: 29px;
+        }
+        #menu-food-card-2nd{
+            top: 235px;
+            left: 10px;
+        }
+        #menu-food-card-3rd{
+            top:440px;
+            left: 10px;
+        }
+        #menu-food-card-4th{
+            position: absolute;
+            top:640px;
+            left: 10px;
+        }
+        
+
+        .food-title{
+            top: 40px;
+        font-size: 16px;
+        }
+        .food-line{
+            visibility: hidden;
+        }
+        .food-price{
+            left: 350px;
+            top: 52px;
+        font-size: 14px;        
+        }
+        
+        .food-description{
+   
+            left: 172px;
+            top: 70px;
+            width: 235px;
+
+        font-size: 11px;
+        }
+        
+        .btn-food-sec{
+            top: 150px;
+            left: 165px;
+        }
+        
+        
+        .food-addon-dev{
+            position: absolute;
+            left: 0px;
+            top: 40px;
+        
+        width: 121px;
+        height: 31px;
+        
+        
+        background: #E9B034;
+        border-radius: 16px;
+        
+        }        
 }

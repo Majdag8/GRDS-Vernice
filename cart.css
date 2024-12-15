@@ -813,163 +813,19 @@ color: #F1FFFB;
 
 
 
+
 @media (max-width: 768px){
-
- 
+    #cartsec{
+        left: 0px;
+        width:800px;
+        margin: 0px;
+        height: 1300px;
+    }
     .quantity{
-    left: 340px;
-    }
-    .price{
-    left: 380px;
-
-    }
-    .halloumititle{
-
-width: 150px;
-
-
-
-font-size: 15px;
-
-    }
-    #halloumidesc{
-        width: 200px;
-        top: 35px;
-        font-size: 12px;
-    }
-    .halloumi{
-        /* Vector 216 */
-    
-  
-    width: 760px;
-    }
-    .halloumiquantity{
-        /* Rectangle 450 */
-      
-    
-      left: 450px;
-      top: -20px;
-      
-
-      
-      }
-      .halloumiprice{
-        /* $10.00 */
-    
-    
-    
-    left: 600px;
-    top: -10px;
-  
-   
-
-    
-    
-    }
-    #deletehallomi{
-        /* Delete - Iconly Pro */
-    left: 740px;
-    top: -35px;}
-
-    .berlintitle{
-        left: 125px;
-        width: 130px;
-        font-size: 15px;
-    }
-    #berlindesc{
-        width: 200px;
-        top: 60px;
-        font-size: 12px;
-
-    }
-    .berlin{
-        padding-bottom: 30px;
-        width: 760px;
-    }
-    .berlinquantity{
-        
-       
-       
-        left: 450px;
-        top: 30px;
-
-        
-
-    }
-    .berlinprice{
-        left: 600px;
-        top: 40px;
-
-    }
-
-    #deleteberlin{
-        left: 740px;
-        top: 15px;
-
-    }
-
-    .beiruttitle{
-        left: 125px;
-        width: 130px;
-        font-size: 15px;
-    }
-    #beirutdesc{
-        width: 200px;
-        top: 50px;
-        font-size: 12px;
-
-    }
-    .beirutquantity{
-        left: 450px;
-        top: 50px;
-
-    }
-    .beirut{
-        padding-bottom: 30px;
-        width: 760px;
-    }
-
-    .beirutprice{
-        left: 600px;
-        top: 60px;
-    }
-    #deletebeirut{
-        left: 740px;
-        top: 70px;
-    }
-
-    .cartheader{
-
-        width:745px;
-
-    }
-    .carttotal{
-       
-
-left: 380px;
-top: 350px;
-padding-bottom: 50px;
-
-    }
-    .itemdetails{
-       
-        border-right: 0px;
-       width: 768px;
-       
-      
-
-
-    }   
-    
-}
-
-@media (max-width: 431px){
-    
-    .quantity{
-        left: 280px;
+        left: 210px;
         }
         .price{
-        left: 320px;
+        left: 270px;
     
         }
         .halloumititle{
@@ -991,18 +847,21 @@ padding-bottom: 50px;
             /* Rectangle 450 */
           
         
-          left: 400px;
+          left: 330px;
           top: -20px;
           
     
           
+          }
+          .halloumi{
+            width: 630px;
           }
           .halloumiprice{
             /* $10.00 */
         
         
         
-        left: 540px;
+        left: 490px;
         top: -15px;
       
        
@@ -1012,8 +871,8 @@ padding-bottom: 50px;
         }
         #deletehallomi{
             /* Delete - Iconly Pro */
-        left: 650px;
-        top: -35px;}
+        left: 600px;
+        top: -40px;}
     
         .berlintitle{
             left: 125px;
@@ -1027,28 +886,29 @@ padding-bottom: 50px;
     
         }
         .berlin{
-            padding-bottom: 30px;
+            padding-bottom: 35px;
+            width: 650px;
            
         }
         .berlinquantity{
             
            
            
-            left: 400px;
+            left: 330px;
             top: 30px;
     
             
     
         }
         .berlinprice{
-            left: 550px;
+            left: 490px;
             top: 35px;
     
         }
     
         #deleteberlin{
-            left: 650px;
-            top: 15px;
+            left: 600px;
+            top: 10px;
     
         }
     
@@ -1064,33 +924,33 @@ padding-bottom: 50px;
     
         }
         .beirutquantity{
-            left: 400px;
+            left: 330px;
             top: 50px;
     
         }
         .beirut{
             padding-bottom: 30px;
-            width: 760px;
+            width: 630px;
         }
     
         .beirutprice{
-            left: 550px;
+            left: 490px;
             top: 60px;
         }
         #deletebeirut{
-            left: 650px;
-            top: 70px;
+            left: 600px;
+            top: 67px;
         }
     
         .cartheader{
     
-            width:745px;
+            width:630px;
     
         }
         .carttotal{
            
     
-    left: 350px;
+    left: 280px;
     top: 350px;
     padding-bottom: 50px;
     
@@ -1103,6 +963,160 @@ padding-bottom: 50px;
           
     
     
-        }    
+        }  
+        #footer{
+            top: 0px;
+            width: 800px;
+        }  
 }
 
+@media (max-width: 440px){
+
+ 
+    .quantity{
+    left: 250px;
+    }
+    .price{
+    left: 300px;
+
+    }
+    .halloumititle{
+
+width: 150px;
+
+
+
+font-size: 15px;
+
+    }
+    #halloumidesc{
+        width: 200px;
+        top: 35px;
+        font-size: 12px;
+    }
+    .halloumi{
+        /* Vector 216 */
+    
+  
+    width: 690px;
+    }
+    .halloumiquantity{
+        /* Rectangle 450 */
+      
+    
+      left: 380px;
+      top: -20px;
+      
+
+      
+      }
+      .halloumiprice{
+        /* $10.00 */
+    
+    
+    
+    left: 550px;
+    top: -10px;
+  
+   
+
+    
+    
+    }
+    #deletehallomi{
+        /* Delete - Iconly Pro */
+    left: 670px;
+    top: -35px;}
+
+    .berlintitle{
+        left: 125px;
+        width: 130px;
+        font-size: 15px;
+    }
+    #berlindesc{
+        width: 200px;
+        top: 60px;
+        font-size: 12px;
+
+    }
+    .berlin{
+        padding-bottom: 30px;
+        width: 690px;
+    }
+    .berlinquantity{
+        
+       
+       
+        left: 380px;
+        top: 30px;
+
+        
+
+    }
+    .berlinprice{
+        left: 550px;
+        top: 40px;
+
+    }
+
+    #deleteberlin{
+        left: 670px;
+        top: 15px;
+
+    }
+
+    .beiruttitle{
+        left: 125px;
+        width: 130px;
+        font-size: 15px;
+    }
+    #beirutdesc{
+        width: 200px;
+        top: 50px;
+        font-size: 12px;
+
+    }
+    .beirutquantity{
+        left: 380px;
+        top: 50px;
+
+    }
+    .beirut{
+        padding-bottom: 30px;
+        width: 690px;
+    }
+
+    .beirutprice{
+        left: 550px;
+        top: 60px;
+    }
+    #deletebeirut{
+        left: 670px;
+        top: 70px;
+    }
+
+    .cartheader{
+
+        width:650px;
+
+    }
+    .carttotal{
+       
+
+left: 300px;
+top: 350px;
+padding-bottom: 50px;
+
+    }
+    .itemdetails{
+       
+        border-right: 0px;
+       width: 768px;
+
+    } 
+    
+ 
+    
+    
+    
+}

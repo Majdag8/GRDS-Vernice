@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
 #all-artist-cover-div{
     height: 529px;
 position: relative;
@@ -34,6 +39,14 @@ color: #53524F;
     left: 97px;
     margin-top: 0px;
     margin-left: 0px;
+    /* Vector 237 */
+
+width: 136px;
+height: 0px;
+
+
+border: 3px solid #E9B034;
+
 }
 #all-artist-cover-description{
     position: absolute;
@@ -68,6 +81,11 @@ color: #000000;
     position: absolute;
     top: 17px;
     left: 1110px;
+}
+#all-artist-cover-cover-img3{
+    position: absolute;
+    top: 110px;
+    right: 0px;
 }
 #all-artist-cover-background{
     position: absolute;
@@ -205,7 +223,7 @@ color: #53524F;
 #book-h1-label{
     font-weight: 700;
 }
-#calender-div{
+.calender-div{
     /* Rectangle 19 */
 
 position: absolute;
@@ -224,31 +242,21 @@ border-radius: 39.6617px;
 position: absolute;
 width: 338px;
 height: 49px;
-
-border: 1px solid #53524F;
-border-radius: 10px;
-}
-.booking-text-style::placeholder{
-position: absolute;
-margin-inline-start:auto;  
-margin-left: 14px;
-padding-left: 14px;
-left: 14px;
+padding: 10px;  
 font-family: 'Poppins';
 font-style: normal;
-font-weight: 400;
 font-size: 15px;
 line-height: 22px;
 /* identical to box height */
 
-color: #53524F;
-
-
+border: 1px solid #53524F;
+border-radius: 10px;
 }
 
 #booking-name{
 left: 690px;
 top: 140px;
+padding: 10px;
 }
 #booking-email{
 
@@ -263,6 +271,9 @@ top: 220px;
     left: 690px;
     top: 378px;
 }
+#booking-participants::placeholder{
+    font-weight: 700;
+}
 #booking-nots{
     left: 690px;
     top: 456px;
@@ -275,9 +286,13 @@ top: 220px;
     top: 220px;
     left: 1079px;
 }
+#booking-type::placeholder{
+font-weight: 700;
+}
 #booking-time{
     top: 300px;
     left: 1079px;
+    
 }
 
 #radio-btn-left{
@@ -347,7 +362,9 @@ text-align: center;
 color: #53524F;
 }
 .btn-proceed-booking{
-    
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 5px;
     position: absolute;
     left: 1297px;
     top: 469px;
@@ -358,7 +375,7 @@ justify-content: center;
 align-items: center;
 
 width: 120px;
-height: 36px;
+height: 30px;
 
 background: #80B6CC;
 border-radius: 15px;
@@ -366,7 +383,8 @@ border-radius: 15px;
 }
 
 #btn-proceed-label{
-margin-top: 10px;
+margin-top: 0px;
+margin-left: 0px;
 
 width: 66px;
 height: 24px;
@@ -481,6 +499,7 @@ color: #FFFFFF;
     position: absolute;
     top: 301.77px;
     left: 54.5px;
+    width: 465px;
 }
 .label-calender-style-available{
 
@@ -572,6 +591,21 @@ color: #FFFFFF;
     top: 31px;
 }
 
+input::placeholder {
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+padding-left: 200px;
+
+color: #53524F;
+
+
+  }
 
 
 
@@ -648,3 +682,374 @@ color: #53524F;
     margin-right: 0px;
 }
 
+@media (max-width: 768px){
+
+#all-artist-cover-background,#all-artist-cover-img1,#all-artist-cover-img2,#all-artist-cover-background-img1,
+#all-artist-cover-background-img2{
+    visibility: hidden;
+}
+#About-the-space-div{
+    width: 768px;
+}
+#About-the-space-h1{
+    top: 53px;
+
+    font-size: 40px;
+}
+.About-the-space-discription-style{
+    font-size: 18px;
+    }
+    #About-the-space-discription-1st{
+        left: 106px;
+        top: 126px;
+    }
+    #About-the-space-discription-2nd{ 
+        left: 106px;
+        top: 204px;
+    }
+    #About-the-space-discription-3rd{
+        left: 106px;
+        top: 280px;
+    }
+    #About-the-space-discription-4th{
+        left: 106px;
+        top: 360px;
+    }
+    #About-the-space-discription-5th{
+        left: 106px;
+        top: 440px;
+    }
+    #booking-name{
+        left: 30px;
+        top: 530px;
+        }
+        #booking-email{
+        
+        left: 30px;
+        top: 600px;    
+        }
+        #booking-workshop{
+            left: 30px;
+            top: 670px
+        }
+        #booking-participants{
+            left: 30px;
+            top: 740px;
+        }
+        #booking-nots{
+            left: 30px;
+            top: 810px;
+        }
+        #booking-phonenumber{
+            top: 530px;
+            left:400px;
+        }
+        #booking-type{
+            top: 600px;
+            left: 400px;
+        }
+        #booking-time{
+            top: 670px;
+            left: 400px;
+        }
+    
+        #radio-btn-left{
+            top: 770px;
+            left: 400px;
+        }
+        #radio-btn-right{
+   
+            top: 770px;
+            left: 600px;
+        }
+        
+        #radio-btn-label-2nd{
+
+            left: 620px;
+            top: 765px;
+    
+        
+        }
+        #radio-btn-label-1st{
+            top: 765px;
+            left: 420px;
+        }
+        
+        #price-booking-label{
+            top: 830px;
+            left: 400px;
+        }
+        .btn-proceed-booking{
+            left: 600px;
+            top: 830px;
+        }
+        #book-dev{
+            height: 960px ;
+            width: 768px;
+        }
+        
+        #info-dev-contact-us{
+            position: absolute;
+            display: flex;
+            left: 100px;
+            top: 930px;
+        }
+
+
+        #Cancelation-dev{
+            width: 768px;
+            height:1300px ;
+        }
+        #Cancelation-h1{
+            top: 71px;
+            left: 90px;
+        }
+
+        #Cancelation-list{
+            top: 139px;
+            left: 70px;
+            
+            width: 500px;
+        }
+        .Cancelation-li{
+        width: 550px;
+        }
+        #Cancelation-img{
+            top: 650px;
+            left: 94px;
+        }
+}
+@media (max-width: 431px){
+
+    #all-artist-cover-div{
+        height: 400px;
+    position: relative;
+    top: 100.23px;
+    }
+
+    #all-artist-cover-background,#all-artist-cover-img1,#all-artist-cover-img2,#all-artist-cover-background-img1,
+    #all-artist-cover-background-img2{
+        visibility: hidden;
+    }
+
+    #all-artist-cover-h1{
+
+        top: 50px;
+        left: 50px;
+
+    
+        width: 350px;
+        height: 123px;
+    
+
+    font-size: 40px;
+
+    }
+    #all-artist-cover-line{
+
+        top: 150px;
+        left: 50px;
+
+    }
+    #all-artist-cover-description{
+
+        left: 50px;
+        top: 175px;
+    
+        width: 350px;
+        height: 120px;
+    
+
+
+    font-size: 16px;
+
+    
+    
+    }
+
+    #About-the-space-div{
+        width: 768px;
+    }
+    #About-the-space-h1{
+        top: 53px;
+        left: 50px;
+    
+        font-size: 40px;
+    }
+    .About-the-space-discription-style{
+        font-size: 16px;
+        width: 350px;
+        }
+        #About-the-space-discription-1st{
+            left: 50px;
+        }
+        #About-the-space-discription-2nd{ 
+            left: 50px;
+        }
+        #About-the-space-discription-3rd{
+            left: 50px;
+        }
+        #About-the-space-discription-4th{
+            left: 50px;
+        }
+        #About-the-space-discription-5th{
+            left: 50px;
+        }
+
+        #cover-blank{
+            visibility: visible;
+            position: absolute;
+width: 583px;
+height: 367px;
+left: 62px;
+top: 138px;
+
+background: white;
+border-radius: 39.6617px;
+
+        }
+        #book-h1{
+            left: 50px;
+            font-size: 40px;
+
+            }
+
+        #booking-name{
+            left: 50px;
+            top: 138px;
+            }
+            #booking-email{
+            
+            left: 50px;
+            top: 200px;    
+            }
+            #booking-workshop{
+                left: 50px;
+                top: 260px
+            }
+            #booking-participants{
+                left: 50px;
+                top: 325px;
+            }
+            #booking-nots{
+                left: 50px;
+                top: 390px;
+            }
+            #booking-phonenumber{
+                top: 455px;
+                left:50px;
+            }
+            #booking-type{
+                top: 520px;
+                left: 50px;
+            }
+            #booking-time{
+                top: 590px;
+                left: 50px;
+            }
+        
+            #radio-btn-left{
+                top: 700px;
+                left: 50px;
+            }
+            #radio-btn-right{
+       
+                top: 700px;
+                left: 200px;
+            }
+            
+            #radio-btn-label-2nd{
+    
+                left: 240px;
+                top: 695px;
+        
+            
+            }
+            #radio-btn-label-1st{
+                top: 695px;
+                left: 80px;
+            }
+            
+            #price-booking-label{
+                top: 780px;
+                left: 50px;
+            }
+            .btn-proceed-booking{
+                left: 270px;
+                top: 780px;
+            }
+            #book-dev{
+                height: 960px ;
+                width: 768px;
+            }
+            
+            #info-dev-contact-us{
+                position: absolute;
+                left: 30px;
+                top: 850px;
+            }
+            #date-contact-label{
+                position: absolute;
+                left: 100px;
+                top:40px;
+            }
+            #date-contact-label-p{
+                position: absolute;
+                left: 115px;
+                top: 40px;
+            }
+
+    
+            #Cancelation-dev{
+                width: 768px;
+                height:1200px ;
+            }
+            #Cancelation-h1{
+                left: 50px;
+            }
+
+ 
+    
+            #Cancelation-list{
+                top: 139px;
+                left: 30px;
+                
+                width: 500px;
+            }
+
+            #Cancelation-img{
+                top: 750px;
+                left: 30px;
+
+                width: 370px;
+                height: 300px;
+            }
+            .Cancelation-li{
+                margin-bottom: 35px;
+                width: 325px;
+                font-size: 16px;
+                line-height: 30px;
+
+                }
+
+}
+
+input[type="radio"] {
+    appearance: none;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    border: 2px solid rgba(233, 176, 52, 1);
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-right: 10px;
+}
+
+input[type="radio"]:checked {
+    background-color: rgba(233, 176, 52, 1)
+}
+
+input[type="radio"]:not(:checked) {
+    background-color: white;
+}

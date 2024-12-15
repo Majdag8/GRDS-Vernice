@@ -1,355 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Special Events Booking</title>
-  <link rel="stylesheet" href="reservation.css">
-  <link rel="stylesheet" href="res.css">
-  <link rel="stylesheet" href="header.css">
-  <link rel="stylesheet" href="footer.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Events Booking</title>
+    <link rel="stylesheet" href="reservation.css">
+    <link rel="stylesheet" href="styleres.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="Profile.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="login-signup.css">
+ 
 </head>
-
 <body>
-
   <div id="fixed-nav">
     <div id="header">
-      <img src="Images/Vernice Logo.png" alt="Vernice Logo" id="logo">
+        <img src="Images/Vernice Logo.png" alt="Vernice Logo" id="logo">
 
-      <ul id="list-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="Home-Deco.html">Shop</a></li>
-        <li><a href="Workshop.html">Workshops</a></li>
-        <li><a href="reservation.html" style="font-weight: 700;">Special Events</a></li>
-        <li><a href="">Table</a></li>
-        <li><a href="CallingAllArtist.html">Artists</a></li>
-      </ul>
+        <ul id="list-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="Home-Deco.html">Shop</a></li>
+            <li><a href="Workshop.html">Workshops</a></li>
+            <li><a href="reservation.html" style="font-weight: 700;">Special Events</a></li>
+            <li><a href="">Table</a></li>
+            <li><a href="CallingAllArtist.html">Artists</a></li>
+        </ul>
 
-      <ul id="list-icons">
-        <div id="hamburger" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <li><img src="Images/Search Icon.png" alt="Search Icon"></li>
-        <li><img src="Images/Bag Icon.png" alt="Bag Icon"></li>
-        <li><img src="Images/Profile Icon.png" alt="Profile Icon" id="profile-icon"></li>
-      </ul>
+        <ul id="list-icons">
+            <div id="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <li><img src="Images/Search Icon.png" alt="Search Icon"></li>
+            <li><img src="Images/Bag Icon.png" alt="Bag Icon"></li>
+            <li><img src="Images/Profile Icon.png" alt="Profile Icon" id="profile-icon"></li>
+        </ul>
     </div>
     <hr id="header-hr">
-  </div>
+</div>
 
-  <div class="main">
-    <div class="specialres">
-      <h2 id="spe"> <span> Special Events </span> <span id="res">Reservation</span></h2>
-      <input type="text" placeholder="Name" id="nameres">
-      <input type="text" placeholder="Email" id="emailres">
-
-      <input type="date" id="eventdateres" placeholder="Event Date">
-      <select id="guests">
-        <option value="" disabled selected>Number Of Guests</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-
-      </select>
-
-      <input type="tel" id="phone" placeholder="Phone Number">
-
-      <select id="evtype">
-        <option value="" disabled selected>Event type</option>
-        <option value="1">Birthday</option>
-        <option value="2">Bachelorette</option>
-        <option value="3">Graduation</option>
-        <option value="4">Others</option>
-
-      </select>
-
-      <input type="time" id="timeres">
-
-
-      <input type="radio" name="tab" id="indoorres">
-      <span id="indoors">indoors</span>
-      <input type="radio" name="tab" id="outdoorres">
-      <span id="outdoors">outdoors</span>
-
-      <input type="text" placeholder="Special Requirements" id="specialreq">
-
-      <select id="foodbev">
-        <option value="" disabled selected>Food and Beverages Options</option>
-        <option value="1">Basic Refreshments ( Coffee, tea, water, and pastries)</option>
-        <option value="2">Light Bites ( Coffee, tea, water, sandwiches, dips, and chips)</option>
-        <option value="3">Full menu</option>
-
-      </select>
-
-
-      <h5 id="oppttl">Optional Add-Ons</h5>
-
-      <select id="Decorationres">
-        <option value="" disabled selected>Decoration Packages</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-
-      </select>
-
-      <select id="Audiores">
-        <option value="" disabled selected>Audio Equipments</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-
-      </select>
-
-      <select id="staffres">
-        <option value="" disabled selected>Staff Assistance</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-
-      </select>
-
-      <select id="themeres">
-        <option value="" disabled selected>Theme</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-
-      </select>
-
-      <input type="textarea" placeholder="Additional Notes" id="txtres">
-
-      <p id="totalres">Total:$45</p>
-      <button id="btn" class="btn" onclick="openPopup()">Reserve Now</button>
+<div id="profile">
+    <div id="back-form">
+        <img src="Home-Page-Images/arrow.png" alt="">
     </div>
+    <div>
+        <div id="profileInfoContainer">
 
-    <div class="cancelationpolicy">
-
-      <img src="res ph/This Is The Secret to Making Your Next Dinner Party Unforgettable 4.png" alt="table"
-        id="tableres">
-      <img src="res ph/Rectangle 513.png" alt="" id="rect">
-      <img src="res ph/Play.png" alt="play" id="play">
-      <h4>Cancelation <span>Policy</span></h4>
-
-
-      <ul class="list-conainer">
-        <li class="list-item"><span>72 Hours Prior:</span> Cancellations made at least 72 hours before the <br>
-          event will receive a full refund .</li>
-        <li class="list-item"> <span>48 to 72 Hours Prior:</span> Cancellations made 48 to 72 hours before<br> the event
-          will receive a 50% refund</li>
-        <li class="list-item"><span>Less than 48 Hours:</span> Cancellations made within 48 hours of the <br>event are
-          non-refundable.</li>
-        <li class="list-item"><span>No-Show Policy:</span> If the event is a no-show, no refund will be <br> issued</li>
-        <li class="list-item"><span> Rescheduling:</span> One-time rescheduling is allowed if requested at <br> least 72
-          hours before the original event date, subject to availability.</li>
-
-      </ul>
-
-
-
-
-
-
-    </div>
-
-
-
-
-  </div>
-  <div class="popup" id="popup">
-    <button id="exit" onclick="closePopup()"></button>
-    <h1 id="thankuu">Thank you</h1>
-    <p id="forch">for choosing Vernice</p>
-
-
-    <p id="add">Address</p>
-
-
-    <input type="text" name="name" id="name" placeholder="Name" required>
-
-
-
-    <input type="tel" name="phone" id="phonee" placeholder="Phone" required>
-
-    <input type="text" name="address" id="address" placeholder="Address (city, street, building, floor)" required>
-    </label>
-
-
-
-    <input type="radio" name="payment-method" value="Cash on Delivery" id="cash">
-    <p id="paym">Cash on Delivery</p>
-
-
-
-
-    <input type="radio" name="payment-method" value="Card" id="card">
-    <p id="checkb">Card</p>
-
-
-
-    <p id="pay">Payment</p>
-    <img src="thanku/Group 251.svg" alt="" id="picv">
-
-    <input type="text" name="card-number" id="cardnum" placeholder="Card Number" required>
-    <p id="expdatep">Expiration Date MM/YY</p>
-
-
-
-
-
-    <input type="text" name="expiration-date" placeholder="00 0000" id="expdate" required>
-
-
-
-    <input type="text" name="cvv" id="cvv" placeholder="Three Digits Code">
-
-
-    <input type="text" name="cardholder-name" id="cardholder" placeholder="Card Holder Name">
-
-
-
-    <input type="checkbox" name="remember-me" id="remme">
-    <p id="remt">Remember Me</p>
-
-
-    <button type="submit" onclick="closePopup()" id="submit">Submit</button>
-  </div>
-
-  <img src="res ph/Vector12.svg" alt="vector" id="v">
-  <img src="res ph/v1.png" alt="vector" id="v1">
-
-  <!-- <footer id="footer">
-        <div id="footer-content">
-            <div id="logoSocialMedia">
-                <img src="Images/footer logo.png" alt="" id="logo">
-                <div id="socialmedia">
-                    <img src="Images/facebook.png" alt="" id="facebook">
-                    <img src="Images/instagram.png" alt="" id="instagram">
-                    <img src="Images/tiktok.png" alt="" id="tiktok">
-                </div>
+            <div id="profileimg">
+                <img src="Images/Profileimage.png" alt="Profile Picture" id="profilePicture" class="profile-image">
+                <button id="photo-upload-btn" class="change-btn">Change photo</button>
+                <input id="photo-upload" type="file" accept="image/*" style="display: none;" />
             </div>
 
-            <div id="navbar">
-                <ul class="footer-nav">
-                    <li><a href="index.html" style="font-weight: 700;">Home</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="Home-Deco.html">Shop</a></li>
-                </ul>
-                <ul class="footer-nav">
-                    <li><a href="Workshop.html">Workshops</a></li>
-                    <li><a href="">Secial Events</a></li>
-                    <li><a href="">Artists</a></li>
-                </ul>
-                <ul class="footer-nav">
-                    <li><a href="">Table</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Profile</a></li>
-                </ul>
-                <ul class="footer-nav">
-                    <p>Location</p>
-                    <p>Koraytem, Verdun, Lebanon</p>
-                </ul>
-            </div>
 
-            <div id="updates">
-                <p id="updates-title">Get Updates</p>
-                <p id="updates-description">Get Updates on Workshops, New Dishes, and Exciting Events!</p>
-                <input type="text" placeholder="Email" id="email-input">
-            </div>
-        </div>
-
-
-
-        <div id="ipadfooter">
-            <div id="logoSocialMedia">
-                <img src="Images/footer logo.png" alt="">
-                <div id="socialmedia">
-                    <img src="Images/facebook.png" alt="" id="facebook">
-                    <img src="Images/instagram.png" alt="" id="instagram">
-                    <img src="Images/tiktok.png" alt="" id="tiktok">
-                </div>
-            </div>
-
-            <div id="navbar">
-                <ul class="footer-nav">
-                    <li><a href="index.html" style="font-weight: 700;">Home</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="Home-Deco.html">Shop</a></li>
-                </ul>
-                <ul class="footer-nav">
-                    <li><a href="Workshop.html">Workshops</a></li>
-                    <li><a href="">Secial Events</a></li>
-                    <li><a href="">Artists</a></li>
-                </ul>
-                <ul class="footer-nav">
-                    <li><a href="">Table</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Profile</a></li>
-                </ul>
-                <ul class="footer-nav">
-                    <p>Location</p>
-                    <p>Koraytem, Verdun, Lebanon</p>
-                </ul>
-            </div>
-
-            <div id="updates">
-                <p id="updates-title">Get Updates</p>
-                <p id="updates-description">Get Updates on Workshops, New Dishes, and Exciting Events!</p>
-                <input type="text" placeholder="Email" id="email-input">
-            </div>
-        </div>
-
-
-
-        <div id="mobilefooter">
-            <div id="topFooterM">
-
-                <div id="logoSocialMedia">
-                    <img src="Images/footer logo.png" alt="" id="logo">
-                    <div id="socialmedia">
-                        <img src="Images/facebook.png" alt="" id="facebook">
-                        <img src="Images/instagram.png" alt="" id="instagram">
-                        <img src="Images/tiktok.png" alt="" id="tiktok">
+            <div id="profileinfo">
+                <p>My Profile</p>
+                <div>
+                    <div>
+                        <input type="text" name="" id="" value="Sara">
+                        <input type="text" name="" id="" value="Murad">
                     </div>
+                    <div>
+                        <input type="number" name="" id="" min="1" value="09865422">
+                        <input type="text" name="" id="" value="Password">
+                    </div>
+                    <input type="text" name="" id="profilelocation" value="Beruit, Sodico, Beirut, lebanon">
+                    <input type="email" name="" id="" value="saramurad2000@gmail.com">
                 </div>
-
-                <div id="updates">
-                    <p id="updates-title">Get Updates</p>
-                    <p id="updates-description">Get Updates on Workshops, New Dishes, and Exciting Events!</p>
-                    <input type="text" placeholder="Email" id="email-input">
+                <div id="signoutBtn">
+                    <button style="background-color: rgba(233, 176, 52, 1);">Sign Out</button>
                 </div>
-            </div>
-
-
-            <div id="navbar">
-                <ul class="footer-nav">
-                    <li><a href="index.html" style="font-weight: 700;">Home</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="Home-Deco.html">Shop</a></li>
-                </ul>
-                <ul class="footer-nav">
-                    <li><a href="Workshop.html">Workshops</a></li>
-                    <li><a href="">Secial Events</a></li>
-                    <li><a href="">Artists</a></li>
-                </ul>
-                <ul class="footer-nav">
-                    <li><a href="">Table</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Profile</a></li>
-                </ul>
-                <ul class="footer-nav">
-                    <p>Location</p>
-                    <p>Koraytem, Verdun, Lebanon</p>
-                </ul>
             </div>
         </div>
-        <hr>
-        <p id="footer-rights">All rights reserved. 2024. by Vernice.</p>
-    </footer> -->
+
+        <div id="profiledropdowns">
+            <div>
+                <p>Orders & Reservations</p>
+                <img src="Images/arrow.png" alt="">
+            </div>
+            <hr>
+            <div>
+                <p>Exchanges & Returns</p>
+                <img src="Images/arrow.png" alt="">
+
+            </div>
+            <hr>
+            <div>
+                <p>Payment Cards</p>
+                <img src="Images/arrow.png" alt="">
+
+            </div>
+            <hr>
+        </div>
+    </div>
+</div>
 
 
-  <script src="resCart.js"></script>
-  <script src="header.js"></script>
+<div id="login-signup">
+    <img src="Images/login-signup img.png" alt="" id="sideImage">
+    <div id="login">
+        <img src="Images/Vernice Logo.png" alt="" id="login-signuplogo">
+        <p class="login-signup-title">Welcome to Vernice</p>
+        <input type="text" placeholder="Username or Email" required>
+        <input type="password" name="" id="" placeholder="Password" required>
+        <p id="forgetpass-login">Forget Password?</p>
+        <button id="loginBtn">Log in</button>
+        <p class="logininwith">Log in with</p>
+        <div class="google-facebook"><img src="Images/Google.png" alt=""> <img src="Images/Facebook login.png"
+                alt=""></div>
+        <p id="logsign-newspan"><span>New Vernice fan?</span> <span><a href="" id="create-account">Create an
+                    account</a></span></p>
+    </div>
+    <div id="signup">
+        <img src="Images/Vernice Logo.png" alt="" id="login-signuplogo">
+        <p class="login-signup-title">Welcome to Vernice</p>
+        <input type="text" placeholder="Username" required>
+        <input type="text" placeholder="Email" id="signupemail" required>
+        <input type="password" name="" id="" placeholder="Password" required>
+        <button>Sign up</button>
+        <p class="logininwith">Log in with</p>
+        <div class="google-facebook"><img src="Images/Google.png" alt=""> <img src="Images/Facebook login.png"
+                alt=""></div>
+    </div>
+</div>
 
+
+
+    <div class="main">
+        <div class="specialres">
+            <h2 id="spe"> <span>  Special Events </span> <span id="res">Reservation</span></h2>
+            <input type="text" placeholder="Name" id="nameres">
+            <input type="text" placeholder="Email" id="emailres">
+
+            <input type="date" id="eventdateres" placeholder="Event Date"  >
+            <select id="guests">
+                <option value="" disabled selected>Number Of Guests</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              
+              </select>
+
+              <input type="tel" id="phone" placeholder="Phone Number">
+
+              <select id="evtype">
+                <option value="" disabled selected>Event type</option>
+                <option value="1">Birthday</option>
+                <option value="2">Bachelorette</option>
+                <option value="3">Graduation</option>
+                <option value="4">Others</option>
+                
+              </select>
+
+              <input type="time"  id="timeres">
+             
+
+              <input type="radio" name="tab" id="indoorres">
+              <span id="indoors">indoors</span>
+              <input type="radio" name="tab" id="outdoorres">
+              <span id="outdoors">outdoors</span>
+
+              <input type="text" placeholder="Special Requirements" id="specialreq">
+
+              <select id="foodbev">
+                <option value="" disabled selected>Food and Beverages Options</option>
+                <option value="1">Basic Refreshments ( Coffee, tea, water, and pastries)</option>
+                <option value="2">Light Bites ( Coffee, tea, water, sandwiches, dips, and chips)</option>
+                <option value="3">Full menu</option>
+              
+              </select>
+             
+
+                <h5 id="oppttl">Optional Add-Ons</h5>
+    
+                <select id="Decorationres">
+                    <option value="" disabled selected>Decoration Packages</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                 
+                  </select>
+    
+                  <select id="Audiores">
+                    <option value="" disabled selected>Audio Equipments</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                
+                  </select>
+    
+                  <select id="staffres">
+                    <option value="" disabled selected>Staff Assistance</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+              
+                  </select>
+    
+                  <select id="themeres">
+                    <option value="" disabled selected>Theme</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                
+                  </select>
+    
+                  <input type="textarea" placeholder="Additional Notes" id="txtres">
+                 
+                <p id="totalres">Total:$45</p>
+                <button id="btn" class="btn" onclick="openPopup()">Reserve Now</button>
+            </div>
+
+            <div class="cancelationpolicy">
+                
+                <img src="res ph/This Is The Secret to Making Your Next Dinner Party Unforgettable 4.png" alt="table" id="tableres">
+                <img src="res ph/Rectangle 513.png" alt="" id="rect">
+                <img src="res ph/Play.png" alt="play" id="play">
+                <h4>Cancelation <span>Policy</span></h4>
+            
+
+              <ul class="list-conainer">
+                <li class="list-item"><span>72 Hours Prior:</span> Cancellations made at least 72 hours before the <br>
+                  event will receive a full refund .</li>
+                <li class="list-item"> <span>48 to 72 Hours Prior:</span> Cancellations made 48 to 72 hours before<br> the event will receive a 50% refund</li>
+                <li class="list-item"><span>Less than 48 Hours:</span> Cancellations made within 48 hours of the <br>event are non-refundable.</li>
+                <li class="list-item"><span>No-Show Policy:</span>  If the event is a no-show, no refund will be <br> issued</li>
+                <li class="list-item"><span> Rescheduling:</span>  One-time rescheduling is allowed if requested at <br> least 72 hours before the original event date, subject to availability.</li>
+
+              </ul>
+
+
+                
+
+
+
+            </div>
+            
+
+    
+      
+    </div>
+    <div class="popup" id="popup">
+      <button id="exit" onclick="closePopup()"></button>
+      <h1 id="thankuu">Thank you</h1>
+      <p id="forch">for choosing Vernice</p>
+      
+    
+          <p id="add">Address</p>
+          
+        
+            <input type="text" name="name" id="name" placeholder="Name" required>
+          
+        
+          
+            <input type="tel" name="phone" id="phonee" placeholder="Phone" required>
+          
+            <input type="text" name="address" id="address" placeholder="Address (city, street, building, floor)" required>
+          </label>
+       
+    
+         
+            <input type="radio" name="payment-method" value="Cash on Delivery" id="cash" >
+            <p id="paym">Cash on Delivery</p>
+    
+          
+    
+        
+            <input type="radio" name="payment-method" value="Card" id="card" >
+            <p id="checkb">Card</p>
+         
+        
+       
+          <p id="pay">Payment</p>
+          <img src="thanku/Group 251.svg" alt="" id="picv">
+        
+            <input type="text" name="card-number" id="cardnum" placeholder="Card Number" required>
+            <p id="expdatep">Expiration Date MM/YY</p>
+    
+          
+          
+         
+           
+            <input type="text" name="expiration-date" placeholder="00 0000" id="expdate" required>
+        
+     
+       
+            <input type="text" name="cvv" id="cvv" placeholder="Three Digits Code">
+       
+         
+            <input type="text" name="cardholder-name" id="cardholder" placeholder="Card Holder Name">
+         
+       
+       
+          <input type="checkbox" name="remember-me" id="remme">
+          <p id="remt">Remember Me</p>
+       
+    
+        <button type="submit" onclick="closePopup()" id="submit">Submit</button>
+    </div>
+  
+    <!-- footer -->
+    <footer id="footer">
+      <div id="footer-content">
+          <div id="logoSocialMedia">
+              <img src="Images/footer logo.png" alt="" id="logo">
+              <div id="socialmedia">
+                  <img src="Images/facebook.png" alt="" id="facebook">
+                  <img src="Images/instagram.png" alt="" id="instagram">
+                  <img src="Images/tiktok.png" alt="" id="tiktok">
+              </div>
+          </div>
+
+          <div id="navbar">
+              <ul class="footer-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="menu.html">Menu</a></li>
+                  <li><a href="Home-Deco.html">Shop</a></li>
+              </ul>
+              <ul class="footer-nav">
+                  <li><a href="Workshop.html">Workshops</a></li>
+                  <li><a href="reservation.html" style="font-weight: 700;">Secial Events</a></li>
+                  <li><a href="CallingAllArtist.html">Artists</a></li>
+              </ul>
+              <ul class="footer-nav">
+                  <li><a href="">Table</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Profile</a></li>
+              </ul>
+              <ul class="footer-nav">
+                  <p>Location</p>
+                  <p>Koraytem, Verdun, Lebanon</p>
+              </ul>
+          </div>
+
+          <div id="updates">
+              <p id="updates-title">Get Updates</p>
+              <p id="updates-description">Get Updates on Workshops, New Dishes, and Exciting Events!</p>
+              <input type="text" placeholder="Email" id="email-input">
+          </div>
+      </div>
+
+
+
+      <div id="ipadfooter">
+          <div id="logoSocialMedia">
+              <img src="Images/footer logo.png" alt="">
+              <div id="socialmedia">
+                  <img src="Images/facebook.png" alt="" id="facebook">
+                  <img src="Images/instagram.png" alt="" id="instagram">
+                  <img src="Images/tiktok.png" alt="" id="tiktok">
+              </div>
+          </div>
+
+          <div id="navbar">
+              <ul class="footer-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="menu.html">Menu</a></li>
+                  <li><a href="Home-Deco.html">Shop</a></li>
+              </ul>
+              <ul class="footer-nav">
+                  <li><a href="Workshop.html">Workshops</a></li>
+                  <li><a href="reservation.html" style="font-weight: 700;">Secial Events</a></li>
+                  <li><a href="CallingAllArtist.html">Artists</a></li>
+              </ul>
+              <ul class="footer-nav">
+                  <li><a href="">Table</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Profile</a></li>
+              </ul>
+              <ul class="footer-nav">
+                  <p>Location</p>
+                  <p>Koraytem, Verdun, Lebanon</p>
+              </ul>
+          </div>
+
+          <div id="updates">
+              <p id="updates-title">Get Updates</p>
+              <p id="updates-description">Get Updates on Workshops, New Dishes, and Exciting Events!</p>
+              <input type="text" placeholder="Email" id="email-input">
+          </div>
+      </div>
+
+
+
+      <div id="mobilefooter">
+          <div id="topFooterM">
+
+              <div id="logoSocialMedia">
+                  <img src="Images/footer logo.png" alt="" id="logo">
+                  <div id="socialmedia">
+                      <img src="Images/facebook.png" alt="" id="facebook">
+                      <img src="Images/instagram.png" alt="" id="instagram">
+                      <img src="Images/tiktok.png" alt="" id="tiktok">
+                  </div>
+              </div>
+
+              <div id="updates">
+                  <p id="updates-title">Get Updates</p>
+                  <p id="updates-description">Get Updates on Workshops, New Dishes, and Exciting Events!</p>
+                  <input type="text" placeholder="Email" id="email-input">
+              </div>
+          </div>
+
+
+          <div id="navbar">
+              <ul class="footer-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="menu.html">Menu</a></li>
+                  <li><a href="Home-Deco.html">Shop</a></li>
+              </ul>
+              <ul class="footer-nav">
+                  <li><a href="Workshop.html">Workshops</a></li>
+                  <li><a href="reservation.html" style="font-weight: 700;">Secial Events</a></li>
+                  <li><a href="CallingAllArtist.html">Artists</a></li>
+              </ul>
+              <ul class="footer-nav">
+                  <li><a href="">Table</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Profile</a></li>
+              </ul>
+              <ul class="footer-nav">
+                  <p>Location</p>
+                  <p>Koraytem, Verdun, Lebanon</p>
+              </ul>
+          </div>
+      </div>
+      <hr>
+      <p id="footer-rights">All rights reserved. 2024. by Vernice.</p>
+  </footer>
+ <img src="res ph/Vector12.svg" alt="vector" id="v">
+ <img src="res ph/v1.png" alt="vector" id="v1"> 
+
+    <script src="header.js"></script>
+    <script src="rescart.js"></script>
 </body>
-
 </html>

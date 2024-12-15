@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CallingAllArtist.css">
+    <link rel="stylesheet" href="artists.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="header.css">
-    <title>Artist</title>
+    <link rel="stylesheet" href="Profile.css">
+    <link rel="stylesheet" href="login-signup.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="popup.css">
+    <title>CallingAllArtist</title>
 </head>
-
 <body>
     <div id="fixed-nav">
         <div id="header">
@@ -39,49 +41,290 @@
         <hr id="header-hr">
     </div>
 
+    <div id="profile">
+        <div id="back-form">
+            <img src="Home-Page-Images/arrow.png" alt="">
+        </div>
+        <div>
+            <div id="profileInfoContainer">
+
+                <div id="profileimg">
+                    <img src="Images/Profileimage.png" alt="Profile Picture" id="profilePicture" class="profile-image">
+                    <button id="photo-upload-btn" class="change-btn">Change photo</button>
+                    <input id="photo-upload" type="file" accept="image/*" style="display: none;" />
+                </div>
+
+
+                <div id="profileinfo">
+                    <p>My Profile</p>
+                    <div>
+                        <div>
+                            <input type="text" name="" id="" value="Sara">
+                            <input type="text" name="" id="" value="Murad">
+                        </div>
+                        <div>
+                            <input type="number" name="" id="" min="1" value="09865422">
+                            <input type="text" name="" id="" value="Password">
+                        </div>
+                        <input type="text" name="" id="profilelocation" value="Beruit, Sodico, Beirut, lebanon">
+                        <input type="email" name="" id="" value="saramurad2000@gmail.com">
+                    </div>
+                    <div id="signoutBtn">
+                        <button style="background-color: rgba(233, 176, 52, 1);">Sign Out</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="profiledropdowns">
+                <div>
+                    <p>Orders & Reservations</p>
+                    <img src="Images/arrow.png" alt="">
+                </div>
+                <hr>
+                <div>
+                    <p>Exchanges & Returns</p>
+                    <img src="Images/arrow.png" alt="">
+
+                </div>
+                <hr>
+                <div>
+                    <p>Payment Cards</p>
+                    <img src="Images/arrow.png" alt="">
+
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="login-signup">
+        <img src="Images/login-signup img.png" alt="" id="sideImage">
+        <div id="login">
+            <img src="Images/Vernice Logo.png" alt="" id="login-signuplogo">
+            <p class="login-signup-title">Welcome to Vernice</p>
+            <input type="text" placeholder="Username or Email" required>
+            <input type="password" name="" id="" placeholder="Password" required>
+            <p id="forgetpass-login">Forget Password?</p>
+            <button id="loginBtn">Log in</button>
+            <p class="logininwith">Log in with</p>
+            <div class="google-facebook"><img src="Images/Google.png" alt=""> <img src="Images/Facebook login.png"
+                    alt=""></div>
+            <p id="logsign-newspan"><span>New Vernice fan?</span> <span><a href="" id="create-account">Create an
+                        account</a></span></p>
+        </div>
+        <div id="signup">
+            <img src="Images/Vernice Logo.png" alt="" id="login-signuplogo">
+            <p class="login-signup-title">Welcome to Vernice</p>
+            <input type="text" placeholder="Username" required>
+            <input type="text" placeholder="Email" id="signupemail" required>
+            <input type="password" name="" id="" placeholder="Password" required>
+            <button>Sign up</button>
+            <p class="logininwith">Log in with</p>
+            <div class="google-facebook"><img src="Images/Google.png" alt=""> <img src="Images/Facebook login.png"
+                    alt=""></div>
+        </div>
+    </div>
     <div id="all-artist-cover-div">
         <h1 id="all-artist-cover-h1">
             <span id="all-artist-cover-label">Book</span>
             Your Space at Vernice
         </h1>
-        <img src="calling-all-artist-images/Vector 237.png" id="all-artist-cover-line" alt="">
-        <p id="all-artist-cover-description">Vernice offers a versatile and inspiring environment for workshops,
-            exhibitions, and creative sessions. Our space is thoughtfully designed to meet the needs of artists and
-            creators.</p>
-        <img src="calling-all-artist-images/Vector.png" id="all-artist-cover-background">
-        <img src="calling-all-artist-images/accaa76e-2211-47cb-857b-15daadb13b60 1.png" id="all-artist-cover-img1"
-            alt="">
-        <img src="calling-all-artist-images/Moran Trabelsi 1.png" id="all-artist-cover-img2">
+        <hr id="all-artist-cover-line" alt="">
+        <p id="all-artist-cover-description">Vernice offers a versatile and inspiring environment for workshops, exhibitions, and creative sessions. Our space is thoughtfully designed to meet the needs of artists and creators.</p>
+       <img src="calling-all-artist-images/Vector.png" id="all-artist-cover-background"> 
+       <img src="calling-all-artist-images/accaa76e-2211-47cb-857b-15daadb13b60 1.png" id="all-artist-cover-img1" alt=""> 
+        <img src="calling-all-artist-images/Moran Trabelsi 1.png"  id="all-artist-cover-img2">
         <img src="calling-all-artist-images/Vector 238.png" id="all-artist-cover-background-img1" alt="">
         <img src="calling-all-artist-images/Vector 245.png" id="all-artist-cover-background-img2" alt="">
+        
     </div>
+    <img src="calling-all-artist-images/_ - 2024-12-04T133959 1.png" id="all-artist-cover-cover-img3" style="visibility: hidden;" alt="">
+
+
     <div id="About-the-space-div">
         <h1 id="About-the-space-h1">About the <span id="About-the-space-h1-label">Space</span></h1>
-        <p class="About-the-space-discription-style" id="About-the-space-discription-1st"><span
-                class="About-the-space-discription-style-label">Spacious Setup:</span> Flexible tables and seating for
-            up to 20 participants.</p>
+        <p class="About-the-space-discription-style" id="About-the-space-discription-1st"><span class="About-the-space-discription-style-label">Spacious Setup:</span> Flexible tables and seating for up to 20 participants.</p>
         <img src="calling-all-artist-images/Vector 239.png" id="About-vector-1st">
-        <p class="About-the-space-discription-style" id="About-the-space-discription-2nd"><span
-                class="About-the-space-discription-style-label">Professional Lighting: </span> Adjustable, bright
-            lighting for detailed work.</p>
+        <p class="About-the-space-discription-style" id="About-the-space-discription-2nd"><span class="About-the-space-discription-style-label">Professional Lighting: </span> Adjustable, bright lighting for detailed work.</p>
         <img src="calling-all-artist-images/Vector 239.png" id="About-vector-2nd" alt="">
-        <p class="About-the-space-discription-style" id="About-the-space-discription-3rd"><span
-                class="About-the-space-discription-style-label">Creative Tools:</span> Easels, pottery wheels, and
-            multimedia support like projectors</p>
+        <p class="About-the-space-discription-style" id="About-the-space-discription-3rd"><span class="About-the-space-discription-style-label">Creative Tools:</span> Easels, pottery wheels, and multimedia support like projectors</p>
         <img src="calling-all-artist-images/Vector 239.png" id="About-vector-3rd">
-        <p class="About-the-space-discription-style" id="About-the-space-discription-4th"><span
-                class="About-the-space-discription-style-label">Refreshments:</span> Complimentary tea, coffee, and
-            options from our creative café menu.</p>
-        <p class="About-the-space-discription-style" id="About-the-space-discription-5th"><span
-                class="About-the-space-discription-style-label">Accessibility:</span> Wheelchair-friendly with nearby
-            parking.</p>
+        <p class="About-the-space-discription-style" id="About-the-space-discription-4th"><span class="About-the-space-discription-style-label">Refreshments:</span> Complimentary tea, coffee, and options from our creative café menu.</p>
+        <p class="About-the-space-discription-style" id="About-the-space-discription-5th"><span class="About-the-space-discription-style-label">Accessibility:</span> Wheelchair-friendly with nearby parking.</p>
     </div>
     <div id="book-dev">
         <h1 id="book-h1"><span id="book-h1-label">Book</span> Your Space</h1>
-        <div id="calender-div">
+
+<script>
+
+
+// Open the popup
+function openPopup() {
+    const popup = document.getElementById("Popup");
+    popup.classList.add("open-popup");
+}
+
+// Close the popup
+function closePopup() {
+    const popup = document.getElementById("Popup");
+    popup.classList.remove("open-popup");
+}
+
+function Next1stMonth(){
+const NovDev = document.getElementById("NovDev");
+const DecDev = document.getElementById("DecDev");
+const JanDev = document.getElementById("JanDev");
+
+if (DecDev.style.visibility === "hidden"){
+    DecDev.style.visibility = "visible";
+    NovDev.style.visibility = "hidden";
+    JanDev.style.visibility = "hidden";
+
+}
+else{
+    DecDev.style.visibility = "hidden";
+    NovDev.style.visibility = "visible";
+    JanDev.style.visibility = "hidden";
+}
+
+};
+
+function Next2ndMonth(){
+const NovDev = document.getElementById("NovDev");
+const DecDev = document.getElementById("DecDev");
+const JanDev = document.getElementById("JanDev");
+
+if (JanDev.style.visibility === "hidden"){
+    DecDev.style.visibility = "hidden";
+    NovDev.style.visibility = "hidden";
+    JanDev.style.visibility = "visible";
+
+}
+else{
+    DecDev.style.visibility = "visible";
+    NovDev.style.visibility = "hidden";
+    JanDev.style.visibility = "hidden";
+}
+}
+
+function Back1stMonth(){
+const NovDev = document.getElementById("NovDev");
+const DecDev = document.getElementById("DecDev");
+const JanDev = document.getElementById("JanDev");
+
+if (NovDev.style.visibility === "hidden"){
+    DecDev.style.visibility = "hidden";
+    NovDev.style.visibility = "visible";
+    JanDev.style.visibility = "hidden";
+
+}
+else{
+    DecDev.style.visibility = "visible";
+    NovDev.style.visibility = "hidden";
+    JanDev.style.visibility = "hidden";
+}
+
+}
+function Back2ndMonth(){
+const NovDev = document.getElementById("NovDev");
+const DecDev = document.getElementById("DecDev");
+const JanDev = document.getElementById("JanDev");
+
+if (DecDev.style.visibility === "hidden"){
+    DecDev.style.visibility = "visible";
+    NovDev.style.visibility = "hidden";
+    JanDev.style.visibility = "hidden";
+
+}
+else{
+    DecDev.style.visibility = "hidden";
+    NovDev.style.visibility = "hidden";
+    JanDev.style.visibility = "visible";
+}
+}
+
+
+</script>
+
+
+
+
+        <div class="calender-div" id="NovDev" style="visibility: hidden;" >
             <img id="btn-back-arrow" src="calling-all-artist-images/Vector 243.png" alt="">
+            <p id="calender-mon-name">November</p>
+            <img id="btn-next-arrow" src="calling-all-artist-images/Vector 244.png" onclick=Next1stMonth()>
+
+            <div id="calender-week-days">
+                <p class="label-calender-style">MON</p>
+                <p class="label-calender-style">TUE</p>
+                <p class="label-calender-style">WED</p>
+                <p class="label-calender-style">THU</p>
+                <p class="label-calender-style">FRI</p>
+                <p class="label-calender-style">SAT</p>
+                <p class="label-calender-style">SUN</p>
+            </div>
+
+            <div id="calender-week-days-row-1st">
+                <p class="label-calender-style">30</p>
+                <p class="label-calender-style">31</p>
+                <p class="label-calender-style">1</p>
+                <p class="label-calender-style">2</p>
+                <p class="label-calender-style">3</p>
+                <p class="label-calender-style">4</p>
+                <p class="label-calender-style">5</p>
+            </div>
+            <div id="calender-week-days-row-2nd">
+                <p class="label-calender-style">6</p>
+                <p class="label-calender-style">7</p>
+                <p class="label-calender-style">8</p>
+                <p class="label-calender-style">9</p>
+                <p class="label-calender-style">10</p>
+                <p class="label-calender-style">11</p>
+                <p class="label-calender-style">12</p>
+            </div>
+            <div id="calender-week-days-row-3rd">
+                <p class="label-calender-style">13</p>
+                <p class="label-calender-style">14</p>
+                <p class="label-calender-style">15</p>
+                <p class="label-calender-style">16</p>
+                <p class="label-calender-style">17</p>
+                <p class="label-calender-style">18</p>
+                <p class="label-calender-style">19</p>
+            </div>
+            <div id="calender-week-days-row-4th">
+                <p class="label-calender-style">20</p>
+                <p class="label-calender-style">21</p>
+                <p class="label-calender-style">22</p>
+                <p class="label-calender-style">23</p>
+                <p class="label-calender-style">24</p>
+                <p class="label-calender-style">25</p>
+                <p class="label-calender-style">26</p>
+            </div>
+            <div id="calender-week-days-row-5th">
+                <p class="label-calender-style">27</p>
+                <p class="label-calender-style">28</p>
+                <p class="label-calender-style">19</p>
+                <p class="label-calender-style">30</p>
+                <p class="label-calender-style">1</p>
+                <p class="label-calender-style">2</p>
+                <p class="label-calender-style">3</p>
+            </div>
+
+            <img src="calling-all-artist-images/Vector 242.png" class="calender-line" alt="">
+            <p class="label-calender-style-available" id="calender-key"></p>
+            <p class="label-calender-style" id="Available-days">Available Days</p>
+
+        </div>
+
+
+
+
+
+        <div class="calender-div" id="DecDev" style="visibility: visible;" >
+            <img id="btn-back-arrow" src="calling-all-artist-images/Vector 243.png" onclick=Back1stMonth()>
             <p id="calender-mon-name">December</p>
-            <img id="btn-next-arrow" src="calling-all-artist-images/Vector 244.png" alt="">
+            <img id="btn-next-arrow" src="calling-all-artist-images/Vector 244.png" onclick=Next2ndMonth()>
 
             <div id="calender-week-days">
                 <p class="label-calender-style">MON</p>
@@ -145,65 +388,171 @@
 
         </div>
 
-        <input type="text" class="booking-text-style" id="booking-name" placeholder="Name">
 
-        <input type="text" class="booking-text-style" id="booking-email" placeholder="Email">
 
-        <input type="text" class="booking-text-style" id="booking-workshop" placeholder="Workshop Date">
 
-        <input type="text" class="booking-text-style" id="booking-participants" placeholder="Number of Participants">
+        <div class="calender-div" id="JanDev" style="visibility: hidden;">
+            <img id="btn-back-arrow" src="calling-all-artist-images/Vector 243.png" onclick=Back2ndMonth()>
+            <p id="calender-mon-name">January</p>
+            <img id="btn-next-arrow" src="calling-all-artist-images/Vector 244.png" alt="">
 
-        <input type="text" class="booking-text-style" id="booking-nots" placeholder="Additional notes...">
+            <div id="calender-week-days">
+                <p class="label-calender-style">MON</p>
+                <p class="label-calender-style">TUE</p>
+                <p class="label-calender-style">WED</p>
+                <p class="label-calender-style">THU</p>
+                <p class="label-calender-style">FRI</p>
+                <p class="label-calender-style">SAT</p>
+                <p class="label-calender-style">SUN</p>
+            </div>
 
-        <input type="text" class="booking-text-style" id="booking-phonenumber" placeholder="Phone Number">
+            <div id="calender-week-days-row-1st">
+                <p class="label-calender-style">1</p>
+                <p class="label-calender-style">2</p>
+                <p class="label-calender-style">3</p>
+                <p class="label-calender-style">4</p>
+                <p class="label-calender-style">5</p>
+                <p class="label-calender-style">6</p>
+                <p class="label-calender-style">7</p>
+            </div>
+            <div id="calender-week-days-row-2nd">
+                <p class="label-calender-style">8</p>
+                <p class="label-calender-style">9</p>
+                <p class="label-calender-style">10</p>
+                <p class="label-calender-style">11</p>
+                <p class="label-calender-style">12</p>
+                <p class="label-calender-style">13</p>
+                <p class="label-calender-style">14</p>
+            </div>
+            <div id="calender-week-days-row-3rd">
+                <p class="label-calender-style">15</p>
+                <p class="label-calender-style">16</p>
+                <p class="label-calender-style">17</p>
+                <p class="label-calender-style">18</p>
+                <p class="label-calender-style">19</p>
+                <p class="label-calender-style">20</p>
+                <p class="label-calender-style">21</p>
+            </div>
+            <div id="calender-week-days-row-4th">
+                <p class="label-calender-style">22</p>
+                <p class="label-calender-style">23</p>
+                <p class="label-calender-style">24</p>
+                <p class="label-calender-style">25</p>
+                <p class="label-calender-style">26</p>
+                <p class="label-calender-style">27</p>
+                <p class="label-calender-style">28</p>
+            </div>
+            <div id="calender-week-days-row-5th">
+                <p class="label-calender-style">29</p>
+                <p class="label-calender-style">30</p>
+                <p class="label-calender-style">31</p>
+                <p class="label-calender-style">1</p>
+                <p class="label-calender-style">2</p>
+                <p class="label-calender-style">3</p>
+                <p class="label-calender-style">4</p>
+            </div>
 
-        <input type="text" class="booking-text-style" id="booking-type" placeholder="Workshop Type">
+            <img src="calling-all-artist-images/Vector 242.png" class="calender-line" alt="">
+            <p class="label-calender-style-available" id="calender-key"></p>
+            <p class="label-calender-style" id="Available-days">Available Days</p>
 
-        <input type="text" class="booking-text-style" id="booking-time">
-
-        <input type="radio" class="radio-btn-booking" id="radio-btn-left">
-        <p id="radio-btn-label-1st"> Indoors</p>
-
-        <input type="radio" class="radio-btn-booking" id="radio-btn-right">
-        <p id="radio-btn-label-2nd"> Outdoors</p>
-
-        <p id="price-booking-label">Total: $45</p>
-
-        <div class="btn-proceed-booking">
-            <p id="btn-proceed-label">Proceed</p>
         </div>
 
-        <div id="info-dev-contact-us">
-            <img src="calling-all-artist-images/Vector-tele.png" class="contact-us-icons" alt="">
-            <p class="contact-us-labels">71 599 455</p>
-            <img src="calling-all-artist-images/Group 249.png" class="contact-us-icons" alt="">
-            <p class="contact-us-labels">Koraytem, Verdun, Lebanon</p>
-            <img src="calling-all-artist-images/Group 250.png" class="contact-us-icons" alt="">
-            <p class="contact-us-labels">Mon-Sat 9AM-6PM</p>
-        </div>
+        <div id="cover-blank"> </div>
+
+
+            <input type="text" class="booking-text-style" id="booking-name" placeholder="Name">
+
+            <input type="text" class="booking-text-style" id="booking-email" placeholder="Email" > 
+
+            <input type="date" class="booking-text-style" id="booking-workshop" placeholder="Workshop Date">
+
+            <input type="text" class="booking-text-style" id="booking-participants" placeholder="Number of Participants (max 20)">
+
+            <input type="text" class="booking-text-style" id="booking-nots" placeholder="Additional notes...">
+
+            <input type="text" class="booking-text-style"id="booking-phonenumber" placeholder="Phone Number">
+
+            <input type="text" class="booking-text-style"id="booking-type" placeholder="Workshop Type">
+
+            <input type="datetime-local" class="booking-text-style" id="booking-time">
+
+            <input type="radio" class="radio-btn-booking" id="radio-btn-left">
+            <p id="radio-btn-label-1st"> Indoors</p>
+
+            <input type="radio" class="radio-btn-booking" id="radio-btn-right">
+            <p id="radio-btn-label-2nd"> Outdoors</p>
+
+            <p id="price-booking-label">Total: $45</p>
+
+            <div onclick=openPopup() class="btn-proceed-booking"> 
+                <p id="btn-proceed-label">Proceed</p>
+            </div>
+            
+            <div id="info-dev-contact-us">
+                <img src="calling-all-artist-images/Vector-tele.png" class="contact-us-icons" alt="">
+                <p class="contact-us-labels">71 599 455</p>
+                <img  src="calling-all-artist-images/Group 249.png" class="contact-us-icons" alt="">
+                <p class="contact-us-labels">Koraytem, Verdun, Lebanon</p>
+                <img id="date-contact-label" src="calling-all-artist-images/Group 250.png" class="contact-us-icons" alt="">
+                <p id="date-contact-label-p" class="contact-us-labels">Mon-Sat 9AM-6PM</p>
+            </div>
 
     </div>
 
     <div id="Cancelation-dev">
-        <h1 id="Cancelation-h1"><span id="Cancelation-h1-label">Cancelation</span> Policy</h1>
-        <ul id="Cancelation-list">
-            <li class="Cancelation-li"><span class="Cancelation-li-style">72 Hours Prior:</span> Cancellations made at
-                least 72 hours before the event will receive a full refund.</li>
-            <li class="Cancelation-li"><span class="Cancelation-li-style">48 to 72 Hours Prior:</span> Cancellations
-                made 48 to 72 hours before the event will receive a 50% refund.</li>
-            <li class="Cancelation-li"><span class="Cancelation-li-style">Less than 48 Hours:</span> Cancellations made
-                within 48 hours of the event are non-refundable.</li>
-            <li class="Cancelation-li"><span class="Cancelation-li-style">No-Show Policy:</span> If the event is a
-                no-show, no refund will be issued.</li>
-            <li class="Cancelation-li"><span class="Cancelation-li-style">Rescheduling:</span> One-time rescheduling is
-                allowed if requested at least 72 hours before the original event date, subject to availability.</li>
-        </ul>
+<h1 id="Cancelation-h1"><span id="Cancelation-h1-label">Cancelation</span> Policy</h1>
+<ul id="Cancelation-list">
+    <li class="Cancelation-li"><span class="Cancelation-li-style">72 Hours Prior:</span> Cancellations made at least 72 hours before the event will receive a full refund.</li>
+    <li class="Cancelation-li"><span class="Cancelation-li-style">48 to 72 Hours Prior:</span> Cancellations made 48 to 72 hours before the event will receive a 50% refund.</li>
+    <li class="Cancelation-li"><span class="Cancelation-li-style">Less than 48 Hours:</span> Cancellations made within 48 hours of the event are non-refundable.</li>
+    <li class="Cancelation-li"><span class="Cancelation-li-style">No-Show Policy:</span> If the event is a no-show, no refund will be issued.</li>
+    <li class="Cancelation-li"><span class="Cancelation-li-style">Rescheduling:</span> One-time rescheduling is allowed if requested at least 72 hours before the original event date, subject to availability.</li>
+</ul>
 
-        <img src="calling-all-artist-images/This Is The Secret to Making Your Next Dinner Party Unforgettable 4.png"
-            id="Cancelation-img" alt="">
-        <img src="calling-all-artist-images/Vector-cancelation.png" id="Cancelation-img-background-1st" alt="">
+<img src="calling-all-artist-images/This Is The Secret to Making Your Next Dinner Party Unforgettable 4.png" id="Cancelation-img" alt="">
+<img src="calling-all-artist-images/Vector-cancelation.png" id="Cancelation-img-background-1st" alt="">
 
     </div>
+
+    <div class="popup" id="Popup">
+        <button id="exit" onclick="closePopup()"></button>
+        <h1 id="thankuu">Thank you</h1>
+        <p id="forch">for choosing Vernice</p>
+        
+      
+            <p id="add">Personal info</p>
+              <input type="text" name="name" id="name" placeholder="Name" required>
+              <input type="tel" name="phone" id="phonee" placeholder="Phone" required>
+         
+            <p id="pay">Payment</p>
+            <img src="thanku/Group 251.svg" alt="" id="picv">
+          
+              <input type="text" name="card-number" id="cardnum" placeholder="Card Number" required>
+              <p id="expdatep">Expiration Date MM/YY</p>
+      
+            
+            
+           
+             
+              <input type="text" name="expiration-date" placeholder="00 0000" id="expdate" required>
+          
+       
+         
+              <input type="text" name="cvv" id="cvv" placeholder="Three Digits Code">
+         
+           
+              <input type="text" name="cardholder-name" id="cardholder" placeholder="Card Holder Name">
+           
+         
+         
+            <input type="checkbox" name="remember-me" id="remme">
+            <p id="remt">Remember Me</p>
+         
+      
+          <button type="submit" onclick="closePopup()" id="submit">Submit</button>
+      </div>
+  
 
     <footer id="footer">
         <div id="footer-content">
@@ -218,14 +567,14 @@
 
             <div id="navbar">
                 <ul class="footer-nav">
-                    <li><a href="index.html" style="font-weight: 700;">Home</a></li>
-                    <li><a href="">Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
                     <li><a href="Home-Deco.html">Shop</a></li>
                 </ul>
                 <ul class="footer-nav">
                     <li><a href="Workshop.html">Workshops</a></li>
-                    <li><a href="">Secial Events</a></li>
-                    <li><a href="">Artists</a></li>
+                    <li><a href="reservation.html">Secial Events</a></li>
+                    <li><a href="CallingAllArtist.html" style="font-weight: 700;"></li>
                 </ul>
                 <ul class="footer-nav">
                     <li><a href="">Table</a></li>
@@ -259,14 +608,14 @@
 
             <div id="navbar">
                 <ul class="footer-nav">
-                    <li><a href="index.html" style="font-weight: 700;">Home</a></li>
-                    <li><a href="">Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
                     <li><a href="Home-Deco.html">Shop</a></li>
                 </ul>
                 <ul class="footer-nav">
                     <li><a href="Workshop.html">Workshops</a></li>
-                    <li><a href="">Secial Events</a></li>
-                    <li><a href="">Artists</a></li>
+                    <li><a href="reservation.html">Secial Events</a></li>
+                    <li><a href="CallingAllArtist.html" style="font-weight: 700;"></li>
                 </ul>
                 <ul class="footer-nav">
                     <li><a href="">Table</a></li>
@@ -310,14 +659,14 @@
 
             <div id="navbar">
                 <ul class="footer-nav">
-                    <li><a href="index.html" style="font-weight: 700;">Home</a></li>
-                    <li><a href="">Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
                     <li><a href="Home-Deco.html">Shop</a></li>
                 </ul>
                 <ul class="footer-nav">
                     <li><a href="Workshop.html">Workshops</a></li>
-                    <li><a href="">Secial Events</a></li>
-                    <li><a href="">Artists</a></li>
+                    <li><a href="reservation.html">Secial Events</a></li>
+                    <li><a href="CallingAllArtist.html" style="font-weight: 700;">Artists</a></li>
                 </ul>
                 <ul class="footer-nav">
                     <li><a href="">Table</a></li>
@@ -333,8 +682,7 @@
         <hr>
         <p id="footer-rights">All rights reserved. 2024. by Vernice.</p>
     </footer>
+    <script src="header.js"></script>
 
 </body>
-<script src="header.js"></script>
-
 </html>
